@@ -1,0 +1,43 @@
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+:link {
+    color: green
+}
+
+:visited {
+    color: green
+}
+
+/*.pure-u-1-5 {
+    border-left: 1px solid
+}*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 25px;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+}
+
+ .button-success, {
+            color: green;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            background: green;
+        }
+
+        .button-success {
+            background: green;
+        }

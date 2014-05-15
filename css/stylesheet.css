@@ -5,11 +5,13 @@ html, button, input, select, textarea,
 }
 
 :link {
-    color: green
+    color: green;
+    text-decoration-line: none;
 }
 
 :visited {
-    color: green
+    color: green;
+    text-decoration-line: none;
 }
 
 pure-u-1-5 {
@@ -29,7 +31,6 @@ footer {
     bottom: 0;
     height: 25px;
     width: 100%;
-    padding: 10%
 }
 
  .button-success, {

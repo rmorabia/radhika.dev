@@ -2,7 +2,7 @@
 layout: default
 title:  "Welcome to Jekyll!"
 date:   2013-12-11 10:28:58
-categories: jekyll update
+categories: jekyll
 permalink: /jekyll
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2013-12-11 10:28:58
 categories: jekyll
+tags: jekyll
 permalink: /jekyll
 ---
 

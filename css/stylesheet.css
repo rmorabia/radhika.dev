@@ -6,12 +6,10 @@ html, button, input, select, textarea,
 
 :link {
     color: green
-    text-decoration:none;
 }
 
 :visited {
     color: green
-    text-decoration:none;
 }
 
 pure-u-1-5 {

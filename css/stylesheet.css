@@ -6,15 +6,17 @@ html, button, input, select, textarea,
 
 :link {
     color: green
+    text-decoration:none;
 }
 
 :visited {
     color: green
+    text-decoration:none;
 }
 
-/*.pure-u-1-5 {
+pure-u-1-5 {
     border-left: 1px solid
-}*/
+}
 
 html {
     position: relative;

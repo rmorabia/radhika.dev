@@ -22,15 +22,16 @@ html, button, input, select, textarea,
     font-family: 'Merriweather', "Georgia", serif;
 }
 
-:link {
+:link, :visited {
     color: green;
     text-decoration: none;
 }
 
-:visited {
+:hover {
     color: green;
-    text-decoration-line: none;
+    text-decoration: underline;
 }
+
 
 html {
     position: relative;

@@ -1,12 +1,16 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather Sans', 'Merriweather', serif;
+}
+    
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"] {
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: 'Merriweather', serif;
 }
 
 :link {
     color: green;
-    text-decoration-line: none;
+    text-decoration: none;
 }
 
 :visited {

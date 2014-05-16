@@ -13,13 +13,13 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', 'Merriweather', serif;
+    font-family: 'Lato', 'Merriweather', "Georgia", serif;
 }
     
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"] {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', "Georgia", serif;
 }
 
 :link {

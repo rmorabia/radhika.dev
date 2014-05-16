@@ -4,6 +4,7 @@
 
 .sidebar {
        width: 20%;
+       float: right;
 }
 
 @font-face {

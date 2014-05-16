@@ -1,3 +1,11 @@
+.content {
+       width: 80%;
+}
+
+.sidebar {
+       width: 20%;
+}
+
 @font-face {
   font-family: 'Lato';
   font-style: normal;

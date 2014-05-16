@@ -27,11 +27,6 @@ html, button, input, select, textarea,
     text-decoration: none;
 }
 
-:hover {
-    color: green;
-    text-decoration: underline;
-}
-
 
 html {
     position: relative;

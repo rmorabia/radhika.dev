@@ -44,3 +44,8 @@ footer {
     height: 25px;
     width: 100%;
 }
+
+.pure-u-4-5 {
+    padding-right: 5%;
+    padding-left: 5%;
+}

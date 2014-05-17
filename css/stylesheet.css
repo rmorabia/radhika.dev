@@ -41,7 +41,7 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 5%;
+    height: 50px;
     width: 100%;
 }
 
@@ -50,7 +50,7 @@ footer {
     padding-left: 5%;
 }
 
-.sidebar {
+/*.sidebar {
     border-left: 1px;
     border-style: solid;
-}
+}*\

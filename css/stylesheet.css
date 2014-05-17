@@ -45,7 +45,7 @@ footer {
     width: 100%;
 }
 
-.pure-u-4-5 {
-    padding-right: 20px;
-    padding-left: 20px;
+.content {
+    padding-right: 5%;
+    padding-left: 5%;
 }

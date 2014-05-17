@@ -41,14 +41,14 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 50px;
+    height: 25px;
     width: 100%;
 }
 
 .content {
     padding-right: 5%;
     padding-left: 5%;
-    border: 1px;
+    border-right: 1px;
     border-style: solid;
 }
 

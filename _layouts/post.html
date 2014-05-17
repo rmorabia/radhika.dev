@@ -2,9 +2,8 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+<h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
-<p><li>Category: <a href="/{{ page.categories | downcase }}">{{ page.categories }}</a></li></p>
 
 <div class="post">
 {{ content }}

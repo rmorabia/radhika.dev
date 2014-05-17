@@ -33,9 +33,9 @@ html {
     min-height: 100%;
 }
 
-body {
+/*body {
     margin-bottom: 25px;
-}
+}*/
 
 footer {
     position: absolute;
@@ -49,3 +49,8 @@ footer {
     padding-right: 5%;
     padding-left: 5%;
 }
+
+.column1 {
+    padding-left: 5%;
+}
+    

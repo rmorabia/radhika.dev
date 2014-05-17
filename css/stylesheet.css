@@ -49,3 +49,7 @@ footer {
     padding-right: 5%;
     padding-left: 5%;
 }
+
+.sidebar {
+    border-left: 1px solid;
+}

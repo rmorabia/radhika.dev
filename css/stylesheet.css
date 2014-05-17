@@ -48,8 +48,7 @@ footer {
 .content {
     padding-right: 5%;
     padding-left: 5%;
-    border-right: 1px;
-    border-style: solid;
+    border-right: 1px solid;
 }
 
 /*.sidebar {

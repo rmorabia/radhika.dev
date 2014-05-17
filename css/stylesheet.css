@@ -51,5 +51,6 @@ footer {
 }
 
 .sidebar {
-    border-left: 1px solid;
+    border-left: 1px;
+    border-style: solid;
 }

@@ -2,9 +2,9 @@
 layout: post
 title:  "The Secret to Beating Anyone at Anything"
 date:   May 16th, 2014
-categories: jekyll
-tags: jekyll
-permalink: /jekyll
+categories: lessons
+tags: test
+permalink: /focus
 ---
 
 <p><strong><em>Focus.</em></strong></p>

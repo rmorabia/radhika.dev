@@ -20,6 +20,7 @@ html, button, input, select, textarea,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"] {
     font-family: 'Merriweather', "Georgia", serif;
+    
 }
 
 :link, :visited {
@@ -31,17 +32,18 @@ html, button, input, select, textarea,
 html {
     position: relative;
     min-height: 100%;
+    line-height: 150%;
 }
 
-/*body {
-    margin-bottom: 25px;
-}*/
+body {
+    margin-bottom: 50px;
+}
 
 footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 35px;
+    height: 40px;
     width: 100%;
 }
 

@@ -1,0 +1,16 @@
+---
+layout: none
+permalink: /404.html
+---
+
+<h1>Sorry about that. You've navigated to a page that doesn't exist.</h1>
+
+<p><a href="mailto:hi@rmorabia.com">Contact me about it</a> or check out the most recent posts:</p>
+
+<p><ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>  - {{ post.date | date: "%B %d, %Y" }}
+    </li>
+  {% endfor %}
+</ul></p>

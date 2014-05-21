@@ -32,6 +32,9 @@ html, button, input, select, textarea,
 html {
     position: relative;
     min-height: 100%;
+}
+
+p {
     line-height: 150%;
 }
 

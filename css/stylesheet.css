@@ -70,3 +70,11 @@ blockquote {
   padding-left: 15px;
   border-left: 3px solid green;
 } 
+
+.box {
+    font-style: italic;
+    border: 1px solid green;
+    width: 300px;
+    height: 300px;
+    float: left;
+}

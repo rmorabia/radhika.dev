@@ -78,4 +78,5 @@ blockquote {
     height: 300px;
     float: left;
     overflow: auto;
+    margin: 10px;
 }

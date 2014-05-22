@@ -28,6 +28,9 @@ html, button, input, select, textarea,
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
 
 html {
     position: relative;

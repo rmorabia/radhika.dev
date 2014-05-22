@@ -5,7 +5,7 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Radhika Morabia - Lessons</title>
+ <title>Radhika Morabia - Essays</title>
  <link href="{{ site.url }}{{ site.baseurl }}atom.xml" rel="self"/>
  <link href="{{ site.url }}{{ site.baseurl }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -15,7 +15,7 @@ layout: nil
    <email>hi@rmorabia.com</email>
  </author>
 
- {% for post in site.categories.lessons %}
+ {% for post in site.categories.essays %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>

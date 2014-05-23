@@ -54,16 +54,16 @@ footer {
 }
 
 .content {
-    padding-right: 5%;
-    padding-left: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .column1 {
-    padding-left: 5%;
+    margin-left: 5%;
 }
 
 .column2 {
-    padding-right: 5%;
+    margin-right: 5%;
 }
 
 blockquote {

@@ -10,7 +10,7 @@ To-Do List
 
 - [ ] Create a landing page for the monthly newsletter, locally hosted.
 
--[ ] Make source code prettier.
+- [ ] Make source code prettier.
 
 - [ ] Make ```<blockquote>``` prettier, add a dash before cite.
 

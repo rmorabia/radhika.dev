@@ -82,4 +82,5 @@ blockquote {
     float: left;
     overflow: auto;
     margin: 10px;
+    padding: 10px;
 }

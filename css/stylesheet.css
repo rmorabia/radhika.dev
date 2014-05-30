@@ -39,6 +39,7 @@ html {
 
 p {
     line-height: 150%;
+    font-size: 16px;
 }
 
 body {
@@ -54,8 +55,8 @@ footer {
 }
 
 .content {
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .column1 {

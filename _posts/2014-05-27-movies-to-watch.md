@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Movies To Watch"
-date: May 27th, 2014
+date: June 8th, 2014
 categories: personal
 permalink: /movies
 ---
@@ -10,7 +10,6 @@ permalink: /movies
     Marie-Antoinette (2006)
     2001: A Space Odyssey (1968)
     American History X (1998)
-    Nautanki Saala! (2013)
     (500) Days of Summer (2009)
     The Matrix (1999)
     Harry Potter and the Sorcerer's Stone (2001)

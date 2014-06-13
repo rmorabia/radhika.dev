@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Movies To Watch"
-date: June 8th, 2014
+date: June 12th, 2014
 categories: personal
 permalink: /movies
 ---
@@ -67,3 +67,4 @@ permalink: /movies
     The Pink Panther
     Highway (2014)
     Dedh Ishqiya (2014)
+    They Live

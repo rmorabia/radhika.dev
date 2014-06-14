@@ -23,6 +23,12 @@ html, button, input, select, textarea,
     
 }
 
+:link, :visited {
+    position: relative;
+    color: green;
+    text-decoration: none;
+}
+
 a:before {
   content: "";
   position: absolute;
@@ -42,12 +48,6 @@ a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transofrm: scaleX(1);
-}
-
-:link, :visited {
-    position: relative;
-    color: green;
-    text-decoration: none;
 }
 
 html {

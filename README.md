@@ -16,4 +16,4 @@ To-Do List
 
 - [ ] Edit rss/404 to only show the 10 most recent posts.
 
-- [ ] Find out where /values went.
+- [ ] Make site truly responsive.

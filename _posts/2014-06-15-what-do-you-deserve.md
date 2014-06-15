@@ -28,9 +28,9 @@ What did I do instead?
 
 I made excuses.
 
-I've been injured the past few days, so I'm in pain, and it's hot, and I'm not comfortable, and I'm tired, and sitting in my bed is so comfortable.
+I've been injured the past few days, so I'm in pain, and it's hot, and I'm not comfortable, and I'm tired, and sitting in my bed is so nice.
 
-These are all excuses, at least for my goals. Being injured may be a valid reason to not do a specific kind of work, but my goals don't involve much physical activity anyway. 
+These are all excuses, at least for my goals. Being injured may be a valid reason to not do a specific kind of work, but all of my goals involve mental strain, not physical.
 
 Do I deserve the results I want if I made excuses?
 
@@ -42,9 +42,9 @@ I'll deserve the results I want when I put in my all.
 
 I can't just put in my all one day and only come back to it 20 days later. I'll deserve the results I want when I put in my all every single day.
 
-When I put in my all every single day, the results will be even better than the results I wanted in the first place. I'll be so enwrapped in the process and actually enjoying my days, the results I originally wanted will be surpassed many times over.
+When I put in my all every single day, the results will be even better than the results I wanted in the first place. I'll be so enwrapped in the process, I'll actuall enjoy my days. The results I originally wanted will be surpassed many times over.
 
-Remember, set small goals every day, and then build on the momentum of completion. For example, if you want to read a book, tell yourself you have to read one page. Chances are, once that starts, you'll keep reading. If not, no problem, find something else to stick for the day.
+Remember, set small goals every day, and then build on the momentum of completion. For example, if you want to read a book, tell yourself you only have to read one page. Chances are, once you start, you'll keep reading. If not, no problem, find something else productive that will stick.
 
 As long as all these goals relate to your results, and you do a little bit each day, you'll reach and surpass in no time.
 

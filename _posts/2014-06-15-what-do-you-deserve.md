@@ -50,4 +50,4 @@ As long as all these goals relate to your results, and you do a little bit each 
 
 Then, when you look back and see your results, instead of saying you deserve more than you currently have, you'll think "I don't deserve this much!" Most of the world is barely any competition. Surpass a certain point, and everyone can have a piece of the pie. There's more than enough to go around if you're willing to put in the work.
 
-**This was obviously a note to self. I'm posting this because I'm hoping it will hit some chords.**
+*This was obviously a note to self. I'm posting this because I'm hoping it will hit some chords.*

@@ -42,7 +42,7 @@ I'll deserve the results I want when I put in my all.
 
 I can't just put in my all one day and only come back to it 20 days later. I'll deserve the results I want when I put in my all every single day.
 
-When I put in my all every single day, the results will be even better than the results I wanted in the first place. I'll be so enwrapped in the process, I'll actuall enjoy my days. The results I originally wanted will be surpassed many times over.
+When I put in my all every single day, the results will be even better than the results I wanted in the first place. I'll be so enwrapped in the process, I'll actually enjoy my days. The results I originally wanted will be surpassed many times over.
 
 Remember, set small goals every day, and then build on the momentum of completion. For example, if you want to read a book, tell yourself you only have to read one page. Chances are, once you start, you'll keep reading. If not, no problem, find something else productive that will stick.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Where am I going to be?"
 date: June 22nd, 2014
-permaink: /plan
+permalink: /plan
 categories: personal
 ---
 

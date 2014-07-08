@@ -17,7 +17,7 @@
                    <div class="content">
                     <h2>Essays</h2>
                     <ul><li><p><a href="/feed.essays.xml"><img src="/css/rss.png"/></a> <a href="/feed.essays.xml">RSS Feed</a></p></li>
-                    <li><p><b>NEW:</b> <a href="/deserve">What do you deserve?</a></p></li>
+                    <li><p><b>NEW:</b> <a href="/17">I'm 17.</a></p></li>
                     <li><p><a href="/code">Learn to Code</a></p></li>
                     <li><p><a href="/alinsky">Stay Unaffiliated</a></p></li>
                     <p><a href="/essays">...full archive.</a></p></ul>
@@ -26,7 +26,7 @@
     
                    <h2>Notes</h2>
                     <ul><li><p><a href="/feed.notes.xml"><img src="/css/rss.png"/></a> <a href="/feed.notes.xml">RSS Feed</a></p></li>
-                    <li><p><b>NEW:</b> <a href="/ramit-sethi">Quotes: Ramit Sethi</a></p></li>
+                    <li><p><b>NEW:</b> <a href="/glasses">What's it like to have glasses?</a></p></li>
                     <li><p><a href="/ryan-holiday">Quotes: Ryan Holiday</a></p></li>
                     <li><p><a href="/backpack">How to Live Out of a Backpack</a></p></li>
                     <p><a href="/notes">...full archive.</a></p></ul>
@@ -46,7 +46,7 @@
                     
                     <h2>Personal</h2>
                     <ul><li><p><a href="/feed.personal.xml"><img src="/css/rss.png"/></a> <a href="/feed.personal.xml">RSS Feed</a></p></li>
-                    <li><p><b>NEW:</b> <a href="/plan">Where am I going to be?</a></p></li>
+                    <li><p><b>NEW:</b> <a href="/tracking">Habit Tracking Data</a></p></li>
                     <li><p><a href="/consumption">What I'm Consuming</a></p></li>
                     <li><p><a href="/plan">Where am I going to be?</a></p></li>
                     <p><a href="/personal">...full archive.</a></p></ul>

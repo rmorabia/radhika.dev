@@ -2,7 +2,7 @@
 layout: post
 title: "What's it like to have glasses?"
 date: July 7th, 2014
-permaink: /glasses
+permalink: /glasses
 categories: notes
 ---
 

@@ -26,3 +26,13 @@ I was diagonosed with heavy [astigmatism](https://en.wikipedia.org/wiki/Astigmat
 - eyesight only increased when I focus on something, otherwise, peripheral vision is probably bad enough to cause my death.
 - taking off glasses makes eyesigh the blurriest experience I've ever had.
 - I look like such a nerd.
+
+## Day 3: July 9th, 2014
+
+- Is Relativity how the real world is?
+- Why can't glasses cover your entire vision instead of the small area right in front of you?
+
+## Day 4: July 10th, 2014
+
+- The headaches, the colors, Relativity, it's all the real world. There is no recovery from here on out, the world has morphed to fit the way my glasses make the world look.
+- I can finally read really well, but the headaches aren't allowing me to.

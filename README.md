@@ -15,5 +15,3 @@ To-Do List
 - [ ] Make ```<blockquote>``` prettier, add a dash before cite.
 
 - [ ] Edit rss/404 to only show the 10 most recent posts.
-
-- [ ] Make site truly responsive.

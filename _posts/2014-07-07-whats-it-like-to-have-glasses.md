@@ -24,7 +24,7 @@ I was diagonosed with heavy [astigmatism](https://en.wikipedia.org/wiki/Astigmat
 - anxiety related to putting them on, because I don't feel safe.
 - table still looks like Relativity and anything flat and straight still looks like a trapezoid
 - eyesight only increased when I focus on something, otherwise, peripheral vision is probably bad enough to cause my death.
-- taking off glasses makes eyesigh the blurriest experience I've ever had.
+- taking off glasses makes eyesight the blurriest experience I've ever had.
 - I look like such a nerd.
 
 ## Day 3: July 9th, 2014
@@ -36,3 +36,4 @@ I was diagonosed with heavy [astigmatism](https://en.wikipedia.org/wiki/Astigmat
 
 - The headaches, the colors, Relativity, it's all the real world. There is no recovery from here on out, the world has morphed to fit the way my glasses make the world look.
 - I can finally read really well, but the headaches aren't allowing me to.
+- Is it foggy or are my glasses dirty, even though I just cleaned them?

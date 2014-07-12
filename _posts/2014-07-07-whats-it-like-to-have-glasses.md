@@ -37,3 +37,8 @@ I was diagonosed with heavy [astigmatism](https://en.wikipedia.org/wiki/Astigmat
 - The headaches, the colors, Relativity, it's all the real world. There is no recovery from here on out, the world has morphed to fit the way my glasses make the world look.
 - I can finally read really well, but the headaches aren't allowing me to.
 - Is it foggy or are my glasses dirty, even though I just cleaned them?
+
+## Day 5: July 11th, 2014
+
+- The glasses and I have become one.
+- When the glasses aren't on my face, I feel the ghost of the frame sitting on my nose.

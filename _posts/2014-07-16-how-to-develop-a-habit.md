@@ -8,9 +8,9 @@ categories: essays
 
 We all want to be better people, yes?
 
-We want to go to read more books, go to the gym more often, and learn to play an instrument.
+We want to go to read more books, work out more, and learn to play an instrument.
 
-The easiest way to become a better person is to install a habit. So, if you want to read more books, make it a habit to read for an hour every day. If you want to go to the gym more often, make it a habit to go to the gym every single day. If you want to learn to play an instrument, make it a habit to practice daily.
+The easiest way to become a better person is to install a habit. So, if you want to read more books, make it a habit to read for an hour every day. If you want to work out more often, make it a habit to go to the gym every single day. If you want to learn to play an instrument, make it a habit to practice daily.
 
 How do we go about developing a habit?
 
@@ -20,13 +20,13 @@ I've tried this before, time and time again. When I'm in a rut and I start to ge
 
 But, recently, I've come across a foolproof strategy for habit creation. It's not sexy, it's not smooth, but it works.
 
-## 5 Steps to Creating Lifelong Habits
+# 5 Steps to Creating Lifelong Habits
 
 It's actually very simple to create habits. Once you start to realize that sheer willpower will get you no results, you can move onto what actually works, with the help of the psychology.
 
 This isn't just a system to develop one habit, it's a system to continually develop new habits while maintaining your old habits, so you don't have to worry about losing some.
 
-### 1. Define the habit.
+## 1. Define the habit.
 
 Do you know the reason why most New Year's resolutions fail?
 
@@ -40,7 +40,7 @@ For example, one of the habits I'm trying to acquire right now is defined like s
 
 It's simple and there's no way to cheat myself out of it. Either I was in bed at 12:00 AM or not.
 
-### 2. Track the habit.
+## 2. Track the habit.
 
 You need some kind of visual representation of when you lost or when you won.
 
@@ -58,7 +58,7 @@ Do it however you want, just make sure it's:
 
 Don't overthink this. Choose one method and stick to it.
 
-### 3. Use the psychology of colors.
+## 3. Use the psychology of colors.
 
 This is possibly the most revolutionary part of this method.
 
@@ -74,7 +74,7 @@ If you're using a spreadsheet like I am, all you have to do is change the backgr
 
 Do not underestimate the power of this part. If you skip this, don't [email me](mailto:hi@rmorabia.com) saying this didn't work for you.
 
-### 4. Aim for a 70% success rate.
+## 4. Aim for a 70% success rate.
 
 You probably have 30 habits that you want right now, right? And with the conventional way of one habit a month, it'll take 3 years to achieve what you want.
 
@@ -89,7 +89,7 @@ If you succeed week after week, you can reach having 30 habits within half a yea
 
 Note, it won't be all good. You'll progress a week, fall back a week, maybe even two weeks, and you'll just be constantly clawing your way forward while facing massive resistance. Again, this isn't sexy, but it works.
 
-### 5. Be accountable.
+## 5. Be accountable.
 
 [I publish the results of my habit tracking on my website.](http://rmorabia.com/tracking)
 

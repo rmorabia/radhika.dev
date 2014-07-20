@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Habit Tracking Data"
-date: June 29th, 2014
+date: July 8th, 2014
 permalink: /tracking
 categories: personal
 ---
@@ -10,7 +10,7 @@ categories: personal
 
 <p>Here are the habits currently being tacked:</p>
 
-<ul><li><b>Exercise</b> -- Did I do any kind of exercise today? This includes walking, biking, strength training at the gym, or any occurrence less official (eg. going to the mall).</li>
+<ul><li><del><b>Exercise</b> -- Did I do any kind of exercise today? This includes walking, biking, strength training at the gym, or any occurrence less official (eg. going to the mall).</del></li>
 	<br />
 	<li><b>Small web task</b> -- Did I complete my small web tasks? This is a set of specific tasks which are too unimportant to explain in detail. Basically, they take less than 20 minutes, and I have to do them daily.</li>
 	<br />
@@ -18,7 +18,7 @@ categories: personal
 
 <h2>Data Over Time</h2>
 
-</p><div pure-img><img src="/css/images/Habit-Tracking-June-29th-2014.jpg"></div></p>
+</p><div pure-img><img src="/css/images/HabitTracking.jpg"></div></p>
 
 <h2>Data by Week</h2>
 
@@ -86,5 +86,115 @@ categories: personal
         	<td></td>
         	<td ALIGN=CENTER><b>Total Percentage:</b></td>
         	<td ALIGN=CENTER>47.61%</td>
+    </tbody>
+</table></p>
+
+<h3>Week 2 -- June 29th, 2014 to July 5th, 2014</h3>
+
+<p><table border=1>
+    <thead>
+        <tr>
+            <th></th>
+            <th ALIGN=CENTER>6/29/14</th>
+            <th ALIGN=CENTER>6/30/14</th>
+            <th ALIGN=CENTER>7/01/14</th>
+            <th ALIGN=CENTER>7/02/14</th>
+            <th ALIGN=CENTER>7/03/14</th>
+            <th ALIGN=CENTER>7/04/14</th>
+            <th ALIGN=CENTER>7/05/14</th>
+            <th ALIGN=CENTER>WEEK 2</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+            <tr>
+            <td ALIGN=CENTER>Small web task</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER BGCOLOR="#FF0000">N</td>
+            <td ALIGN=CENTER BGCOLOR="#FF0000">N</td>
+            <td ALIGN=CENTER BGCOLOR="#FF0000">N</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER>4</td>
+        </tr>
+
+        <tr>
+            <td ALIGN=CENTER>Sleep by midnight</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER BGCOLOR="#FF0000">N</td>
+            <td ALIGN=CENTER BGCOLOR="#FF0000">N</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER>5</td>
+        </tr>
+
+        <tr>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        	<td ALIGN=CENTER><b>Total Percentage:</b></td>
+        	<td ALIGN=CENTER>64.23%</td>
+    </tbody>
+</table></p>
+
+<h3>Week 3 -- July 6th, 2014 to July 12th, 2014</h3>
+
+<p><table border=1>
+    <thead>
+        <tr>
+            <th></th>
+            <th ALIGN=CENTER>7/06/14</th>
+            <th ALIGN=CENTER>7/07/14</th>
+            <th ALIGN=CENTER>7/08/14</th>
+            <th ALIGN=CENTER>7/09/14</th>
+            <th ALIGN=CENTER>7/10/14</th>
+            <th ALIGN=CENTER>7/11/14</th>
+            <th ALIGN=CENTER>7/12/14</th>
+            <th ALIGN=CENTER>WEEK 3</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+            <tr>
+            <td ALIGN=CENTER>Small web task</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER BGCOLOR="#FF0000">N</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER BGCOLOR="#FF0000">N</td>
+            <td ALIGN=CENTER BGCOLOR="#FF0000">N</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER>4</td>
+        </tr>
+
+        <tr>
+            <td ALIGN=CENTER>Sleep by midnight</td>
+            <td ALIGN=CENTER BGCOLOR="#FF0000">N</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER BGCOLOR="#FF0000">N</td>
+            <td ALIGN=CENTER BGCOLOR="#FF0000">N</td>
+            <td ALIGN=CENTER BGCOLOR="#00FF00">Y</td>
+            <td ALIGN=CENTER BGCOLOR="#FF0000">N</td>
+            <td ALIGN=CENTER BGCOLOR="#FF0000">N</td>
+            <td ALIGN=CENTER>2</td>
+        </tr>
+
+        <tr>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        	<td ALIGN=CENTER><b>Total Percentage:</b></td>
+        	<td ALIGN=CENTER>42.61%</td>
     </tbody>
 </table></p>

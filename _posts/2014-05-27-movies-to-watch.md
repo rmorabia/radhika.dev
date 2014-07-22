@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Movies To Watch"
-date: June 12th, 2014
+date: July 21st, 2014
 categories: personal
 permalink: /movies
 ---

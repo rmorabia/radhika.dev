@@ -26,7 +26,7 @@
     
                    <h2>Notes</h2>
                     <ul><li><p><a href="/feed.notes.xml"><img src="/css/rss.png"/></a> <a href="/feed.notes.xml">RSS Feed</a></p></li>
-                    <li><p><b>NEW:</b> <a href="/tim-ferriss">Quotes: Tim Ferriss</a></p></li>
+                    <li><p><b>NEW:</b> <a href="/piero-scaruffi">Quotes: Piero Scaruffi</a></p></li>
                     <li><p><a href="/glasses">What's it like to have glasses?</a></p></li>
                     <li><p><a href="/backpack">How to Live Out of a Backpack</a></p></li>
                     <p><a href="/notes">...full archive.</a></p></ul>
@@ -47,8 +47,8 @@
                     <h2>Personal</h2>
                     <ul><li><p><a href="/feed.personal.xml"><img src="/css/rss.png"/></a> <a href="/feed.personal.xml">RSS Feed</a></p></li>
                     <li><p><b>NEW:</b> <a href="/tracking">Habit Tracking Data</a></p></li>
-                    <li><p><a href="/consumption">What I'm Consuming</a></p></li>
                     <li><p><a href="/plan">Where am I going to be?</a></p></li>
+                    <li><p><a href="/consumption">What I'm Consuming</a></p></li>
                     <p><a href="/personal">...full archive.</a></p></ul>
                     </div>
                 </div>

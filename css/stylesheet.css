@@ -91,4 +91,10 @@ blockquote {
     clear: both;
     -moz-border-radius-bottomright: 50px;
     border-bottom-right-radius: 50px;
+        -moz-border-radius-bottomleft: 50px;
+    border-bottom-left-radius: 50px;
+        -moz-border-radius-topright: 50px;
+    border-top-right-radius: 50px;
+        -moz-border-radius-topleft: 50px;
+    border-top-left-radius: 50px;
 }

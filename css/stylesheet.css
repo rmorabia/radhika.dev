@@ -83,10 +83,12 @@ blockquote {
 }
 
 .subscriber-box {
-    border: 1px solid green;
+    border: 2px solid green;
     float: center;
     margin: 5px;
     padding: 5px;
     overflow: auto;
     clear: both;
+    -moz-border-radius-bottomright: 50px;
+    border-bottom-right-radius: 50px;
 }

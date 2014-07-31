@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(/css/lato.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather'), url(/css/merriweather.woff) format('woff');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', 'Merriweather', "Georgia", serif;
+}
+    
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+    font-family: 'Merriweather', "Georgia", serif;
+    
+}
+
+:link, :visited {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+p {
+    line-height: 150%;
+    font-size: 16px;
+}
+
+body {
+    margin-bottom: 50px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.content {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+blockquote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid green;
+} 
+
+.box {
+    font-style: italic;
+    border: 1px solid green;
+    width: 300px;
+    height: 180px;
+    float: left;
+    overflow: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+.button-success {
+    background: rgb(28, 184, 65);
+}
+
+.subscriber-box {
+    border: 2px solid green;
+    float: center;
+    margin: 5px;
+    padding: 5px;
+    overflow: auto;
+    clear: both;
+    -moz-border-radius-bottomright: 18px;
+    border-bottom-right-radius: 18px;
+        -moz-border-radius-bottomleft: 18px;
+    border-bottom-left-radius: 18px;
+        -moz-border-radius-topright: 18px;
+    border-top-right-radius: 18px;
+        -moz-border-radius-topleft: 18px;
+    border-top-left-radius: 18px;
+}

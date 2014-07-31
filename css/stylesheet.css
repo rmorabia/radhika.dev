@@ -89,12 +89,12 @@ blockquote {
     padding: 5px;
     overflow: auto;
     clear: both;
-    -moz-border-radius-bottomright: 18px;
-    border-bottom-right-radius: 18px;
-        -moz-border-radius-bottomleft: 18px;
-    border-bottom-left-radius: 18px;
-        -moz-border-radius-topright: 18px;
-    border-top-right-radius: 18px;
-        -moz-border-radius-topleft: 18px;
-    border-top-left-radius: 18px;
+    -moz-border-radius-bottomright: 12px;
+    border-bottom-right-radius: 12px;
+        -moz-border-radius-bottomleft: 12px;
+    border-bottom-left-radius: 12px;
+        -moz-border-radius-topright: 12px;
+    border-top-right-radius: 12px;
+        -moz-border-radius-topleft: 12px;
+    border-top-left-radius: 12px;
 }

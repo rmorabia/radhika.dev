@@ -77,3 +77,7 @@ blockquote {
     margin: 10px;
     padding: 10px;
 }
+
+.button-success {
+    background: rgb(28, 184, 65);
+}

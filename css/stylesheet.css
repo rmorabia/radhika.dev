@@ -81,3 +81,12 @@ blockquote {
 .button-success {
     background: rgb(28, 184, 65);
 }
+
+.subscriber-box {
+    border: 1px solid green;
+    float: center;
+    margin: 5px;
+    padding: 5px;
+    overflow: auto;
+    clear: both;
+}

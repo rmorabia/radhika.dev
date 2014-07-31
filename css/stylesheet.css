@@ -84,7 +84,6 @@ blockquote {
 
 .subscribe {
     border: 2px solid green;
-    float: center;
     margin: 5px;
     padding: 5px;
     overflow: auto;

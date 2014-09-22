@@ -1,15 +1,21 @@
 ---
 layout: default
 ---
-
 <h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date: "%B %d, %Y" }}</p>
+<p style="color: #777;" class="meta">{{ page.date | date: "%B %d, %Y" }}</p>
 
 
 {{ content }}
 
-<hr />
-
-<p>Enjoyed what you read? Comments can be sent to <a href="mailto:hi@rmorabia.com">hi@rmorabia.com</a>.</p>
-
-<p><mark>To get notifications of future updates along with exclusive content, <a href="http://mad.ly/signups/103121/join">sign up for the monthly newsletter</a>.</mark></p>
+<br>
+<br>
+<br>
+<div class="subscribe">
+    <h1>Get more insights about greatness and becoming the best you can be.</h1>
+    <p>I send out a new letter each and every Monday with lessons, essays, reflections, and much more.</p>
+<form class="pure-form" accept-charset="UTF-8" action="https://madmimi.com/signups/subscribe/103121" method="post" target="_blank">
+                <input name="utf8" type="hidden" value="✓"/>
+              <input name="signup[email]" type="text" placeholder="you@example.com" />
+                <input class="button-success pure-button" type="submit" value="Let's do this!" />
+            </form>
+</div>

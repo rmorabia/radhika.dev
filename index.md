@@ -1,7 +1,6 @@
 ---
 layout: home
-title: "Recent Posts"
-tags: [Jekyll, theme, responsive, blog, template]
+title: "Letter Archives"
 image:
   feature: typewriter.jpg
 ---

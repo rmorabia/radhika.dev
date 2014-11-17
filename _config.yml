@@ -1,4 +1,55 @@
-name: Radhika Morabia
-markdown: redcarpet
-pygments: true
-permalink: title
+title:            Radhika Morabia
+tagline:          I believe everyone has the potential for greatness and I'm using myself as the case study.
+description:      I believe everyone has the potential for greatness and I'm using myself as the case study.
+canonical: http://rmorabia.com
+
+# Owner/author information
+owner:
+  name:           Radhika Morabia
+  avatar:         avatar.png
+  bio:            "I believe everyone has the potential for greatness and I'm using myself as the case study."
+  email:          hi@rmorabia.cm
+  twitter:        rmorabia
+
+tools:
+  standards:      "HTML, SCSS, Jekyll"
+  software:       "git"
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Newsletter
+    url: /
+    external: true
+
+timezone:    America/Los_Angeles
+future:      true
+highlighter: pygments
+markdown:    kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+sass:
+    style: :compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]

@@ -1,15 +1,21 @@
-title:            Radhika Morabia
-tagline:          I believe everyone has the potential for greatness and I'm using myself as the case study.
-description:      I believe everyone has the potential for greatness and I'm using myself as the case study.
-canonical: http://rmorabia.com
+title:            Balzac
+tagline:          A beautiful theme.
+description:      Describe your website.
+canonical: http://jekyll.gtat.me
 
 # Owner/author information
 owner:
-  name:           Radhika Morabia
+  name:           Cole Townsend
   avatar:         avatar.png
-  bio:            "I believe everyone has the potential for greatness and I'm using myself as the case study."
-  email:          hi@rmorabia.cm
-  twitter:        rmorabia
+  bio:            "Aesthete & Athlete"
+  email:          cole@coletownsend.com
+  twitter:        twnsndco
+  github:         coletownsend
+  instagram:      ctrunsthis
+  dribbble:       coletownsend
+  disqus:         balzac
+  location:       "Buffalo, NY"
+  # Plug in your disqus shortname!
 
 tools:
   standards:      "HTML, SCSS, Jekyll"
@@ -20,13 +26,15 @@ tools:
 links:
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
-  - title: Newsletter
-    url: /
+  - title: Github
+    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
+    external: true
+  - title: Cole Who?
+    url: http://coletownsend.com
     external: true
 
-timezone:    America/Los_Angeles
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
 future:      true
 highlighter: pygments
 markdown:    kramdown

@@ -1,32 +1,29 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "http://pixyll.com"
-
-# Google analytics
-google_analytics:
+title:       Radhika Morabia
+email:       hi@rmorabia.com
+author:      Radhika Morabia
+description: "I believe everyone has the potential for greatness and I'm using myself as the case study."
+baseurl:     "http://rmorabia.com"
+url:         "http://rmorabia.com"
 
 # Optional features
-animated:           false
+animated:           true
 show_related_posts: false
-show_post_footers:  false
+show_post_footers:  true
 
 # Social icons
-show_social_icons: false
+show_social_icons: true
 github_username:
-twitter_username:
+twitter_username: rmorabia
 google_plus_id:
 linkedin_username:
-bitcoin_url:
+bitcoin_url: test
 paypal_url:
 flattr_button:
 
 # Build settings
 markdown:     kramdown
 permalink:    pretty
-paginate:     3
+paginate:     10
 sass:
   compressed: true

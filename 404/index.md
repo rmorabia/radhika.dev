@@ -1,6 +1,5 @@
 ---
 layout: center
-permalink: /404
 ---
 
 # Sorry, there's nothing here!

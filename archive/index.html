@@ -10,15 +10,7 @@ layout: default
     {% for post in site.posts %}
       <div class="post">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-          <p class="post-meta">{% assign d = page.date | date: "%-d"  %}
-{{ page.date | date: "%B" }} 
-{% case d %}
-  {% when '1' or '21' or '31' %}{{ d }}st
-  {% when '2' or '22' %}{{ d }}nd
-  {% when '3' or '23' %}{{ d }}rd
-  {% else %}{{ d }}th
-  {% endcase %}, 
-{{ page.date | date: "%Y" }}</p>
+          <p class="post-meta">{{ page.date | date: '%B %d, %Y' }}</p>
           <h3 class="h2 post-title">{{ post.title }}</h3>
           <p class="post-summary">{{ post.summary }}</p>
         </a>

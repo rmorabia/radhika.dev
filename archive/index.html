@@ -7,7 +7,7 @@ layout: default
     <h1>Letter Archives</h1>
 
   <div class="posts">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
       <div class="post">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
           <p class="post-meta">{% assign d = page.date | date: "%-d"  %}

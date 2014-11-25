@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 6 Lessons Learned From 6 Weeks in Bedrest
 permalink: /bedrest
 summary: I missed out on a lot during my 6 weeks away, but I now have the unique advantage of putting the lessons I learned into action to accelerate me even further.

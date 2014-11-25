@@ -51,9 +51,9 @@ I actually do this on paper as a part of my morning routine. I just started doin
 
 ##Lesson #2: Growth first.
 
-The work I was doing had logarithmic gains. That means that it would work extremely well in the short run. I would make a ton of money for a few months, but then I'd burn out. I was trying to build up a cushion of money to
+The work I was doing had logarithmic gains. That means that it would work extremely well in the short run. I would make a ton of money for a few months, but then I'd burn out. I was trying to build up a cushion of money to sit and be comfortable in.
 
-At just 17, I can't claim to be an expert in anything. The only real cushion I have is my skills, my network, and my energy.
+But, at just 17, I can't claim to be an expert in anything. The only real cushion I have is my skills, my network, and my energy.
 
 Because I was only focused on one thing, I wasn't learning any skills and I was neglecting my network. Obviously, burnout means all your energy is burned, as well.
 

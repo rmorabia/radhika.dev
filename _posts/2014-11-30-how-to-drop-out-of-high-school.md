@@ -22,7 +22,7 @@ So, I decided to do the bare minimum it took to graduate. I finally completed th
 
 Don't believe me? Take a look at my fancy certificate:
 
-![a picture of my certificate](/images/certificate.jpg)
+<img style="float: center" src="/images/certificate.jpg">
 
 That's right. **I'm officially a high school dropout _and_ a graduate.** I'm also making enough money to live on without ever mentioning my formal credentials, which is the whole reason people get a degree, right?
 

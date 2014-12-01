@@ -34,63 +34,63 @@ body {
 }
 
 h1, .h1, .f1 {
-  font-size: 2rem;
+  font-size: 1rem;
   line-height: 2.5rem;
 }
 
 h2, .h2, .f2 {
-  font-size: 1.5rem;
+  font-size: .5rem;
   line-height: 2rem;
 }
 
 h3, .h3, .f3 {
-  font-size: 1.25rem;
+  font-size: .25rem;
   line-height: 1.5rem;
 }
 
 p, .p, .f4, h4, h5, h6, dl, ol, ul {
-  font-size: 1.5rem;
+  font-size: 20px;
   line-height: 1.5rem;
 }
 
 small, .small, .f5 {
-  font-size: .875rem;
+  font-size: 16px;
   line-height: 1.5rem;
 }
 
 @media screen and (min-width: 48em) {
   .h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 5rem;
   }
 
   .h2 {
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 2.5rem;
   }
 
   .h3 {
-    font-size: 1.5rem;
+    font-size: .5rem;
     line-height: 2rem;
   }
 
   .p {
-    font-size: 1.5rem;
+    font-size: .5rem;
     line-height: 2rem;
   }
 
   .small {
-    font-size: 1rem;
+    font-size: 14px;
   }
 }
 @media screen and (min-width: 64em) {
   .h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 8rem;
   }
 
   .h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 3.5rem;
   }
 }
@@ -673,7 +673,7 @@ strong, .bold {
 }
 
 body {
-  color: #333333;
+  color: #000000;
   background-color: #fff;
 }
 

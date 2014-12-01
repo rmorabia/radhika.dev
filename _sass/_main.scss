@@ -41,7 +41,7 @@ img {
 }
 
 body {
-  font-size: 1.5rem;
+  font-size: 20px;
 
           box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -58,7 +58,7 @@ body {
 }
 
 .site-header a {
-  color: #333;
+  color: #000;
   font-weight: 300;
 }
 
@@ -112,7 +112,7 @@ body {
 .post-link .post-title {
   margin-top: 0;
   font-weight: 600;
-  color: #333;
+  color: #000;
 }
 
 .post-footer {
@@ -132,7 +132,7 @@ body {
 .button {
   font-size: 1rem;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -177,7 +177,7 @@ body {
 
 .pagination .button {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -206,7 +206,7 @@ textarea.input {
 p {
   font-weight: 300;
   line-height: 1.5;
-  color: #333;
+  color: #000;
 }
 
 abbr {
@@ -299,33 +299,33 @@ h6,
 
   .h1,
   h1 {
-    font-size: 3.250rem;
+    font-size: 2.250rem;
   }
 
   .h2,
   h2 {
-    font-size: 2.298rem;
+    font-size: 1.298rem;
   }
 
   .h3,
   h3 {
-    font-size: 1.625rem;
+    font-size: .625rem;
   }
 
   .h4,
   h4 {
-    font-size: 1.150rem;
+    font-size: .150rem;
   }
 
   .p,
   p,
   li {
-    font-size: 1.5rem;
+    font-size: 20px;
     line-height: 1.8;
   }
 
   .small {
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   .post-link .post-title {
@@ -348,22 +348,22 @@ h6,
 @media screen and (max-width: 48em) {
   .h1,
   h1 {
-    font-size: 2.827rem;
+    font-size: 1.827rem;
   }
 
   .h2,
   h2 {
-    font-size: 1.999rem;
+    font-size: .999rem;
   }
 
   .h3,
   h3 {
-    font-size: 1.413rem;
+    font-size: .413rem;
   }
 
   .h4,
   h4 {
-    font-size: 1rem;
+    font-size: .213rem;
   }
 
   .site-header {
@@ -391,22 +391,22 @@ h6,
 @media screen and (min-width: 64em) {
   .h1,
   h1 {
-    font-size: 4.498rem;
+    font-size: 3.498rem;
   }
 
   .h2,
   h2 {
-    font-size: 3.18rem;
+    font-size: 2.18rem;
   }
 
   .h3,
   h3 {
-    font-size: 2.249rem;
+    font-size: 1.249rem;
   }
 
   .h4,
   h4 {
-    font-size: 1.591rem;
+    font-size: .591rem;
   }
 
   .posts .post-meta {

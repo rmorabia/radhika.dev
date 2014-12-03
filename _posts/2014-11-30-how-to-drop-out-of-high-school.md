@@ -42,7 +42,7 @@ With most of these problems, there's alternatives to dropping out entirely. You 
 
 If your problem is that you think the system is working against you and you're just not good at school, remember that when you leave school, you're entering the workforce. Being in school can serve as a great default option as you're building your skills, network, or business. Once you drop out, you're expected to get out there and make your own money.
 
-[Ryan Holiday](http://thoughtcatalog.com/ryan-holiday/2014/04/should-i-drop-out-of-college/), one of the poster children of dropout success, says this on the subject: "Have you fully taken advantage of the unique opportunities that are offered to students? Because let me tell you, the world is much kinder to students. The second you leave you’re now competition."
+[Ryan Holiday](http://thoughtcatalog.com/ryan-holiday/2014/04/should-i-drop-out-of-college/), one of the poster children of dropout success, says this on the subject: "Have you fully taken advantage of the unique opportunities that are offered to students? Because let me tell you, the world is much kinder to students. The second you leave you’re now _competition_."
 
 Are you sure you're ready to compete with people with degrees who used school to easily get internships and gain experience? As much as you hate school, you can still dip your toes into the workforce while still having financial support from your parents.
 

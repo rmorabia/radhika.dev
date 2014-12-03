@@ -3,7 +3,7 @@ layout: post
 title: "How to Develop Habits"
 date: July 16th, 2014
 permalink: /habits
-categories: essays
+summary: It's actually very simple to create habits. Once you start to realize that sheer willpower will get you no results, you can move onto what actually works, with the help of the psychology.
 ---
 
 We all want to be better people, yes?
@@ -44,9 +44,7 @@ It's simple and there's no way to cheat myself out of it. Either I was in bed at
 
 You need some kind of visual representation of when you lost or when you won.
 
-[I use a table in a spreadsheet on my computer.](http://rmorabia.com/tracking) I like this because it's shockingly easy after the initial set-up, and I can use the data in a variety of ways. For example, I've created a chart which lists my progress alongside the table so that I can more easily document my progress over time.
-
-![chart of my habit tracking data](/css/images/HabitTracking.jpg)
+I use a table in a spreadsheet on my computer. I like this because it's shockingly easy after the initial set-up, and I can use the data in a variety of ways. For example, I've created a chart which lists my progress alongside the table so that I can more easily document my progress over time.
 
 If you know you're not going to use your computer every day, get some graph paper and create a table, or get a monthly fridge calendar that you can write on, and take pictures at the end of the month. There are also smartphone apps that do this.
 
@@ -91,7 +89,7 @@ Note, it won't be all good. You'll progress a week, fall back a week, maybe even
 
 ## 5. Be accountable.
 
-[I publish the results of my habit tracking on my website.](http://rmorabia.com/tracking)
+I email the results of my tracking to a friend each and every week.
 
 It isn't pretty, and it probably puts me in a very negative light considering how terrible I am at sticking to my habits. But I know that at least one person is going to look at how many red lights I have, and it makes me want to be better.
 

@@ -112,9 +112,7 @@ strong, .bold {
 }
 
 .center {
-  text-align: left;
-  width:200px;
-  margin:0 auto;
+  text-align: center;
 }
 
 .right-align {
@@ -772,4 +770,10 @@ a:hover {
 
 .transition-all {
   transition: all .2s ease;
+}
+
+.bullet {
+  width:200px;
+  margin:0 auto;
+  text-align:left;
 }

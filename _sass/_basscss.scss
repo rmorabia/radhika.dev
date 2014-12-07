@@ -112,7 +112,9 @@ strong, .bold {
 }
 
 .center {
-  text-align: center;
+  text-align: left;
+  width:200px;
+  margin:0 auto;
 }
 
 .right-align {

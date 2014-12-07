@@ -772,8 +772,6 @@ a:hover {
   transition: all .2s ease;
 }
 
-.bullet {
-  width:400px;
-  margin:0 auto;
-  text-align:left;
+ul {
+    list-style-position: inside;
 }

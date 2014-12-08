@@ -3,6 +3,7 @@ layout: post
 title: Who should I interview?
 date: December 7th, 2014
 summary: I want the answer to career foundations and regrets, and most people gloss over it like it's obvious. I don't care about the now--I can find out the now from any other interview. I care about the beginnings and the why.
+permalink: /interview
 ---
 
 I love reading and listening to interviews. My favorite podcast is [WTF with Marc Maron](http://wtfpod.com) and I dive through [The Paris Review archives](http://www.theparisreview.org/interviews) religiously.

@@ -3,6 +3,7 @@ layout: post
 title: "Here's a Quick Way to Get Hired"
 date: December 22nd, 2014
 permalink: /mentor
+summary: If you have no skills already, how are you going to get a job that gives you both skills and experience? I'm here to tell you that you do have skills and you can get a job at a company you admire.
 ---
 
 You're looking for a mentor, a job at a startup, or just work in general.

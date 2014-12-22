@@ -19,7 +19,7 @@ If you could choose one person (realistically--I'm not the most connected person
 Please fill out the form below to let me know.
 
 <div class="py2">
-  <form action="https://forms.brace.io/{{ site.email }}" method="POST" class="form-stacked form-light">
+  <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked form-light">
       <input type="text" name="name" class="input mobile-block" placeholder="What's their name?">
     <input type="text" name="why" class="input mobile-block" rows="2" placeholder="Why this person?">
     <textarea type="text" name="content" class="input mobile-block" rows="2" placeholder="What question would you like to ask?"></textarea>

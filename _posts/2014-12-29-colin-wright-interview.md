@@ -14,7 +14,7 @@ Colin has cultivated an insanely devoted fanbase which has stuck by him as he we
 
 He's achieved phenomenal success, all while having his marketing/business philosophy simply be: [because I want to](http://exilelifestyle.com/because-i-want-to/).
 
-I reached out to Colin to ask some questions about his growth and development. Below are 10 questions I asked him about how he started his mini-empire.
+I reached out to Colin to talk to him about his growth and development. Below are 10 questions I asked him about how he started his mini-empire.
 
 <img src="http://colin.io/wp-content/uploads/2013/11/indieauthor.jpg">
 

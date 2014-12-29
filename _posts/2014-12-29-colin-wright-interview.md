@@ -18,8 +18,6 @@ I reached out to Colin to ask some questions about his growth and development. B
 
 <img src="http://colin.io/wp-content/uploads/2013/11/indieauthor.jpg">
 
-style="width:504px"
-
 ## An Interview with Colin Wright
 
 **1. Let's start with origin stories. What was your high school experience like? How different are you now from what high school Colin wanted you to be? Would he be proud of you?**

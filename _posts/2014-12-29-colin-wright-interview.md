@@ -14,7 +14,7 @@ Colin has cultivated an insanely devoted fanbase which has stuck by him as he we
 
 He's achieved phenomenal success, all while having his marketing/business philosophy simply be: [because I want to](http://exilelifestyle.com/because-i-want-to/).
 
-I reached out to Colin to ask some questions about his growth and development. Below are 10 questions I asked him about [i'll decide once I analyze the answers].
+I reached out to Colin to ask some questions about his growth and development. Below are 10 questions I asked him about how he started his mini-empire.
 
 <img src="http://colin.io/wp-content/uploads/2013/11/indieauthor.jpg">
 
@@ -36,13 +36,13 @@ At that point, it's much easier to make the pitch. "Hey folks, you know that stu
 
 But that wasn't the plan, initially. I wanted the blog to be a hub where I could keep writing about things, for free, and build an audience, but mostly for networking purposes. I still don't make a dime directly from the blog, but now that network helps me market my work, without having to market too hard.
 
-**3. What made you choose your pricing model? You advocate the "coffee-rule," which is that most of your work is available for the price of a coffee. Beyond that, if someone does pirate your work, you have no qualms.
+**3. What made you choose your pricing model? You advocate the "coffee-rule," which is that most of your work is available for the price of a coffee. Beyond that, if someone does pirate your work, you have no qualms.**
 
-Here's what you wrote on the copyright page of one of your first books, [Real Powers](http://colin.io/portfolio/real-powers-part-one/): 
+**Here's what you wrote on the copyright page of one of your first books, [Real Powers](http://colin.io/portfolio/real-powers-part-one/):**
 
->All rights reserved of course, though if you really can't afford the few dollars to pay for the book, go ahead and read it anyway; life's too short for DRM. It would be rad if you'd tell other  people about this work if you enjoy it, whether you paid or not. All profits from this book allow me to continue pursuing my passions, and if you did pay for it (despite the overwhelming desire to find a torrent somewhere), you're my fave.
+>**All rights reserved of course, though if you really can't afford the few dollars to pay for the book, go ahead and read it anyway; life's too short for DRM. It would be rad if you'd tell other  people about this work if you enjoy it, whether you paid or not. All profits from this book allow me to continue pursuing my passions, and if you did pay for it (despite the overwhelming desire to find a torrent somewhere), you're my fave.**
 >
->Muchas gracias.**
+>**Muchas gracias.**
 
 You know, it was kind of an iterative thing. I've sold my books at a lot of different prices over the years, but I realized that I was getting emails from different sorts of people when I lowered the prices. Students and working moms and retirees; not just net-savvy young professionals like before. And I wanted to reach that wider audience, so I decided to test it out, to see if I could keep making a living selling my books for less.
 
@@ -100,8 +100,8 @@ Simulated physics, artificial intelligence (of many flavors), 3D printing (also 
 
 ...
 
-If you loved Colin's philosophy and the way he approaches the world, check out his recent book titled *[Considerations](http://colin.io/portfolio/considerations/)*.
+If you love Colin's philosophy and the way he approaches the world, check out his recent book titled *[Considerations](http://colin.io/portfolio/considerations/)*.
 
 To know more about Colin, get updates on his life, and buy some of his books, check out his webiste at [colin.io](http://colin.io).
 
-*Who should I interview next? [Let me know.](http://rmorabia.com/interview)*
+<h3><center><i><a href="http://rmorabia.com/interview">Who should I interview next?</a></i></center></h3>

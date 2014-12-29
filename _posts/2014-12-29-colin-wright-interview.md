@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "How to Cultivate a Fanatical Audience: An Interview with Colin Wright"
 date: December 29th, 2014
 permalink: /colin

@@ -34,63 +34,63 @@ body {
 }
 
 h1, .h1, .f1 {
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 2.5rem;
 }
 
 h2, .h2, .f2 {
-  font-size: .5rem;
+  font-size: 1.5rem;
   line-height: 2rem;
 }
 
 h3, .h3, .f3 {
-  font-size: .25rem;
+  font-size: 1.25rem;
   line-height: 1.5rem;
 }
 
 p, .p, .f4, h4, h5, h6, dl, ol, ul {
-  font-size: 20px;
+  font-size: 1.3rem;
   line-height: 1.5rem;
 }
 
 small, .small, .f5 {
-  font-size: 16px;
+  font-size: .875rem;
   line-height: 1.5rem;
 }
 
 @media screen and (min-width: 48em) {
   .h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 5rem;
   }
 
   .h2 {
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 
   .h3 {
-    font-size: .5rem;
+    font-size: 1.5rem;
     line-height: 2rem;
   }
 
   .p {
-    font-size: .5rem;
+    font-size: 1.25rem;
     line-height: 2rem;
   }
 
   .small {
-    font-size: 14px;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 64em) {
   .h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     line-height: 8rem;
   }
 
   .h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 3.5rem;
   }
 }
@@ -507,7 +507,6 @@ strong, .bold {
   line-height: 2rem;
   padding: .5rem;
   border-radius: .25rem;
-  width: 50%;
 }
 
 .select {
@@ -675,15 +674,27 @@ strong, .bold {
 
 body {
   color: #000000;
-  background-color: #fff;
+  background-color: #fbfbfb;
 }
 
 a {
   color: #57AD68;
   text-decoration: none;
+  border-bottom: thin dotted !important;
 }
 a:hover {
   color: #49796B;
+  border-bottom: 3px solid #57AD68;
+}
+
+::selection {
+  color: #fff;
+  background: #57AD68; /* Safari */
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #57AD68 ; /* Firefox */ 
 }
 
 .button {
@@ -770,4 +781,122 @@ a:hover {
 
 .transition-all {
   transition: all .2s ease;
+}
+
+/*
+Animate.css - http://daneden.me/animate
+LICENSED UNDER THE  MIT LICENSE (MIT)
+
+Copyright Â© 2012 Dan Eden
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+@-webkit-keyframes fadeInSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-15px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+.animated {
+  -webkit-animation-duration: 1s;
+     -moz-animation-duration: 1s;
+      -ms-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+     -moz-animation-fill-mode: both;
+      -ms-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}  
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity: 0;}  
+  100% {opacity: 1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity: 0;}  
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}  
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  -ms-animation-name: fadeIn;
+  -o-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  }
+  
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-20px);
+  }
+  
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-ms-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -ms-transform: translateY(-20px);
+  }
+  
+  100% {
+    opacity: 1;
+    -ms-transform: translateY(0);
+  }
+}
+
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  -ms-animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }

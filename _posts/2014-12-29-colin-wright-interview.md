@@ -103,5 +103,3 @@ Simulated physics, artificial intelligence (of many flavors), 3D printing (also 
 If you love Colin's philosophy and the way he approaches the world, check out his recent book titled *[Considerations](http://colin.io/portfolio/considerations/)*.
 
 To know more about Colin, get updates on his life, and buy some of his books, check out his webiste at [colin.io](http://colin.io).
-
-<h2><center><i><a href="http://rmorabia.com/interview">Let me know who I should interview next.</a></i></center></h2>

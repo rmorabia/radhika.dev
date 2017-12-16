@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://rmorabia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://rmorabia.com/" rel="alternate" type="text/html" /><updated>2017-12-15T23:07:43-08:00</updated><id>http://rmorabia.com/</id><title type="html">Radhika Morabia</title><entry><title type="html">Coding Log — December 15th, 2017 — Day 6</title><link href="http://rmorabia.com/2017/12/15/log" rel="alternate" type="text/html" title="Coding Log — December 15th, 2017 — Day 6" /><published>2017-12-15T00:00:00-08:00</published><updated>2017-12-15T00:00:00-08:00</updated><id>http://rmorabia.com/2017/12/15/log</id><content type="html" xml:base="http://rmorabia.com/2017/12/15/log">&lt;p&gt;&lt;strong&gt;Coding Time:&lt;/strong&gt; Full Day&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here’s what I did today:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;continued-to-learn-the-command-line&quot;&gt;&lt;a href=&quot;https://ryanstutorials.net/linuxtutorial/&quot;&gt;Continued to Learn the Command Line&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I really don’t want to turn into a book learner. I don’t believe you need to go through a book 100% to get going, get started, and get to making real things. Making things teaches you a lot more than just going through a book and doing examples. The further I get into this book, the more I feel like I should skim faster and faster.&lt;/p&gt;
+
+&lt;p&gt;So today, I skimmed through &lt;strong&gt;Section 10: Grep and Regular Expressions&lt;/strong&gt;. I can see where this becomes useful in debugging large files, sometime down the line. However, I won’t be debugging in the command line. I’ll be debugging in my text editor of choice. (Currently, that’s Atom, but I really haven’t decided.) I have one line of notes from this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* egrep is the command for regular expressions, which can help you find data that matches a particular pattern
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If Grep is relevant within my IDE/text editor, I’ll learn it within the confines of that particular editor. It’s probably more graphical and has specific quirks.&lt;/p&gt;
+
+&lt;p&gt;Next up? &lt;strong&gt;Section 11: Piping and Redirection.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are my notes from the very useful section:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* [command] &amp;gt; [location] will save a log of the output from that command
+	* '&amp;gt;&amp;gt;' to add the output to an existing file instead of &amp;gt; replacing it
+	* use 2 (stream 2: error stream) to write errors to log. eg. ls video.mpg 2&amp;gt; errors.txt
+		* to do both, &amp;amp;1. eg. ls -l video.mpeg vi3 &amp;gt; myoutput 2&amp;gt;&amp;amp;1
+* &amp;lt; to redirect FROM a file, eg. wc -l &amp;lt; myoutput
+	* still not sure how this is useful but whatever
+* piping | splice multiple programs together. the output from the first command is the input for the second program. it can run forever. eg. ls | head -2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;There are only 2.5 sections left. I expect to finish this within a day or two.&lt;/p&gt;
+
+&lt;h3 id=&quot;continued-cs50x&quot;&gt;Continued &lt;a href=&quot;https://www.edx.org/course/introduction-computer-science-harvardx-cs50x&quot;&gt;CS50x&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Today, I started on Week 1 of the course. I think I’m sticking with it.&lt;/p&gt;
+
+&lt;p&gt;I watched the lecture, which 2 hours and 10 minutes long. It was dense. I feel the muscles in my thighs going numb from sitting for so long. It covered a lot in what is presumably one day, without breaks for implementation. This covers my fundamental problem with university-style learning &amp;amp;/or video learning at large. I wanted to stop when David covered “Hello world” in C. I wanted to stop and try that code for myself. Before I could, he moved onto math. Then, he moved onto real-world problems with binary overflow.&lt;/p&gt;
+
+&lt;p&gt;It’s a really interesting introduction to &lt;em&gt;Computer Science&lt;/em&gt;, though. It’s not just about code, it’s about understanding why the code works that should serve as a fundamental block for any area of coding that the student would later go into. I think I’ll invest a bit more time into it even though it feels slightly wasteful because of the broad application.&lt;/p&gt;
+
+&lt;p&gt;There’s no way I could finish the assignments for this week in one day, though. You have to create 4 coding projects which all build off of each other. This course is way more like iterative project learning with supplemental videos rather than videos with supplemental Problem Sets/homework. I don’t know if I’m a fan of that or not.&lt;/p&gt;
+
+&lt;p&gt;We are supposed to code all of our projects in the online IDE C9, which I’m not sure I’m a fan of. It’s slower than working in Atom/any local IDE. My computer &amp;amp; my wifi aren’t very fast, so that extra RAM/bandwidth being eaten by working in a computer in the browser isn’t the most ideal situation. It’s also not the best way to&lt;/p&gt;
+
+&lt;h2 id=&quot;tomorrows-to-dos&quot;&gt;Tomorrow’s To-Do’s&lt;/h2&gt;
+
+&lt;p&gt;I’m going to complete Section 10 of the CLI course on Grep. After that, I’ll try to start Week 1 of CS50x. I don’t plan to finish it in one day, and I probably won’t.&lt;/p&gt;
+
+&lt;p&gt;So, I’m also going to be starting &lt;a href=&quot;https://learn.shayhowe.com/html-css/&quot;&gt;Shay Howe’s HTML/CSS course&lt;/a&gt;. I’m not sure if I’m going to double-down and take the advanced course as well. We’ll see.&lt;/p&gt;</content><author><name>Radhika</name></author><summary type="html">Coding Time: Full Day</summary></entry><entry><title type="html">Coding Log — December 14th, 2017 — Day 5</title><link href="http://rmorabia.com/2017/12/14/log" rel="alternate" type="text/html" title="Coding Log — December 14th, 2017 — Day 5" /><published>2017-12-14T00:00:00-08:00</published><updated>2017-12-14T00:00:00-08:00</updated><id>http://rmorabia.com/2017/12/14/log</id><content type="html" xml:base="http://rmorabia.com/2017/12/14/log">&lt;p&gt;&lt;strong&gt;Coding Time:&lt;/strong&gt; Finding it difficult to keep track of time spent accurately. Might change to saying “Full Day,” “Half Day,” or “Just an hour” to simply define how long I felt I worked that day.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here’s what I did today:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;continued-to-learn-the-command-line&quot;&gt;&lt;a href=&quot;https://ryanstutorials.net/linuxtutorial/&quot;&gt;Continued to Learn the Command Line&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I’m changing up my tactics. I’ve been finding it difficult to “binge” this book. So instead, I’m going to start doing just one section a day. Today, I finished Section 9 of 13. The presumed applicability goes further and further downhill with each section at the same time as the difficulty rises higher and higher. This makes each section take longer than the last. Just 4-5 more days at this pace, and then I can safely say I have a very solid foundation on using the command line.&lt;/p&gt;
+
+&lt;p&gt;I once again felt disillusioned with this specific book and looked into video courses. I was wrong to do so and I yet again wasted precious time.&lt;/p&gt;
+
+&lt;p&gt;I’m still not sure that this is the most directly relevant book for me (especially compared to the description of the video course I was considering). My conclusion is simply that I can fill in the gaps along the way with Google and StackOverflow. That probably would’ve been a smarter idea than reading this book anyway. Learn as you go.&lt;/p&gt;
+
+&lt;p&gt;Here are my (messy) notes from Sections 1-8:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* to cd from the root directory, lead with a /. eg. cd /usr/bin vs cd usr/bin
+* to cd from the home directory, lead with a ~. eg. cd ~/rmorabia vs cd rmorabia
+* cd . = working directory
+* cd .. = parent of working directory
+* cd (alone ) changes to home directory
+*  **file names are case sensitive**
+*  ls -a to see hidden files
+*  ls -l for long detailed list
+*  file tells you what file type it is
+*  Tab autocompletes commands
+*  backslash (\) in front of a character to nullify its effects. (eg. cd Calibre\ Library)
+*  **man [command] is your new best friend**
+    *  *or I mean, there's always just [command] --help*
+    *  man -k to keyword search all manual pages
+    *  /[search] within a manual page
+*  mkdir -p(arent directories automatically made too)
+*  combine onecharacter options like -al to do multiple options at once
+*  rmdir is to mkdir
+    * *but it must be empty*
+*  touch makes new files (of any extension)
+    * i think i'm getting kind of woo-ey with these notes but what the hell kind of command name is touch
+* cp = copy (file) copy -r (directory)
+* mv = move file or directory
+    * use mv in same directory to rename it. eg. mv foo foo3
+* rm is to touch as rmdir is to mkdir
+* **rm -r removes an entire directory**
+  *  -i prompt before deleting each file just in case
+* cat to view small files, less to view large files
+	* tac to view files in reverse
+* **Ctrl + C is the universal cancel/exit sign**
+* use wildcards to get inprecise//multiple answers:
+  * &quot; * - zero or more characters &quot;
+  * ? - single characters
+  * [] - range of characters
+  * eg. ls * .txt to find all of the files that end in .txt (no space)
+  * eg. move all images to another directory: mv public_html/* .??g public_html/images
+* linux permissions for files:
+	* r - read
+	* w - write
+	* x - execute
+	* owner - single person who owns the file
+	* group - every file belongs to a single group
+	* others - everyone else who is not in the group or the owner of the file
+* change permissions:
+	* chmod [u(ser),g(roup),o(thers),a(ll)][+/-][r(ead),w(rite),(execute)] eg. chmod g+x frog.png
+		* can do it one at a time or multiple at a time, similar to -al arguments above
+* linux permissions for directories:
+	* r(ead) - read contents of directory, eg. ls
+	* w(rite) - write into the directory, eg. make new files
+	* x(execute) - enter the directory, eg. cd
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here are my notes relevant to Section 9: Filters:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* head - print the first x (option -(number of)) lines of a file
+* tail is to head as last is to first
+* sort sorts sorts. (default alphabetical, other options available)
+* nl numbers lines
+* **put things including spaces in quotes so the system knows it's all one thing**
+* wc - word count wowza
+* cut does some fancy stuff with columns, when will this ever matter
+* uniq gets rid of repeat lines
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;started-cs50x&quot;&gt;Started &lt;a href=&quot;https://www.edx.org/course/introduction-computer-science-harvardx-cs50x&quot;&gt;CS50x&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This is apparently the definitive Introduction to Computer Science course. It’s wide-ranging and doesn’t focus on syntax of a particular language, but CS fundamentals that apply across all languages. Within that, though, it’s a little introduction to Scratch, C, JavaScript, SQL, and HTML/CSS.&lt;/p&gt;
+
+&lt;p&gt;Supposedly, this is legitimately difficult. You build something in code (and for half of the course, C) every single week. It takes self-paced learners as much time as it does for the actual Harvard students. This means I guess I’ll be investing 40 hours a week into this course for 10-12 weeks.&lt;/p&gt;
+
+&lt;p&gt;This seems like a lot. This sounds like time I could be spending learning syntax &amp;amp; building projects. People get programming jobs in 4-6 months, and I’ll be doing this course for the first 3? I don’t know.&lt;/p&gt;
+
+&lt;p&gt;The final project is building a real project in code. It seems intense. I plan to commit to it, but I have heavy reservations of it eating up all of my time.&lt;/p&gt;
+
+&lt;p&gt;Every day that passes, my timeline seems to get pushed further and further back. I don’t think I’ll end up one of the rockstars who gets hired in 6 months.&lt;/p&gt;
+
+&lt;p&gt;I worked on Week 0 of 11 today. I finished it 4 hours faster than the average. I don’t know if that’s a testament to my skills, or a sign that I should’ve made my Scratch project more complex. I still don’t really understand how to animate/make objects move in Scratch, but… Do I care?&lt;/p&gt;
+
+&lt;p&gt;Here is the link to my Scratch project: https://scratch.mit.edu/projects/193706945/&lt;/p&gt;
+
+&lt;p&gt;It’s an infinitely looping comic strip from a web comic I used to read.&lt;/p&gt;
+
+&lt;p&gt;I’ve been getting a few recommendations to go with other Intro to CS courses that aren’t this one. I may change which course I do within the next few days. I haven’t lost much thus far. I only want to take one definitive one, so I want to choose the right one.&lt;/p&gt;
+
+&lt;p&gt;Regardless, I’m not sure I’ll be doing this every day. I think following week by week will give me more time to do other things.&lt;/p&gt;
+
+&lt;h2 id=&quot;tomorrows-to-dos&quot;&gt;Tomorrow’s To-Do’s&lt;/h2&gt;
+
+&lt;p&gt;I’m going to complete Section 10 of the CLI course on Grep. After that, I’ll try to start Week 1 of CS50x. I don’t plan to finish it in one day, and I probably won’t.&lt;/p&gt;
+
+&lt;p&gt;So, I’m also going to be starting &lt;a href=&quot;https://learn.shayhowe.com/html-css/&quot;&gt;Shay Howe’s HTML/CSS course&lt;/a&gt;. I’m not sure if I’m going to double-down and take the advanced course as well. We’ll see.&lt;/p&gt;</content><author><name>Radhika</name></author><summary type="html">Coding Time: Finding it difficult to keep track of time spent accurately. Might change to saying “Full Day,” “Half Day,” or “Just an hour” to simply define how long I felt I worked that day.</summary></entry><entry><title type="html">Coding Log — December 13th, 2017 — Day 4</title><link href="http://rmorabia.com/2017/12/13/log" rel="alternate" type="text/html" title="Coding Log — December 13th, 2017 — Day 4" /><published>2017-12-13T00:00:00-08:00</published><updated>2017-12-13T00:00:00-08:00</updated><id>http://rmorabia.com/2017/12/13/log</id><content type="html" xml:base="http://rmorabia.com/2017/12/13/log">&lt;p&gt;&lt;strong&gt;Coding Time:&lt;/strong&gt; 3 hours-ish&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here’s what I did today:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;continued-to-learn-the-command-line&quot;&gt;Continued to Learn the Command Line&lt;/h3&gt;
+
+&lt;p&gt;I took a day off yesterday. I came back and suddenly this tutorial is trying to teach me vi(m). No, thank you. At this point, the tutorial is becoming too advanced for my own needs. I don’t really need to learn vi(m) or bash scripting or efficiency practices. Not yet, at least. I’m still skimming through it and trying some of it out, but most of it is flying well over my head for lack of use.&lt;/p&gt;
+
+&lt;p&gt;The second half of &lt;a href=&quot;https://ryanstutorials.net/linuxtutorial&quot;&gt;this tutorial&lt;/a&gt; got a lot heavier than the first. I am still not done. I’ve learned a lot, though, and will be posting all of my incoherent notes once I am actually finished with the book.&lt;/p&gt;
+
+&lt;h2 id=&quot;tomorrows-to-dos&quot;&gt;Tomorrow’s To-Do’s&lt;/h2&gt;
+
+&lt;p&gt;FINISH THIS COURSE!&lt;/p&gt;</content><author><name>Radhika</name></author><summary type="html">Coding Time: 3 hours-ish</summary></entry><entry><title type="html">Coding Log — December 11th, 2017 — Day 3</title><link href="http://rmorabia.com/2017/12/11/log" rel="alternate" type="text/html" title="Coding Log — December 11th, 2017 — Day 3" /><published>2017-12-11T00:00:00-08:00</published><updated>2017-12-11T00:00:00-08:00</updated><id>http://rmorabia.com/2017/12/11/log</id><content type="html" xml:base="http://rmorabia.com/2017/12/11/log">&lt;p&gt;&lt;strong&gt;Coding Time:&lt;/strong&gt; 5 hours-ish&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here’s what I did today:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;continued-to-learn-the-command-line&quot;&gt;Continued to Learn the Command Line&lt;/h3&gt;
+
+&lt;p&gt;Sometimes, a resource doesn’t click with you. Sometimes, &lt;em&gt;two resources in a row&lt;/em&gt; don’t click with you. I finally zeroed in on &lt;a href=&quot;https://ryanstutorials.net/linuxtutorial/manual.php&quot;&gt;Ryan’s Tutorials&lt;/a&gt;. I’m about halfway done with it. I will finish tomorrow.&lt;/p&gt;
+
+&lt;p&gt;I expect this will be a problem in the future, but hopefully not to the same extent. I have a few lists of curated resources I’m following. I plan to pull all my future learning from there. None had any courses on the CLI, which I knew I wanted to master, so that’s why this is taking so long.&lt;/p&gt;
+
+&lt;h2 id=&quot;tomorrows-to-dos&quot;&gt;Tomorrow’s To-Do’s&lt;/h2&gt;
+
+&lt;p&gt;I will finish the command line. I may start on Git.&lt;/p&gt;</content><author><name>Radhika</name></author><summary type="html">Coding Time: 5 hours-ish</summary></entry><entry><title type="html">Coding Log — December 10th, 2017 — Day 2</title><link href="http://rmorabia.com/2017/12/10/log" rel="alternate" type="text/html" title="Coding Log — December 10th, 2017 — Day 2" /><published>2017-12-10T00:00:00-08:00</published><updated>2017-12-10T00:00:00-08:00</updated><id>http://rmorabia.com/2017/12/10/log</id><content type="html" xml:base="http://rmorabia.com/2017/12/10/log">&lt;p&gt;&lt;strong&gt;Coding Time:&lt;/strong&gt; 1 hour-ish&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here’s what I did today:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;started-to-learn-the-command-line&quot;&gt;Started to Learn the Command Line&lt;/h3&gt;
+
+&lt;p&gt;Today, I realized I have a problem with learning things I already know. I get extremely distracted and can lose myself for hours. To get to that flow state that keeps me working all night, I have to be working on something I don’t know.&lt;/p&gt;
+
+&lt;p&gt;Does this mean I’m going to lose book learning and switch to project-based learning? Not yet. In the case of building Kevin’s site &amp;amp; my site, I just took shortcuts. I don’t know why anything worked. I just made sure it did. That doesn’t seem smart for the long-term.&lt;/p&gt;
+
+&lt;p&gt;So, my middle ground is that I don’t have to read through a book cover to cover. I hate the beginnings of books the most. In today’s case, I already know what bash is, what ls is, what cd is. I can skim all the way to when I don’t know something. Then, I focus on it.&lt;/p&gt;
+
+&lt;p&gt;Hopefully, this actually accomplishes something &amp;amp; I’m not just destined to never learn again.&lt;/p&gt;
+
+&lt;h2 id=&quot;tomorrows-to-dos&quot;&gt;Tomorrow’s To-Do’s&lt;/h2&gt;
+
+&lt;p&gt;I’m going to go through the command line book and actually finish it tomorrow. It’s short enough that I really should get time to at least work through some of the Git book. I will skim through that, too.&lt;/p&gt;</content><author><name>Radhika</name></author><summary type="html">Coding Time: 1 hour-ish</summary></entry><entry><title type="html">Coding Log — December 9th, 2017 — Day 1</title><link href="http://rmorabia.com/2017/12/09/log" rel="alternate" type="text/html" title="Coding Log — December 9th, 2017 — Day 1" /><published>2017-12-09T00:00:00-08:00</published><updated>2017-12-09T00:00:00-08:00</updated><id>http://rmorabia.com/2017/12/09/log</id><content type="html" xml:base="http://rmorabia.com/2017/12/09/log">&lt;p&gt;Normally, this line would be a time tracker. I haven’t installed one yet. I will soon. I’m still adjusting to Ubuntu.&lt;/p&gt;
+
+&lt;p&gt;Anyway, &lt;strong&gt;here’s what I did today:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;built-this-website&quot;&gt;Built this website!&lt;/h3&gt;
+
+&lt;p&gt;After finishing &lt;a href=&quot;http://kevinacarson.org&quot;&gt;Kevin’s website&lt;/a&gt;, I decided it was time to put my own up. I’ve had a vague idea of what I wanted to do with it for a while.&lt;/p&gt;
+
+&lt;p&gt;As of right now, the plan is to have a static homepage that describes who I am and what I do. Maybe it’ll link to some projects down the line.&lt;/p&gt;
+
+&lt;p&gt;Within that, though, I’ll have a daily code log. I’m going to try to make some sort of coding progress every day. That can be direct coding, reading something, or just making my development environment better. All the code I write will be posted here &amp;amp; on GitHub.&lt;/p&gt;
+
+&lt;p&gt;If I ever solve something through an absurd amount of Googling, I will probably write a tutorial on it. If I write enough of these, I’ll have a new tutorials category for the blog and link that separately from the coding log.&lt;/p&gt;
+
+&lt;p&gt;I moved around between &lt;a href=&quot;http://hexo.io&quot;&gt;Hexo&lt;/a&gt;, &lt;a href=&quot;http://gohugo.io&quot;&gt;Hugo&lt;/a&gt;, and &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; for days. As a future JavaScript expert, I’d prefer to work with a JavaScript generator. When I downloaded Hexo and initiated my site, I found the layout completely foreign. Making custom pages (especially a custom homepage) seemed nearly impossible. It might just be my lack of familiarity.&lt;/p&gt;
+
+&lt;p&gt;I then tried Hugo since that’s what I built Kevin’s website in. Completely foreign, again. So, I gave in and installed Jekyll. I had custom built my website in 2014 using Jekyll, so it couldn’t be that foreign. It really wasn’t. There’s a lot of quirks to Jekyll that are very annoying and have caused a lot of people to move to Hugo, but for now, I don’t care. I apparently don’t know enough about code to know how to change an &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; without completely destroying a site.&lt;/p&gt;
+
+&lt;p&gt;In Jekyll, the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; is right in the root, and the variables(?) are written in a much more human way than with Hugo or Hexo. I may export to Hexo down the line, but for now, this is working.&lt;/p&gt;
+
+&lt;p&gt;Jekyll does, however, have one major catch. &lt;strong&gt;Ruby is a nightmare on Ubuntu.&lt;/strong&gt; It’s much harder to install properly than either Go or Node.js. There are people who say otherwise, but I doubt they’re brand new to the language. I had major issues with installing Ruby, Jekyll, and Bundler. &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; was completely broken at multiple points.&lt;/p&gt;
+
+&lt;p&gt;I ran multiple reinstalls, followed all the StackOverflow advice, and finally Googled this fateful term: “Why is Ruby so hard on Ubuntu?” That led to a StackOverflow answer that linked to &lt;a href=&quot;http://ryanbigg.com/2014/10/ubuntu-ruby-ruby-install-chruby-and-you&quot;&gt;this blog post&lt;/a&gt;. I followed each step completely. Everything works perfectly. It’s almost magical.&lt;/p&gt;
+
+&lt;p&gt;Now, both the front-end and the back-end of my site are set-up and presumably futureproof.&lt;/p&gt;
+
+&lt;h3 id=&quot;learned-markdown&quot;&gt;Learned Markdown.&lt;/h3&gt;
+
+&lt;p&gt;I was already pretty familiar with Markdown from regular usage on GitHub, reddit, and my blog. I’m going to be using it a lot more from now on, though, so I thought it’d be prudent to formally learn it. I took a 30-minute course called &lt;a href=&quot;http://masteringmarkdown.com&quot;&gt;Mastering Markdown&lt;/a&gt;. It’s pretty good. I just got bored during it. I don’t know if video courses are for me, still. I think I’m more of a “learn it when you need it” type of person.&lt;/p&gt;
+
+&lt;p&gt;Regardless, I learned a few new tricks that will hopefully prove useful.&lt;/p&gt;
+
+&lt;h2 id=&quot;tomorrows-to-dos&quot;&gt;Tomorrow’s To-Do’s&lt;/h2&gt;
+
+&lt;p&gt;I’m going to be taking another course from the same creator of the Markdown course. This time, it’s about the Command Line. I’m once again not sure I need it, but I think it’s worth formalizing. After that, I’m going to try to get through a Git book or two. I want to get very familiar with the workflows for my future projects as a solo developer and in the workplace.&lt;/p&gt;
+
+&lt;p&gt;If I still have time, I’ll be learning HTML &amp;amp; CSS again. Just the basics. I’ll learn the advanced stuff as I need it.&lt;/p&gt;</content><author><name>Radhika</name></author><summary type="html">Normally, this line would be a time tracker. I haven’t installed one yet. I will soon. I’m still adjusting to Ubuntu.</summary></entry></feed>

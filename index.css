@@ -1,7 +1,32 @@
+/*
+====================
+Body
+====================
+*/
+
 html,
 body {
     height: 100%;
 }
+
+a:active, a:focus,input, input:active, input:focus{     outline: 0;     outline-style:none;     outline-width:0; }  
+a:active, a:focus,button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner 
+{     border: none; } 
+
+h2, h3, h4 {
+    text-align: center;
+    color: #32b643;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+/*
+==================
+Nav Bar Navigation
+==================
+*/
 
 .floating-navbar {
     position: fixed;
@@ -9,9 +34,15 @@ body {
     top: 0;
     padding: 0 5%;
     background: white;
-    border-bottom: 1px solid rgba(50, 182, 67, 0.5);
-    background: rgba(50, 182, 67, 0.25);
+    border-bottom: 1px solid #32b643;
+    background: #CBEDD0;
 }
+
+/*
+===================
+Intro
+===================
+*/
 
 #intro {
     height: 100%;
@@ -26,3 +57,51 @@ body {
     float: left;
     text-align: center;
 }
+
+#center-intro h1 {
+    font-size: 44px;
+}
+
+#center-intro p {
+    font-size: 24px;
+}
+
+.btn-intro {
+    font-size: 18px;
+}
+
+.next-button {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.btn-intro-down {
+    border: none;
+    background: none;
+    box-shadow: 0;
+}
+
+.btn-intro-down:hover,
+.btn-intro-down:active,
+.btn-intro-down:focus,
+.btn-intro-down:visited
+ {
+    border: none;
+    background: none;
+    box-shadow: 0;
+    outline: none;
+}
+
+.btn-intro-down:::-moz-focus-inner
+{
+    border: 0;
+}
+
+/*
+==========================
+Skills
+==========================
+*/
+

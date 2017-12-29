@@ -13,6 +13,11 @@ body {
     margin-bottom: 20px;
 }
 
+.contain {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 h1, h2, h3, h4 {
     text-align: center;
     margin-bottom: 22px;

@@ -4,19 +4,30 @@ Body
 ====================
 */
 
+font-family: "Muli", Arial, sans-serif;
+
 html,
 body {
     height: 100%;
 }
 
 .divdiv {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .contain {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+.inpage-link {
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+  }
+  
+
 
 h1, h2, h3, h4 {
     text-align: center;
@@ -34,6 +45,9 @@ h5 {
     margin-bottom: 22px;
 }
 
+.active-link {
+    top: 75px;
+}
 
 /*
 ==================
@@ -49,6 +63,7 @@ Nav Bar Navigation
     padding: 0 5%;
     border-bottom: 1px solid #32b643;
     background: #CBEDD0;
+    height: 90px;
 }
 
 /*
@@ -57,12 +72,12 @@ Intro
 ===================
 */
 
-#intro {
+.intro {
     height: 100%;
     width: 100%;
 }
 
-#center-intro {
+.center-intro {
     position: relative;
     top: 50%;
     left: 50%;
@@ -81,6 +96,7 @@ Intro
 
 .btn-intro {
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .next-button {
@@ -99,4 +115,8 @@ Skills
 
 .skill h5 {
     line-height: 1;
+}
+
+.skdill .bar-ditem {
+    margin-left: 10px;
 }

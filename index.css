@@ -4,11 +4,10 @@ Body
 ====================
 */
 
-font-family: "Muli", Arial, sans-serif;
-
 html,
 body {
     height: 100%;
+    font-family: "Muli", Arial, sans-serif;
 }
 
 .divdiv {

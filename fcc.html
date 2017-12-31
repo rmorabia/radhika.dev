@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,600" rel="stylesheet">
     <link rel="stylesheet" href="spectre/spectre.min.css">
     <link rel="stylesheet" href="spectre/spectre-exp.min.css">
     <link rel="stylesheet" href="spectre/spectre-icons.min.css">
@@ -23,13 +23,13 @@
             <section class="navbar-section">
                 <ul class="input-group input-inline">
                     <li class="btn btn-link">
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li class="btn btn-link">
-                        <a href="#experience">Experience</a>
+                        <a class="nav-color" href="#skills">Skills</a>
                     </li>
                     <li class="btn btn-link">
                         <a href="#projects">Projects</a>
+                    </li>
+                    <li class="btn btn-link">
+                        <a href="#experience">Experience</a>
                     </li>
                     <li class="btn btn-link">
                         <a href="/log">Log</a>
@@ -66,7 +66,7 @@
             </a>
         </div>
     </section>
-    <div class="divider divdiv"></div>
+    <div class="divider"></div>
 
     <!-- Skills -->
 
@@ -143,100 +143,13 @@
             </div>
         </div>
     </section>
-    <div class="divider divdiv"></div>
-    <section class="experience">
-        <h2 id="experience">Experience</h2>
-        <div class="timeline">
-            <div class="timeline-item" id="timeline-example-1">
-                <div class="timeline-left">
-                    <a class="timeline-icon" href="#timeline-example-1"></a>
-                </div>
-                <div class="timeline-content">
-                    <!-- tiles structure -->what
-                </div>
-            </div>
+    <div class="divider"></div>
 
-            <div class="timeline-item" id="timeline-example-2">
-                <div class="timeline-left">
-                    <a class="timeline-icon icon-lg" href="#timeline-example-2">
-                        <i class="icon icon-check"></i>
-                    </a>
-                </div>
-                <div class="timeline-content">
-                    <!-- tiles structure -->
-                </div>
-            </div>
-            ...
-        </div>
-        <div class="timeline">
-            <div class="timeline-item" id="timeline-example-1">
-                <div class="timeline-left">
-                    <a href="#timeline-example-1" class="timeline-icon tooltip" data-tooltip="March 2016"></a>
-                </div>
-                <div class="timeline-content">
-                    <div class="tile">
-                        <div class="tile-content">
-                            <p class="tile-subtitle">March 2016</p>
-                            <p class="tile-title">Initial commit</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="timeline-example-2">
-                <div class="timeline-left">
-                    <a href="#timeline-example-2" class="timeline-icon icon-lg tooltip" data-tooltip="February 2017">
-                        <i class="icon icon-check"></i>
-                    </a>
-                </div>
-                <div class="timeline-content">
-                    <div class="tile">
-                        <div class="tile-content">
-                            <p class="tile-subtitle">February 2017</p>
-                            <p class="tile-title">New Documents experience</p>
-                            <p class="tile-title">
-                                <a href="components.html#bars">Bars</a>: represent the progress of a task</p>
-                            <p class="tile-title">
-                                <a href="components.html#steps">Steps</a>: progress indicators of a sequence of task steps</p>
-                            <p class="tile-title">
-                                <a href="components.html#tiles">Tiles</a>: repeatable or embeddable information blocks</p>
-                        </div>
-                        <div class="tile-action">
-                            <button class="btn">View</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="timeline-example-3">
-                <div class="timeline-left">
-                    <a href="#timeline-example-3" class="timeline-icon icon-lg tooltip" data-tooltip="March 2017">
-                        <i class="icon icon-check"></i>
-                    </a>
-                </div>
-                <div class="timeline-content">
-                    <div class="tile">
-                        <div class="tile-content">
-                            <p class="tile-subtitle">March 2017</p>
-                            <p class="tile-title">
-                                <a href="elements.html#icons">Icons</a>: single-element, responsive and pure CSS icons</p>
-                            <p class="tile-title">
-                                <a href="components.html#popovers">Popovers</a>: small overlay content containers</p>
-                            <p class="tile-title">
-                                <a href="experimentals.html#calendars">Calendars</a>: date or date range picker and events display</p>
-                            <p class="tile-title">
-                                <a href="experimentals.html#carousels">Carousels</a>: slideshows for cycling images</p>
-                        </div>
-                        <div class="tile-action">
-                            <button class="btn">View</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Projects -->
 
-    </section>
-    <div class="divider divdiv"></div>
     <section class="projects">
-        <h2 id="projects">Projects</h2>
+        <a class="inpage-link" name="projects"></a>
+        <h2>Projects</h2>
         <div class="card">
             <div class="card-header">
                 <div class="card-title h5">Apple</div>
@@ -276,21 +189,110 @@
             </div>
         </div>
     </section>
-    <div class="divider divdiv"></div>
-    <section class="contact">
-        <h2 id="contact">Contact</h2>
-        <form class="form-horizontal">
-            <div class="form-group">
-                <div class="col-3">
-                    <label class="form-label" for="input-example-1">Name</label>
+    <div class="divider"></div>
+
+    <!-- Experience -->
+
+    <section class="experience contain">
+        <a class="inpage-link" name="experience"></a>
+        <h2>Professional Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item" id="marketing-strategist">
+                <div class="timeline-left">
+                    <a href="#marketing-strategist" class="timeline-icon tooltip" data-tooltip="2016"></a>
                 </div>
-                <div class="col-9">
-                    <input class="form-input" type="text" id="input-example-1" placeholder="Name">
+                <div class="timeline-content">
+                    <div class="tile">
+                        <div class="tile-content">
+                            <p class="tile-subtitle">Marketing Strategist</p>
+                            <h5>FreelanceToWin</h5>
+                            <ul class="tile-title">
+                                <li>Worked with a small team to grow revenue by over 300% within a year</li>
+                                <li>Revamped core education product from the bottom up, focusing on making the course easy to
+                                    read and digest</li>
+                                <li>Wrote and edited blog posts, email newsletters, and more to develop a focused voice to the
+                                    brand</li>
+                            </ul>
+                        </div>
+                        <p>Aug 2015 - June 2016</p>
+                    </div>
                 </div>
             </div>
-            <!-- form structure -->
-        </form>
+            <div class="timeline-item" id="freelance-marketing">
+                <div class="timeline-left">
+                    <a href="#freelance-marketing" class="timeline-icon tooltip" data-tooltip="2015">
+                    </a>
+                </div>
+                <div class="timeline-content">
+                    <div class="tile">
+                        <div class="tile-content">
+                            <p class="tile-subtitle">Freelance Digital Marketing Consultant</p>
+                            <ul class="tile-title">
+                                <li>Worked with a variety of clients on email campaigns, content marketing, and A/B testing</li>
+                                <li>Created engaging content that converted prospective buyers into paying customers</li>
+                                <li>Organized and consolidated clients' marketing efforts into a manageable and effective campaign</li>
+                            </ul>
+                        </div>
+                        <p>Aug 2014 - Jun 2016</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item" id="blogger">
+                <div class="timeline-left">
+                    <a href="#blogger" class="timeline-icon tooltip" data-tooltip="2014">
+                    </a>
+                </div>
+                <div class="timeline-content">
+                    <div class="tile">
+                        <div class="tile-content">
+                            <p class="tile-subtitle">Personal Development Blogger</p>
+                            <h5>rmorabia.com</h5>
+                            <ul class="tile-title">
+                                <li>Wrote weekly blog posts that focused on actionable self-development concepts</li>
+                                <li>Attracted thousands of visitors a month</li>
+                                <li>Converted visitors into hundreds of engaged newsletter subscribers</li>
+                            </ul>
+                        </div>
+                        <p>Sep 2013 - Dec 2014 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <div class="divider"></div>
+
+    <!-- Contact -->
+
+    <a class="inpage-link" name="contact"></a>
+    <section class="contact contain">
+        <h2>Get in Touch</h2>
+        <div class="container">
+            <div class="columns">
+                <div class="column col-7">
+                    <form action="https://formspree.io/hi@rmorabia.com"
+                    method="POST" class="form-group">
+                        <label name="Name" for="name">
+                            <input name="name" class="form-input" type="text" id="name" placeholder="Name">
+                        </label>
+                        <label name="Email" for="Email">
+                            <input name="_replyto" class="form-input" type="email" id="email" placeholder="Email">
+                        </label>
+                        <label name="Message" for="message">
+                            <textarea class="form-input" id="message" placeholder="Message" rows="5"></textarea>
+                        </label>
+                        <button type="submit" value="Send" class="btn btn-primary submit-button">Submit</button>
+                    </form>
+                </div>
+                <div class="column col-5">
+                        <p>I'm based in Los Angeles, but am available for hire anywhere in the United States.</p>
+                        <p>If you like what you see, please get in touch!</p>
+                    </div>
+            </div>
+        </div>     
+    </section>
+
+    <!-- Footer -->
+
     <footer>
         footer stuff
     </footer>

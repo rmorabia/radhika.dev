@@ -10,10 +10,6 @@ body {
     font-family: "Muli", Arial, sans-serif;
 }
 
-.divdiv {
-    margin-bottom: 50px;
-}
-
 .contain {
     margin-left: 5%;
     margin-right: 5%;
@@ -24,9 +20,7 @@ body {
     position: relative;
     top: -120px;
     visibility: hidden;
-  }
-  
-
+}
 
 h1, h2, h3, h4 {
     text-align: center;
@@ -35,6 +29,7 @@ h1, h2, h3, h4 {
 
 h2 {
     font-size: 36px;
+    margin-top: 50px;
 }
 
 h5 {
@@ -44,8 +39,8 @@ h5 {
     margin-bottom: 22px;
 }
 
-.active-link {
-    top: 75px;
+li {
+    list-style: square outside;
 }
 
 /*
@@ -63,6 +58,10 @@ Nav Bar Navigation
     border-bottom: 1px solid #32b643;
     background: #CBEDD0;
     height: 90px;
+}
+
+.navbar-section a {
+    font-weight: 600;
 }
 
 /*
@@ -116,6 +115,38 @@ Skills
     line-height: 1;
 }
 
-.skdill .bar-ditem {
-    margin-left: 10px;
+/* 
+===========================
+Projects
+===========================
+*/
+
+
+/*
+=====================
+Experience
+=====================
+*/
+
+.tile h5 {
+    color: #bdbdbd;
 }
+
+
+/*
+====================
+Contact
+====================
+*/
+
+input,
+textarea {
+    margin-bottom: 15px;
+}
+
+/* .submit-button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 15px;
+}*/

@@ -121,10 +121,6 @@ Projects
 ===========================
 */
 
-p {
-    color: green;
-}
-
 /*
 =====================
 Experience
@@ -135,7 +131,7 @@ Experience
     color: #bdbdbd;
 }
 
-.tile p {
+.tile div p {
     color: green;
 }
 

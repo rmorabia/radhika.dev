@@ -132,6 +132,9 @@ Experience
     color: #bdbdbd;
 }
 
+.tile p {
+    color: green;
+}
 
 /*
 ====================

@@ -40,7 +40,7 @@ h5 {
 }
 
 li {
-    list-style: square outside;
+    list-style: outside;
 }
 
 /*
@@ -56,7 +56,7 @@ Nav Bar Navigation
     top: 0;
     padding: 0 5%;
     border-bottom: 1px solid #32b643;
-    background: #CBEDD0;
+    background: #cbedd0;
     height: 90px;
 }
 
@@ -121,6 +121,11 @@ Projects
 ===========================
 */
 
+.card {
+    margin-bottom: 15px;
+}
+
+
 /*
 =====================
 Experience
@@ -131,7 +136,11 @@ Experience
     color: #bdbdbd;
 }
 
-.tile-subtitle {
+.tile li {
+    list-style: square;
+}
+
+.timeline-title {
     color: #32b643;
 }
 
@@ -146,9 +155,18 @@ textarea {
     margin-bottom: 15px;
 }
 
-/* .submit-button {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 15px;
-}*/
+/*
+=====================
+Footer
+=====================
+*/
+
+footer {
+    margin-top: 22px;
+    background-color: #cbedd0;
+    border-top: 1px solid #32b643;
+    padding-top: 10px;
+    text-align: center;
+    height: 60px;
+
+}

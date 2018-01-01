@@ -184,6 +184,7 @@ Mobile
 @media all and (max-width:480px) {
     h1 {
         font-size: 2em;
+        padding: 5%;
     }
 
     .intro p {

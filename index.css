@@ -10,6 +10,11 @@ body {
     font-family: "Muli", Arial, sans-serif;
 }
 
+::selection {
+	background: #32b643;
+	color: #000;
+}
+
 .contain {
     margin-left: 5%;
     margin-right: 5%;

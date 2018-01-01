@@ -12,7 +12,7 @@ body {
 
 ::selection {
 	background: #32b643;
-	color: #000;
+	color: #fff;
 }
 
 .contain {
@@ -173,4 +173,20 @@ footer {
     text-align: center;
     height: 60px;
 
+}
+
+/*
+===================
+Mobile
+===================
+*/
+
+@media all and (max-width:480px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .intro p {
+            font-size: .8rem;
+    }
 }

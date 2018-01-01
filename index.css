@@ -96,6 +96,10 @@ Intro
     font-size: 24px;
 }
 
+.intro h1 {
+    font-size: 44px;
+}
+
 .btn-intro {
     font-size: 18px;
     margin-bottom: 10px;

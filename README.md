@@ -10,4 +10,4 @@ It's mobile-responsive and accessibility-friendly, so check it out in any browse
 
 ## Blog
 
-Within the home page, I host a blog using [Jekyll](https://jekyllrb.com/). I display it using the [Tale theme](https://github.com/chesterhow/tale/). Down the line, I hope to replace the Tale theme with my own code that is designed like the homepage. 
+I also host a [blog](http://rmorabia.com/log) using [Jekyll](https://jekyllrb.com/). I display it using the [Tale theme](https://github.com/chesterhow/tale/). Down the line, I hope to replace the Tale theme with my own code that is designed like the homepage. 

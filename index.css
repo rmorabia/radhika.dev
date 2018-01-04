@@ -188,6 +188,10 @@ Mobile
     }
 
     .intro p {
-            font-size: .8rem;
+        font-size: .8rem;
+    }
+
+    .btn-intro {
+        font-size: .8rem;
     }
 }

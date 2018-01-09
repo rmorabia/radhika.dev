@@ -13,12 +13,12 @@ markdown:       kramdown
 highlighter:    rouge
 
 # About
-#  name:         Radhika Morabia
-#  url:          http://rmorabia.com
-#  email:        hi@rmorabia.com
+name: Radhika Morabia
+url: http://rmorabia.com
+email: hi@rmorabia.com
+# description: Radhika Morabia is an aspiring JavaScript developer who writes a daily code blog documenting what she's learning.
 
 # Gems
 plugins-dir:
   - jekyll-paginate
-  - jekyll-feed
 gems: [jekyll-paginate]

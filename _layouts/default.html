@@ -1,30 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,600" rel="stylesheet">
+        <link rel="stylesheet" href="/spectre/spectre.min.css">
+        <link rel="stylesheet" href="/spectre/spectre-exp.min.css">
+        <link rel="stylesheet" href="/spectre/spectre-icons.min.css">
+        <link rel="stylesheet" href="/style.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/spectre/monokai.css">
+      
+        <title>
+          {% if page.title == "Home" %}
+            {{ site.title }}
+          {% else %}
+            {{ page.title }} &middot; Radhika Morabia
+          {% endif %}
+        </title>
+      </head>
 
   <body>
-    <nav class="nav">
-      <div class="nav-container">
-        <a href="{{ site.baseurl }}/">
-          <h2 class="nav-title">{{ site.title }}</h2>
-        </a>
-        <ul>
-          <li><a href="{{ site.baseurl }}/">About</a></li>
-                    <li><a href="{{ '/log' | prepend: site.baseurl }}/">Log</a></li>
-                    <li><a href="http://github.com/rmorabia">GitHub</a></li>
-        </ul>
-    </div>
-  </nav>
+
+    <header>
+      <nav class="navbar floating-navbar">
+          <section class="navbar-section">
+              <a href="/" class="navbar-brand mr-2">Radhika Morabia</a>
+          </section>
+          <section class="navbar-section">
+              <ul class="input-group input-inline">
+                  <li class="btn btn-link">
+                      <a class="nav-color" href="/#skills">Skills</a>
+                  </li>
+                  <li class="btn btn-link">
+                      <a href="/#projects">Projects</a>
+                  </li>
+                  <li class="btn btn-link">
+                      <a href="/#experience">Experience</a>
+                  </li>
+                  <li class="btn btn-link">
+                      <a href="/log">Log</a>
+                  </li>
+                  <li class="btn btn-link">
+                      <a href="/#contact">Contact</a>
+                  </li>
+              </ul>
+          </section>
+      </nav>
+  </header>
 
     <main>
+      <div class="spacefornavbar">
       {{ content }}
+      </div>
     </main>
 
-    <footer>
-      <span>
-        Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <br />Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
-      </span>
-    </footer>
+    <div>
+    <footer clas="footer-container">
+        <p>Built by Radhika Morabia.
+            <a href="https://github.com/rmorabia/rmorabia.github.io">Source on GitHub.</a>
+        </p>
+    </footer></div>
+
   </body>
 </html>

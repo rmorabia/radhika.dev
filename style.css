@@ -259,6 +259,10 @@ Pagination
     color: #50596c;
 }
 
+.pagination-styles h1 {
+    text-align: left;
+}
+
 .pagination-intro {
     text-align: center;
 }

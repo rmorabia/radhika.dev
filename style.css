@@ -214,7 +214,7 @@ Blog Posts
 }
 
 .post-date {
-    text-align: center;
+    text-align: left;
     color: #32b643;
 }
 
@@ -252,11 +252,6 @@ Pagination
 
 .pag-div {
     margin-top: 30px;
-}
-
-.pagination-styles {
-    text-align: left;
-    color: #50596c;
 }
 
 .pagination-styles h1 {

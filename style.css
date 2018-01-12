@@ -204,6 +204,7 @@ Blog Posts
 
 .blog-container {
     margin: 0 auto;
+    padding: 0 5%;
     font-size: 1.1em;
     max-width: 1000px;
 }
@@ -235,6 +236,7 @@ Blog Posts
   }
   
 .post-bottom {
+    max-width: 1000px;
     text-align: center;
     font-style: italic;
   }

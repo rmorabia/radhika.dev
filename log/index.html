@@ -34,7 +34,7 @@ title: Coding Log
   
 </div>
 
-<!--<div class="container post-bottom">
+<div class="container post-bottom">
     <div class="columns">
       <div class="column col-1">
         {% if paginator.previous_page %}
@@ -42,15 +42,17 @@ title: Coding Log
             {% endif %}
             </div>
     <div class="column col-10">
+      <div class="page-item active">
         {{ paginator.page }}
     </div>
+  </div>
     <div class="column col-1">
         {% if paginator.next_page %}
           <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right"><i class="fas fa-angle-double-right"></i></a>
         {% endif %}
         </div>
   </div>
-  </div>-->
+  </div>
 
 <div class="post-bottom">
 <ul class="pagination">

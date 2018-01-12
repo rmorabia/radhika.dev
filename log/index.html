@@ -52,9 +52,10 @@ title: Coding Log
   </div>
   </div>-->
 
-
+<div class="post-bottom">
 <ul class="pagination">
   {% if paginator.previous_page %}<li class ="page-item"> <a href="{{ paginator.previous_page_path }}">Previous</a></li>{% endif %}
   <li class="page-item active">{{ paginator.page }}</li>
   {% if paginator.next_page %}<li class="page-item"><a href="{{ paginator.next_page_path }}"></a></li>{% endif %}
 </ul>
+</div>

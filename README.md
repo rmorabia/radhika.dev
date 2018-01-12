@@ -1,13 +1,7 @@
 # Radhika Morabia's personal website
 
-This is a static website with a few different components.
+This is a static website made with [Jekyll](http://jekyllrb.com). I designed it myself with loads of help from the [Spectre CSS Framework](https://picturepan2.github.io/spectre/).
 
-## Home Page
+Right now, the site is made entirely in HTML & CSS. I hope to add JavaScript & CSS animations in once I get a good handle on them.
 
-The index is coded by me, Radhika Morabia, with loads of help from the CSS frameowork [Spectre](https://picturepan2.github.io/spectre/).
-
-It's mobile-responsive and accessibility-friendly, so check it out in any browser you'd like!
-
-## Blog
-
-I also host a [blog](http://rmorabia.com/log) using [Jekyll](https://jekyllrb.com/). I display it using the [Tale theme](https://github.com/chesterhow/tale/). Down the line, I hope to replace the Tale theme with my own code that is designed like the homepage. 
+The site is a never-ending work in progress.

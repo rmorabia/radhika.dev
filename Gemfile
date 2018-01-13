@@ -26,4 +26,4 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "jekyll-paginate"
-gem "jekyll-rss-feed"
+gem "jekyll-feed"

@@ -22,3 +22,6 @@ description: Radhika Morabia is an aspiring JavaScript developer who writes a da
 plugins-dir:
   - jekyll-paginate
 gems: [jekyll-paginate]
+
+plugins:
+  - jekyll-feed

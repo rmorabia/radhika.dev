@@ -12,6 +12,9 @@ paginate_path:  "/log/page/:num/"
 markdown:       kramdown
 highlighter:    rouge
 
+kramdown:
+  input: GFM
+
 # About
 name: Radhika Morabia
 url: http://rmorabia.com

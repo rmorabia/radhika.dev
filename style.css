@@ -137,8 +137,12 @@ Skills
 */
 
 
-.skill h5 {
-    line-height: 1;
+.skill {
+    text-align: center;
+}
+
+.skill .btn {
+    text-transform: uppercase;
 }
 
 /* 

@@ -145,6 +145,26 @@ Skills
     text-transform: uppercase;
 }
 
+.skill .html {
+    background-color: #F26525;
+    border-color: #E54C21;
+}
+
+.skill .css {
+    background-color: #1FABDC;
+    border-color: #016FBA;
+}
+
+.skill .js {
+    background-color: #F0DA50;
+    border-color: #D6BA32;
+}
+
+.skill .git {
+    background-color: #F05134;
+    border-color: #D53F27;
+}
+
 /* 
 ===========================
 Projects

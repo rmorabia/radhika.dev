@@ -48,14 +48,15 @@ ul {
 }
 
 pre code {
-    border-radius:.1rem;
-    position:relative;
-    background:#272822;
-    color:inherit;
-    display:block;line-height:1.5;
-    overflow-x:auto;
-    padding:1rem;
-    width:100%
+    border-radius: .1rem;
+    position: relative;
+    background: #fdf6e3;
+    color: inherit;
+    display: block;
+    line-height: 1.5;
+    overflow-x: auto;
+    padding: 1rem;
+    width: 100%
 }
 
 /*

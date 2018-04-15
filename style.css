@@ -165,6 +165,21 @@ Skills
     border-color: #D53F27;
 }
 
+.skill .react {
+    background-color: #61DBFB;
+    border-color: #61DBFB;
+}
+
+.skill .webpack {
+    background-color: #1C78C0;
+    border-color: #8ED5FA;
+}
+
+.skill .vscode {
+    background-color: #373277;
+    border-color: #0076BF;
+}
+
 /* 
 ===========================
 Projects

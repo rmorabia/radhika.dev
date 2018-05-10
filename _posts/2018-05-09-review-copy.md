@@ -1,0 +1,146 @@
+---
+layout: post
+title: "Month in Review: April"
+categories: review
+---
+
+This is late, I know. I'm not really sorry. I fell out of the blog habit. I was still coding almost every day, I just didn't want to blog about it. If you read my last few days of the blog, it's the bare minimum. This post exists to talk in more detail about what I've actually accomplished this past month. I won't be filling in the dates I lost, but I will begin tracking again as of Monday.
+
+I'm hitting refresh on Monday. Everything's going back to normal.
+
+## What I Want to Accomplish in April
+
+1. Finish the React course.
+2. Build one solo project in React.
+3. Build one collaborative project in React.
+
+**BONUS STUFF:**
+
+1. Write some articles on React. (I'll explain this when I do it.)
+2. FIX KEVIN'S WEBSITE.
+3. Work on my own website.
+4. Work on Saoirse's website.
+5. Build any extra React projects.
+
+## What I Actually Accomplished in April
+
+Well, what I wanted to accomplish didn't change much over the month. But, let's just say I performed poorly.
+
+### Finished the React course... Halfway
+
+I don't know what to say about this. I have no justification for my constant failure to even get through a section a day.
+
+The weird part is that when I sat down and told myself that I would get through a section today, I did get through the section all in one day. It was extremely hard, but I did it.
+
+It's just the 22 other days where I didn't really tell myself to get through a whole section in one day. My brain hurt a lot more from learning the new React than learning JavaScript was a few months ago.
+
+I kept itching to just be able to code something, but a big problem with React is that you have to learn most everything upfront before you can code any real sort of application.
+
+None of that is the course's fault, though. [Andrew Mead](http://mead.io) is by far my favorite instructor so far. He's extremely thorough and challenging. We code along with him and stop to code on our own every so often. I feel like despite not stopping for several hours of his course, I can code an app with relative ease after going through the first half of the course.
+
+Andrew is like if [Gordon Zhu's](http://watchandcode.com) iterativeness met a project-based approach. It's the best of all worlds. He has a [Node.js course](https://www.udemy.com/the-complete-nodejs-developer-course-2) as well, and I definitely plan to take it once I'm done with React.
+
+How far actually am I in the course?
+
+It's split into two sections -- basic & advanced React. We complete two different projects with him. I finished the first project, the [Indecision App](http://indecision.mead.io).
+
+In the course outline, it looks like this:
+
+1. [X] Section 1: Welcome 2 / 2
+2. [X] Section 2: Setting up Your Environment 3 / 3
+3. [X] Section 3: Hello React 16 / 16
+4. [X] Section 4: React Components 17 / 17
+5. [X] Section 5: Stateless Functional Components 8 / 8
+6. [X] Section 6: Webpack 12 / 12
+7. [X] Section 7: Using a Third-Party Component 4 / 4
+8. [X] Section 8: Styling React 11 / 11
+9. [ ] Section 9: React-Router 0 / 9
+10. [ ] Section 10: Redux 0 / 15
+11. [ ] Section 11: React with Redux 0 / 13
+12. [ ] Section 12: Testing Your Application 0 / 17
+13. [ ] Section 13: Deploying Your Apps 0 / 13
+14. [ ] Section 14: Firebase 101 0 / 10
+15. [ ] Section 15: Firebase with Redux 0 / 10
+16. [ ] Section 16: Firebase Authentication 0 / 9
+17. [ ] Section 17: Styling Expensify 0 / 12
+18. [ ] Section 18: What Now?  0 / 6
+19. [ ] Section 19: Upgrade Guides 0 / 1
+20. [ ] Section 20: Free Mini-Courses 0 / 1
+
+For the second half, I'm most interested in Router, Redux, and Testing. I'm not sure about Firebase so far. I think I'll at least get to the "Firebase 101" and see if it feels important. Otherwise, I've never heard anyone mention Firebase before.
+
+For now, this is enough to build at least a few React projects. I'll be out some React apps for a week or more and then I'll get back to the course.
+
+I was really lost during this past month. I think I'll be more disciplined and be able to get through the practice & the second half faster starting Monday.
+
+### Finished [Tyler McGinnis' Free React Bootcamp](https://tylermcginnis.com/free-react-bootcamp/)
+
+I really don't like Tyler McGinnis' teaching style. I don't think I learned anything. It's a waste of time unless you like starting from the lower level and then learning the higher level stuff.
+
+I'm a huge fan of Andrew's teaching style, so I'm sticking with him. I kind of regret wasting so much time on watching these videos, too. I feel like I got nothing out of it. I didn't even finish the 4th one because I got so bored.
+
+But I did it, so it counts.
+
+### Made [Cool Pics of Cool Things](http://rmorabia.com/coolpics)
+
+This was a quick project I made in JavaScript, not React. I think it's the best code I've written thus far. I had a ton of fun with it.
+
+I actually used a ton of external libraries to try to get familiar with that. I really missed having NPM right there to make loading external things easier. But, it was really good practice for not building everything by hand.
+
+Also, weirdly enough -- Building this in vanilla JavaScript finally made me understand React. While I was building it, I kept thinking, "I could just make this in React, I could just make this in React." This will be one of the projects I recreate in React just to have the experience of doing both.
+
+### Hosted my first [CodeBuddies Hangout](http://codebuddies.org)
+
+I was asked to cover some intro to React stuff, so I did. It went well. We had a very small crowd and it was a really good chance to test my knowledge by trying to explain it. I had to take a bit off, but I'll be picking it back up this Monday. It should be a weekly series from now on. 
+
+It's a lot less stressful than the YouTube videos. Live is definitely my stronger suit. I feel like I'm actually talking to people because I am.
+
+### Switched to Arch
+
+I accidentally broke my computer & had to make the choice between keeping my Windows boot or my Linux boot. I chose Windows because legal copies are good. So, I took this as the opportunity to build the Linux system I always wanted.
+
+I'm running [Antergos](http://antergos.com) (Arch on easy mode) and after a few hiccups, everything's running perfectly. I changed my desktop environment (the visual part of the operating system) to be [i3](http://i3wm.org), which is entirely controlled by the keyboard. It's great.
+
+![My desktop setup](https://i.imgur.com/QHQ3Rhs.png)
+
+It's very fast, very efficient, and easy to work with after getting used to the keyboard shortcuts.
+
+### Learned a bit of Vim
+
+All of this keyboard shortcuts, terminal use, and Linux has made me really want to learn Vim. It's extremely efficient just like i3. It's a tough switch, though. I've only gone through `vimtutor` a few times, I'm not ready to really work with any files with it myself. I'm writting this in Visual Studio Code right now.
+
+I want to switch to it eventually, maybe. We'll see. It's still too early stages to tell.
+
+### Fixed Kevin's Website
+
+This took 5 minutes and I wish I had done it sooner. But it's off te todo list. But, at the same time, the todo list grows ever longer. I'm just glad it's done.
+
+## What I Didn't Get to Accomplish in April
+
+That's it?!
+
+Yep, that's it.
+
+This means that all of that list wasn't accomplished. I still haven't written any sort of app in React. I'm nowhere near done & comfortable with it. Oh well. Let's just pretend April never happened, yes? 
+
+### What I Want to Accomplish in May
+
+This is basically the same list as last month.
+
+1. Finish the React course.
+2. Build ~one~ a few solo projects in React.
+3. Build one collaborative project in React.
+
+That's about it.
+
+**BONUS STUFF:**
+
+1. Write some articles about React.
+2. Continue hosting Hangouts.
+3. Make a resume.
+4. Continue to work on the `README`s for my projects.
+5. Work on fixing my website.
+
+Basically, I mainly want to work on React. On the side, I want to continue to get more job-ready.
+
+That's all. Thanks for reading. I'll see you on Monday when we start doing this in full-swing.

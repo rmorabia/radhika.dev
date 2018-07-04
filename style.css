@@ -1,335 +1,123 @@
-/*
-====================
-Body
-====================
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
-html,
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-    height: 100%;
-    font-family: "Muli", Arial, sans-serif;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-::selection {
-	background: #32b643;
-	color: #fff;
-}
-
-.contain {
-    margin-left: 5%;
-    margin-right: 5%;
-}
+html {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}  
 
 h1 {
-    font-size: 44px;
-    text-align: center;
-    margin-bottom: 22px;
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  padding: 1rem;
+  line-height: 6rem;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 3rem;
 }
 
-h3, h4 {
-    margin-bottom: 22px;
+body {
+	background-color: #32b643;
+  padding: 0px;
+  margin: 0px;
+  color: #FFF;
 }
 
-h2 {
-    font-size: 36px;
-    margin-top: 50px;
-    margin-bottom: 22px;
+p {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  padding: 1rem;
+  line-height: 2rem;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2rem;
 }
 
-h5 {
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-bottom: 22px;
+#gradient
+{
+  width: 100%;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
 }
 
-ul {
-    list-style: outside;
+a {
+  color: #FFF;
+  text-decoration: none;
 }
 
-pre code {
-    border-radius: .1rem;
-    position: relative;
-    color: inherit;
-    display: block;
-    line-height: 1.5;
-    overflow-x: auto;
-    padding: 1rem;
-    width: 100%
+a:hover,
+a:active {
+  text-decoration: underline;
 }
 
-/*
-==============
-Index
-==============
-*/
-
-.inpage-link {
-    display: block;
-    position: relative;
-    top: -120px;
-    visibility: hidden;
+#links {
+  font-family: 'Didact Gothic', 'Arial', sans-serif;
 }
 
-.index-headings h1,
-.index-headings h2, 
-.index-headings h3, 
-.index-headings h4 {
-    text-align: center;
-}
-
-/*
-==================
-Nav Bar Navigation
-==================
-*/
-
-.floating-navbar {
-    z-index: 100;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    padding: 0 5%;
-    border-bottom: 1px solid #32b643;
-    background: #cbedd0;
-    height: 90px;
-}
-
-.navbar-section a {
-    font-weight: 600;
-}
-
-/*
-===================
-Intro
-===================
-*/
-
-.intro {
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 100vh;
-    width: 100%;   
-    text-align: center; 
-}
-
-.intro p {
-    font-size: 24px;
-}
-
-.btn-intro {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.next-button {
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-}
-
-/*
-====================
-Skills
-====================
-*/
-
-
-.skill {
-    text-align: center;
-}
-
-.skill .btn {
-    text-transform: uppercase;
-}
-
-.skill .html {
-    background-color: #F26525;
-    border-color: #E54C21;
-}
-
-.skill .css {
-    background-color: #1FABDC;
-    border-color: #016FBA;
-}
-
-.skill .js {
-    background-color: #F0DA50;
-    border-color: #D6BA32;
-}
-
-.skill .git {
-    background-color: #F05134;
-    border-color: #D53F27;
-}
-
-.skill .react {
-    background-color: #61DBFB;
-    border-color: #61DBFB;
-}
-
-.skill .webpack {
-    background-color: #1C78C0;
-    border-color: #8ED5FA;
-}
-
-.skill .vscode {
-    background-color: #373277;
-    border-color: #0076BF;
-}
-
-/* 
-===========================
-Projects
-===========================
-*/
-
-.card {
-    margin-bottom: 15px;
-}
-
-
-/*
-=====================
-Experience
-=====================
-*/
-
-.tile h5 {
-    color: #bdbdbd;
-}
-
-.tile li {
-    list-style: square;
-}
-
-.timeline-title {
-    color: #32b643;
-}
-
-/*
-====================
-Contact
-====================
-*/
-
-input,
-textarea {
-    margin-bottom: 15px;
-}
-
-/*
-=====================
-Footer
-=====================
-*/
-
-footer {
-    margin-top: 22px;
-    background-color: #cbedd0;
-    border-top: 1px solid #32b643;
-    padding-top: 10px;
-    text-align: center;
-    height: 60px;
-}
-
-/*
-==========================
-Blog Posts
-==========================
-*/
-
-.blog-container {
-    margin: 0 auto;
-    padding: 0 5%;
-    font-size: 1.1em;
-    max-width: 1000px;
-}
-
-.spacefornavbar {
-    margin-top: 120px;
-}
-
-.post-date {
-    text-align: left;
-    color: #32b643;
-}
-
-.blog-container h2,
-.blog-container h3,
-.blog-container h4 {
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-.left {
-    position: absolute;
-    left: 10%;  
+@media (max-width: 576px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+    margin-left: 2rem;
   }
   
-.right {
-    position: absolute;
-    right: 10%;
+  p {
+    margin-top: 0rem;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    font-size: 1rem;
   }
   
-.post-bottom {
-    text-align: center;
-    font-style: italic;
+  #links {
+    font-size: 1.25rem;
   }
-
-.blog-div {
-    margin: 30px 0;
-}
-
-/*
-==================
-Pagination
-==================
-*/ 
-
-.pag-div {
-    margin-top: 30px;
-}
-
-.pagination-styles h1 {
-    text-align: left;
-}
-
-.pagination-intro {
-    text-align: center;
-}
-
-.post-space {
-   color: #50596c; 
-   margin: 2em;
-}
-
-.post-space:hover,
-.post-space:active,
-.post-space:visited {
-    color: #50596c;
-    text-decoration: none;
-}
-
-/*
-===================
-Mobile
-===================
-*/
-
-@media all and (max-width:480px) {
-    h1 {
-        font-size: 2em;
-        padding: 0 5%;
-    }
-
-    .intro p {
-        font-size: .8rem;
-    }
-
-    .btn-intro {
-        font-size: .8rem;
-    }
 }

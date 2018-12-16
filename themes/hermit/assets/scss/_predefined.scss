@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Quattrocento+Sans');
+
 // Colors
 //
 $theme: #018574;
@@ -9,7 +12,7 @@ $midnightblue: #2c3e50;
 
 // Fonts
 //
-$fonts: "Trebuchet MS", Verdana, "Verdana Ref", "Segoe UI", Candara, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+$fonts: "Quattrocento Sans", "Trebuchet MS", Verdana, "Verdana Ref", "Segoe UI", Candara, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 $code-fonts: Consolas, "Andale Mono WT", "Andale Mono", Menlo, Monaco, "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, "YaHei Consolas Hybrid", monospace, "Segoe UI Emoji", "PingFang SC", "Microsoft YaHei";
 
 // Mixins

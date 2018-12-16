@@ -7,11 +7,11 @@
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
-  background: $midnightblue;
+  background: rgba(265, 265, 265, 0.6);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: rgba(265, 265, 265, 0.6);
 
   &:hover {
     background: $text;
@@ -19,9 +19,21 @@
 }
 
 html {
-  background: $light-grey;
   line-height: 1.6;
   letter-spacing: .06em;
+
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
 body,
@@ -29,8 +41,27 @@ button,
 input,
 select,
 textarea {
-  color: $text;
+  color: #fff;
   font-family: $fonts;
+}
+
+::selection {
+  background-color: #D6E9CB;
+}
+
+p {
+  margin: .5em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display';
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 2.2em;
+  margin-bottom: .25em;
 }
 
 pre,
@@ -86,17 +117,22 @@ blockquote {
   }
 }
 
-a {
-  color: $text;
+.link {
+  color: #fff;
   text-decoration: none;
-  border: none;
-  transition-property: color;
-  transition-duration: .4s;
-  transition-timing-function: ease-out;
+}
+
+a {
+  color: #fff;
+  text-decoration: white solid underline;
 
   &:hover {
-    color: #fff;
-  }
+     color: black;
+     -webkit-mix-blend-mode: screen;
+     background-color: white;
+     transition: .75s;
+
+    }
 }
 
 hr {
@@ -179,6 +215,14 @@ table {
 	top: 5px;
 	width: auto;
 	z-index: 100000;
+}
+
+// Pages
+
+.home {
+  background: linear-gradient(-45deg,#3cb643, #39aa3f, #0ae27b, #5edfbb, #0aa6be, #9dbdd8);
+  background-size: 400% 400%;
+  animation: Gradient 30s ease infinite;
 }
 
 // Header & Footer
@@ -277,7 +321,6 @@ table {
 //
 #spotlight {
   display: flex;
-  height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;

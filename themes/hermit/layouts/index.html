@@ -1,24 +1,16 @@
 {{ define "main" }}
-	{{- with .Site.Params.bgImg }}
-	<div class="bg-img" style="background-image: url('{{ . }}')"></div>
-	{{- end }}
+	<div>
 	<div id="spotlight" class="animated fadeIn">
 		<div id="home-center">
-			<h1 id="home-title">{{ .Site.Title }}</h1>
-			{{- with .Site.Params.social }}
-			<div id="home-social">
-				{{ partialCached "social-icons.html" . }}
-			</div>
-			{{- end }}
-			<nav id="home-nav" class="site-nav">
-				{{- range .Site.Menus.main }}
-				<a href="{{ .URL }}">{{ .Name }}</a>
-				{{- end }}
-			</nav>
+			<h1>Hi, I'm Radhika Morabia.</h1>
+			<p>I'm a glass-eyed goat who loves rainbows & habanero peppers. I work as a Web Developer at <a href="http://l-tron.com">L-Tron Corp.</a> in <a href="https://en.wikipedia.org/wiki/Rochester,_New_York">Rochester, New York</a>.</p>
+			<p>I spend my days learning the mandolin, getting lost in books, and most importantly, crying over movies.</p>
+			<p id="links">Find me on: <a href="mailto:hi@rmorabia.com">Email</a> <a href="http://github.com/rmorabia">GitHub</a> <a href="http://linkedin.com/in/rmorabia">LinkedIn</a> <a href="http://twitter.com/radhikamorabia">Twitter</a> <a href="http://goodreads.com/rmorabia">Goodreads</a> <a href="http://letterboxd.com/rmorabia">Letterboxd</a></p>
 		</div>
 		<div id="home-footer">
-			<p>&copy; {{ now.Format "2006" }} <a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a>. <a href="{{ "posts/index.xml" | absURL }}" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></p>
+			<p>Built by Radhika Morabia. Made with <a href="http://gohugo.io">Hugo</a> & 🌈.</p>
 		</div>
+	</div>
 	</div>
 {{ end }}
 

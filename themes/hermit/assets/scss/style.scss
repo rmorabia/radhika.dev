@@ -7,7 +7,7 @@
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
-  background: rgba(265, 265, 265, 0.6);
+  background: inherit;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -22,6 +22,12 @@ html {
   line-height: 1.6;
   letter-spacing: .06em;
 
+}
+
+body {
+  background: linear-gradient(-45deg,#3cb643, #39aa3f, #0ae27b, #5edfbb, #0aa6be, #9dbdd8);
+  background-size: 400% 400%;
+  animation: Gradient 30s ease infinite;
 }
 
 @keyframes Gradient {
@@ -122,17 +128,26 @@ blockquote {
   text-decoration: none;
 }
 
+.icon-link {
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    padding-top: 5px;
+  }
+}
+
 a {
   color: #fff;
   text-decoration: white solid underline;
 
   &:hover {
-     color: black;
-     -webkit-mix-blend-mode: screen;
-     background-color: white;
-     transition: .75s;
-
-    }
+    color: black;
+    mix-blend-mode: screen;
+    background-color: white;
+    text-decoration: none;
+    transition: .75s;
+  }
 }
 
 hr {
@@ -785,5 +800,30 @@ hr.post-end {
 
   #mobile-menu {
     right: 1.2em;
+  }
+}
+
+@media (max-width: 800px) {
+  .fas, .fab {
+    display: inline-block;
+  }
+  .social-link {
+    display: none;
+  }
+}
+
+@media (min-width: 801px) {
+  .fas, .fab {
+    display: none
+  }
+  .icon-link:hover {
+    padding-top: 0;
+  }
+  .social-link {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }

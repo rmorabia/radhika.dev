@@ -67,10 +67,10 @@ const showContent = () => {
 
 if (haveHeader == true) {
   document.getElementById('menu-btn').addEventListener('click', mobileMenuToggle);
-  
+
   window.addEventListener('scroll', throttle(() => {
     autoHideHeader();
-    
+
     if (mobileMenuVisible == true) {
       mobileMenuToggle();
     }

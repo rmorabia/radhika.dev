@@ -10,11 +10,15 @@ If you want to dive deeper, I document my learning casually on [Twitter](http://
 
 Here are some nice things people have said about me:
 
-> It’s amazing that an anthropomorphized box of popcorn can create anything much less a website. --cbelsole
+> It’s amazing that an anthropomorphized box of popcorn can create anything, much less a website. --cbelsole
+
+<p></p>
 
 > Everyone have a hangout with Radhika, it’s life-changing. --linda
 
->
+<p></p>
+
+> I'm not SURE she's the reincarnation of ada lovelace, but anything's possible. -jtk
 
 Traditionally, there would be a Skills list here. Instead, here are a list of things I would prefer to not learn. (If you think I should change my mind about this list, [drop me an email](hi@rmorabia.com).)
 

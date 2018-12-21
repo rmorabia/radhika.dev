@@ -1,9 +1,9 @@
-{{ define "header" }}
-{{ partialCached "header.html" . }}
-{{ end }}
-
 {{ define "main" }}
-	<main class="site-main section-inner thin animated fadeIn faster">
+	<main class="spotlight site-main section-inner thin animated fadeIn faster">
+			<nav>
+					<a href="/about">About</a> <a href="">Projects</a> <a href="/posts">Writing</a>
+					<a href="">Contact</a>
+				</nav>
 		<h1>{{ .Title }}</h1>
 		<div class="content">
 			{{ .Content }}
@@ -14,9 +14,10 @@
 		</div>
 		{{- end }}
 	</main>
-{{ end }}
-
-{{ define "footer" }}
-{{ partialCached "footer.html" . }}
-	<script>let haveHeader = true;</script>
+	<div class="home-footer">
+			<p>
+				Built by Radhika Morabia. Made with <a href="http://gohugo.io">Hugo</a> &
+				🌈.
+			</p>
+		</div>
 {{ end }}

@@ -235,10 +235,9 @@ table {
 
 // Spotlight
 //
-#spotlight {
+.spotlight {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   max-width: 93%;
   margin: auto;
@@ -341,9 +340,9 @@ p.img-404 {
   }
 }
 
-#home-footer {
+.home-footer {
   text-align: center;
-  font-size: .6em;
+  font-size: 16px;
   line-height: normal;
   @include dimmed;
 
@@ -579,25 +578,12 @@ hr.post-end {
 }
 
 @media (min-width: 800px) {
-  .site-main {
-    margin-top: 3em;
-  }
-
   hr.post-end {
     width: 40%;
   }
 }
 
-@media (min-width: 960px) {
-  .site-main {
-    margin-top: 6em;
-  }
-}
-
 @media (min-width: 1300px) {
-  .site-main {
-    margin-top: 8em;
-  }
 
   figure.left {
     margin-left: -240px;
@@ -624,9 +610,6 @@ hr.post-end {
 }
 
 @media (min-width: 1800px) {
-  .site-main {
-    margin-top: 10em;
-  }
 
   .section-inner {
     max-width: 1600px;
@@ -745,4 +728,3 @@ nav {
 nav a {
   padding: 10px;
 }
-

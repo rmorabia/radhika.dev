@@ -1,7 +1,6 @@
 @import "predefined.scss";
 @import "normalize.scss";
 @import "syntax.scss";
-@import "animate.scss";
 
 /* Webkit Scrollbar Customize */
 ::-webkit-scrollbar {
@@ -22,12 +21,6 @@ html {
   line-height: 1.6;
   letter-spacing: .06em;
 
-}
-
-body {
-  background: linear-gradient(-45deg,#3cb643, #39aa3f, #0ae27b, #5edfbb, #0aa6be, #9dbdd8);
-  background-size: 400% 400%;
-  animation: Gradient 30s ease infinite;
 }
 
 @keyframes Gradient {
@@ -236,100 +229,8 @@ table {
 
 .home {
   background: linear-gradient(-45deg,#3cb643, #39aa3f, #0ae27b, #5edfbb, #0aa6be, #9dbdd8);
-  background-size: 400% 400%;
+  background-size: 1000% 1000%;
   animation: Gradient 30s ease infinite;
-}
-
-// Header & Footer
-//
-#site-header {
-  position: fixed;
-  z-index: 1;
-  bottom: 0;
-  width: 100%;
-  box-sizing: border-box;
-  box-shadow: -1px -2px 3px rgba(0, 0, 0, 0.45);
-  background-color: $dark-grey;
-}
-
-.hdr-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: .5em 0;
-  font-size: 1.2rem;
-
-  .site-branding {
-    display: inline-block;
-    margin-right: .8em;
-    font-size: 1.2em;
-  }
-
-  .site-nav {
-    display: inline-block;
-    font-size: 1.1em;
-    opacity: .8;
-
-    a {
-      margin-left: .8em;
-    }
-  }
-}
-
-.hdr-icons {
-  font-size: 1.2em;
-}
-
-.hdr-social {
-  display: inline-block;
-  margin-left: .6em;
-
-  &>a {
-    margin-left: .4em;
-  }
-}
-
-.hdr-btn {
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-}
-
-#menu-btn {
-  display: none;
-  margin-left: .6em;
-  cursor: pointer;
-}
-
-#mobile-menu {
-  position: fixed;
-  bottom: 4.8em;
-  right: 1.5em;
-  padding: .6em 1.8em;
-  z-index: 1;
-  box-sizing: border-box;
-  box-shadow: -1px -2px 3px 0px rgba(0, 0, 0, 0.45);
-  background-color: $dark-grey;
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    line-height: 2;
-    font-size: 1.2em;
-  }
-}
-
-#site-footer {
-  text-align: center;
-  font-size: .9em;
-  margin-bottom: 96px;
-  margin-top: 64px;
-
-  p {
-    margin: 0;
-  }
 }
 
 // Spotlight
@@ -810,7 +711,15 @@ hr.post-end {
   .social-link {
     display: none;
   }
+
 }
+
+@media (max-width: 700px) {
+  #spotlight {
+    font-size: 1.1rem;
+  }
+}
+
 
 @media (min-width: 801px) {
   .fas, .fab {
@@ -827,3 +736,13 @@ hr.post-end {
     }
   }
 }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  padding: 10px;
+}
+

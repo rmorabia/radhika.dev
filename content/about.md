@@ -8,6 +8,14 @@ More importantly, I have the desire, willingness, and ability to learn new thing
 
 If you want to dive deeper, I document my learning casually on [Twitter](http://twitter.com/radhikamorabia), and more formally on [my blog](http://rmorabia.com/posts).
 
+Here are some nice things people have said about me:
+
+> It’s amazing that an anthropomorphized box of popcorn can create anything much less a website. --cbelsole
+
+> Everyone have a hangout with Radhika, it’s life-changing. --linda
+
+>
+
 Traditionally, there would be a Skills list here. Instead, here are a list of things I would prefer to not learn. (If you think I should change my mind about this list, [drop me an email](hi@rmorabia.com).)
 
 ## Not Skills

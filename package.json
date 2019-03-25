@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "rmorabia-gatsby",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Radhika Morabia's site built in Gatsby",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -13,8 +13,10 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
-    "gatsby": "^2.1.17",
+    "@emotion/core": "^10.0.9",
+    "gatsby": "^2.2.9",
     "gatsby-plugin-sass": "^2.0.0-rc.2",
+    "gatsby-source-filesystem": "^2.0.28",
     "node-sass": "^4.11.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"

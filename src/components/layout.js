@@ -1,6 +1,8 @@
+require('../assets/base16-ashes.css')
+require('prismjs/plugins/line-numbers/prism-line-numbers.css')
 import React from "react"
-import { css } from "@emotion/core"
 import { Link, StaticQuery, graphql } from "gatsby"
+
 
 export default ({ children }) => (
   <StaticQuery
@@ -15,27 +17,14 @@ export default ({ children }) => (
   `
 }
   render={data => (
-  <div
-    css={css`
-      margin: 0 auto;
-      max-width: 700px;
-    `}
-  >
+  <div>
     <Link to={`/`}>
-      <h3
-        css={css`
-          display: inline-block;
-          font-style: normal;
-        `}
-      >
+      <h3>
         {data.site.siteMetadata.title}
       </h3>
     </Link>
     <Link
       to={`/about/`}
-      css={css`
-        float: right;
-      `}
     >
       About
     </Link>

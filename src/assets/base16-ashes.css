@@ -123,8 +123,18 @@ Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/b
    outline-offset: .4em;
  }
 
- .gatsby-highlight {
-  background-color: #fdf6e3;
+
+/* Adjust the position of the line numbers */
+.gatsby-highlight pre[class*="language-"].line-numbers {
+  padding-left: 2.8em;
+}
+
+/**
+ * If you only want to use line numbering
+ */
+
+.gatsby-highlight {
+  background-color: #1C2023;
   border-radius: 0.3em;
   margin: 0.5em 0;
   padding: 1em;

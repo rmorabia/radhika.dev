@@ -10,19 +10,13 @@ export default () => (
         alt="Group of pandas eating bamboo"
       />
       <p>
-      ```javascript
-        // In your gatsby-config.js
-        plugins: [
-          {
-            resolve: `gatsby-transformer-remark`,
-            options: {
-              plugins: [
-                `gatsby-remark-prismjs`,
-              ]
-            }
-          }
-        ß]
-      ```
+
+        `cool`
+        ```
+        function () {
+          console.log('cool')
+        }
+        ```
       </p>
     </div>
   </Layout>

@@ -1,4 +1,4 @@
-require('../assets/base16-ashes.css')
+import '../assets/base16-ashes.css'
 require('prismjs/plugins/line-numbers/prism-line-numbers.css')
 import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"

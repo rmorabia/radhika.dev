@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
 
-import hasTouch from "../assets/three/hasTouch"
+import app from './canvas'
 import { Color, Vector3 } from "three"
 import Engine from "../assets/three/Engine"
 import LineGenerator from "../assets/three/LineGenerator"
@@ -12,20 +12,6 @@ import HandleCameraOrbit from "../assets/three/HandleCameraOrbit"
 import FullScreenInBackground from "../assets/three/FullScreenInBackground"
 class Index extends Component {
   componentDidMount() {
-    const demos = document.querySelectorAll(".frame__demo")
-    const isMobile = hasTouch()
-
-    const onHide = hideMethod => {
-      demos.forEach(demo => {
-        demo.addEventListener("click", e => {
-          e.preventDefault()
-          if (e.target.classList.contains(".frame__demo--current")) return
-          hideMethod(() => {
-            window.location = e.target.href
-          })
-        })
-      })
-    }
 
     /**
      * * *******************
@@ -47,7 +33,7 @@ class Index extends Component {
 
     const text = new AnimatedText3D("Confetti", {
       color: "#0f070a",
-      size: isMobile ? 0.5 : 0.8,
+      size: app.isMobile ? 0.5 : 0.8,
     })
     text.position.x -= text.basePosition * 0.5
     // text.position.y -= 0.5;
@@ -55,7 +41,7 @@ class Index extends Component {
 
     /**
      * * *******************
-     * * LIGNES
+     * * LINES
      * * *******************
      */
 
@@ -68,15 +54,6 @@ class Index extends Component {
     }
 
     class CustomLineGenerator extends LineGenerator {
-      // start() {
-      //   const currentFreq = this.frequency;
-      //   this.frequency = 1;
-      //   setTimeout(() => {
-      //     this.frequency = currentFreq;
-      //   }, 1000);
-      //   super.start();
-      // }
-
       addLine() {
         super.addLine({
           length: getRandomFloat(8, 15),
@@ -129,7 +106,7 @@ class Index extends Component {
     tlShow.add(text.show, "-=2")
 
     // Hide
-    onHide(onComplete => {
+    app.onHide(onComplete => {
       const tlHide = new TimelineLite()
       tlHide.to(engine.lookAt, 2, { y: -6, ease: Power3.easeInOut })
       tlHide.add(text.hide, 0)

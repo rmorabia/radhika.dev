@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 import hasTouch from '../assets/three/hasTouch'
 import { Color, Vector3 } from 'three'
-import Engine from '../assets/three/engine'
+import Engine from '../assets/three/Engine'
 import LineGenerator from '../assets/three/LineGenerator'
 import getRandomFloat from '../assets/three/getRandomFloat'
 import getRandomItem from '../assets/three/getRandomItem'

@@ -1,12 +1,12 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import React from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../components/layout'
 
 export default ({ data }) => {
   console.log(data)
   return (
     <Layout>
-           <div>
+      <div>
         <h1>My Site's Files</h1>
         <table>
           <thead>

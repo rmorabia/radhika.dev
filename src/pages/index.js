@@ -31,7 +31,7 @@ class Index extends Component {
      * * *******************
      */
 
-    const text = new AnimatedText3D("Confetti", {
+    const text = new AnimatedText3D("Radhika Morabia", {
       color: "#0f070a",
       size: app.isMobile ? 0.5 : 0.8,
     })

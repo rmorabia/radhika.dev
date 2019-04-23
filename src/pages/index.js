@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
 
+import app from "../components/canvas"
 import { Color, Vector3 } from "three"
 import Engine from "../assets/three/Engine"
 import LineGenerator from "../assets/three/LineGenerator"
@@ -31,6 +32,7 @@ class Index extends Component {
 
     const text = new AnimatedText3D("Radhika Morabia", {
       color: "#0f070a",
+      size: app.isMobile ? 0.5 : 0.8,
     })
     text.position.x -= text.basePosition * 0.5
     // text.position.y -= 0.5;
@@ -106,8 +108,7 @@ class Index extends Component {
   render() {
     return (
       <Layout>
-        <div class="overlay" />
-
+        <div className="overlay" />
       </Layout>
     )
   }

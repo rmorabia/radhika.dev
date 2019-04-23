@@ -1,4 +1,3 @@
-
 export default (Target) => class FullScreenInBackground extends Target {
   constructor(props) {
     super(window.innerWidth, window.innerHeight, props)

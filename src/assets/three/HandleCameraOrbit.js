@@ -1,7 +1,14 @@
-import { Vector3 } from 'three'
+import { Vector3 } from "three"
+const isMobile = require("ismobilejs")
 
-export default (cameraAmpl = { x: 5, y: 5 }, velocity = 0.1, lookAt = new Vector3()) =>
-  (Target) => class HandleCameraOrbit extends Target {
+import app from "../../components/canvas"
+
+export default (
+  cameraAmpl = { x: 5, y: 5 },
+  velocity = 0.1,
+  lookAt = new Vector3()
+) => Target =>
+  class HandleCameraOrbit extends Target {
     constructor(props) {
       super(props)
 
@@ -16,21 +23,27 @@ export default (cameraAmpl = { x: 5, y: 5 }, velocity = 0.1, lookAt = new Vector
       this.handleMouseMove = this.handleMouseMove.bind(this)
       this.handleOrientationMove = this.handleOrientationMove.bind(this)
 
-      if ((typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1)) {
-        window.addEventListener('deviceorientation', this.handleOrientationMove)
+      if (isMobile) {
+        window.addEventListener("deviceorientation", this.handleOrientationMove)
       } else {
-        window.addEventListener('mousemove', this.handleMouseMove)
+        window.addEventListener("mousemove", this.handleMouseMove)
       }
     }
 
     handleMouseMove(event) {
-      this.mousePosition.x = event.clientX || (event.touches && event.touches[0].clientX) || this.mousePosition.x
-      this.mousePosition.y = event.clientY || (event.touches && event.touches[0].clientY) || this.mousePosition.y
+      this.mousePosition.x =
+        event.clientX ||
+        (event.touches && event.touches[0].clientX) ||
+        this.mousePosition.x
+      this.mousePosition.y =
+        event.clientY ||
+        (event.touches && event.touches[0].clientY) ||
+        this.mousePosition.y
 
       this.normalizedOrientation.set(
-        -((this.mousePosition.x / this.width) - 0.5) * this.cameraAmpl.x,
-        ((this.mousePosition.y / this.height) - 0.5) * this.cameraAmpl.y,
-        0.5,
+        -(this.mousePosition.x / this.width - 0.5) * this.cameraAmpl.x,
+        (this.mousePosition.y / this.height - 0.5) * this.cameraAmpl.y,
+        0.5
       )
     }
 
@@ -38,15 +51,19 @@ export default (cameraAmpl = { x: 5, y: 5 }, velocity = 0.1, lookAt = new Vector
       // https://stackoverflow.com/questions/40716461/how-to-get-the-angle-between-the-horizon-line-and-the-device-in-javascript
       const rad = Math.atan2(event.gamma, event.beta)
       if (Math.abs(rad) > 1.5) return
-      this.normalizedOrientation.x = -(rad) * this.cameraAmpl.y
+      this.normalizedOrientation.x = -rad * this.cameraAmpl.y
       // TODO handle orientation.y
     }
 
     update() {
       super.update()
 
-      this.camera.position.x += (this.normalizedOrientation.x - this.camera.position.x) * this.cameraVelocity
-      this.camera.position.y += (this.normalizedOrientation.y - this.camera.position.y) * this.cameraVelocity
+      this.camera.position.x +=
+        (this.normalizedOrientation.x - this.camera.position.x) *
+        this.cameraVelocity
+      this.camera.position.y +=
+        (this.normalizedOrientation.y - this.camera.position.y) *
+        this.cameraVelocity
       this.camera.lookAt(this.lookAt)
     }
   }

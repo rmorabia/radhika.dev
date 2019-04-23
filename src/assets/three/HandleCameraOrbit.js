@@ -1,6 +1,6 @@
 import { Vector3 } from 'three'
 
-import app from '../../pages/canvas'
+import app from '../../components/canvas'
 import hasTouch from './hasTouch'
 
 const isMobile = hasTouch()

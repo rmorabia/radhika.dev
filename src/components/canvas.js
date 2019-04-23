@@ -9,7 +9,6 @@
  * http://www.codrops.com
  */
 
-import hasTouch from "../assets/three/hasTouch"
 
 class App {}
 

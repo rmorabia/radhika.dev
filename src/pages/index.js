@@ -108,44 +108,8 @@ class Index extends Component {
   render() {
     return (
       <Layout>
-        <h1>Amazing Pandas Eating Things</h1>
         <div class="overlay" />
-        <main>
-          <div class="frame">
-            <div class="frame__title-wrap">
-              <h1 class="frame__title">Animated Mesh Lines</h1>
-            </div>
-            <a
-              class="frame__github"
-              href="https://github.com/Jeremboo/animated-mesh-lines"
-            >
-              GitHub
-            </a>
-            <div class="frame__links">
-              <a href="https://tympanus.net/Development/InteractiveLandscape/">
-                Previous Demo
-              </a>
-              <a href="https://tympanus.net/codrops/?p=37034">Article</a>
-            </div>
-            <div class="frame__demos">
-              <a href="index.html" class="frame__demo">
-                demo 1
-              </a>
-              <a href="demo2.html" class="frame__demo">
-                demo 2
-              </a>
-              <a href="demo3.html" class="frame__demo frame__demo--current">
-                demo 3
-              </a>
-              <a href="demo4.html" class="frame__demo">
-                demo 4
-              </a>
-              <a href="demo5.html" class="frame__demo">
-                demo 5
-              </a>
-            </div>
-          </div>
-        </main>
+
       </Layout>
     )
   }

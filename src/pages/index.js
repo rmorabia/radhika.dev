@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
 
-import app from './canvas'
+import app from "../components/canvas"
 import { Color, Vector3 } from "three"
 import Engine from "../assets/three/Engine"
 import LineGenerator from "../assets/three/LineGenerator"
@@ -12,7 +12,6 @@ import HandleCameraOrbit from "../assets/three/HandleCameraOrbit"
 import FullScreenInBackground from "../assets/three/FullScreenInBackground"
 class Index extends Component {
   componentDidMount() {
-
     /**
      * * *******************
      * * ENGINE
@@ -104,15 +103,6 @@ class Index extends Component {
       "-=0.4"
     )
     tlShow.add(text.show, "-=2")
-
-    // Hide
-    app.onHide(onComplete => {
-      const tlHide = new TimelineLite()
-      tlHide.to(engine.lookAt, 2, { y: -6, ease: Power3.easeInOut })
-      tlHide.add(text.hide, 0)
-      tlHide.add(lineGenerator.stop)
-      tlHide.to(".overlay", 0.5, { autoAlpha: 1, onComplete }, "-=1.5")
-    })
   }
 
   render() {

@@ -1,10 +1,5 @@
 import { Vector3 } from 'three'
 
-import app from '../../components/canvas'
-import hasTouch from './hasTouch'
-
-const isMobile = hasTouch()
-
 export default (cameraAmpl = { x: 5, y: 5 }, velocity = 0.1, lookAt = new Vector3()) =>
   (Target) => class HandleCameraOrbit extends Target {
     constructor(props) {
@@ -21,7 +16,7 @@ export default (cameraAmpl = { x: 5, y: 5 }, velocity = 0.1, lookAt = new Vector
       this.handleMouseMove = this.handleMouseMove.bind(this)
       this.handleOrientationMove = this.handleOrientationMove.bind(this)
 
-      if (isMobile) {
+      if ((typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1)) {
         window.addEventListener('deviceorientation', this.handleOrientationMove)
       } else {
         window.addEventListener('mousemove', this.handleMouseMove)

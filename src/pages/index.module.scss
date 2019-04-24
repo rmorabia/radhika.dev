@@ -1,5 +1,26 @@
 .rainbowBackground {
-  background: url('../assets/rainbow.gif');
+  background: linear-gradient(270deg, #6fba82, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  background-size: 1600% 1600%;
+
+  -webkit-animation: text 10s ease infinite;
+  -moz-animation: text 10s ease infinite;
+  animation: text 10s ease infinite;
+
+  @-webkit-keyframes text {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @-moz-keyframes text {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @keyframes text {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
   display: inline-block;
 }
 

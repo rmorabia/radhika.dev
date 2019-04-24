@@ -1,26 +1,11 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
-import three from '../assets/three/three.r92.min.js'
-import VANTA from '../assets/three/vanta.birds.min.js'
+import styles from "./index.module.scss"
 
-class Index extends Component {
-  constructor () {
-    super()
-    this.overlay = React.createRef()
-  }
-
-  componentDidMount() {
-    // const overlay = this.overlay.current
-    window.VANTA.BIRDS({
-      el: '.overlay'
-    })
-  }
-
-  render () {
-    return (
-      <div ref={this.overlay} className="overlay" />
-    )
-  }
-}
-
-export default Index
+export default () => (
+  <Layout>
+    <h1 className={styles.heading}>
+      {`Hi, I'm`} <div className={styles.rainbowBackground}><span className={styles.name}>Radhika Morabia</span></div>.
+    </h1>
+  </Layout>
+)

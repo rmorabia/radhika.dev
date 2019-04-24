@@ -7,5 +7,6 @@ export default () => (
     <h1 className={styles.heading}>
       {`Hi, I'm`} <div className={styles.rainbowBackground}><span className={styles.name}>Radhika Morabia</span></div>.
     </h1>
+    <div class={styles.bitter}></div>
   </Layout>
 )

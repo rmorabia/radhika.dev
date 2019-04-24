@@ -1,0 +1,12 @@
+.rainbowBackground {
+  background: url('../assets/rainbow.gif');
+  display: inline-block;
+}
+
+.name {
+  color: black;
+  background: white;
+  mix-blend-mode: screen;
+  text-decoration: none;
+  transition: 0.75s;
+}

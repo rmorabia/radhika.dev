@@ -1,6 +1,11 @@
 @import url('https://indestructibletype.com/fonts/Jost.css');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
 
 html {
   font-family: 'Jost', 'Futura', Helvetica, Arial, sans-serif;
   font-variant-alternates: stylistic();
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bitter';
 }

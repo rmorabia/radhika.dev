@@ -2,6 +2,7 @@ import '../assets/base16-ashes.css'
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css'
 import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
+import 'normalize.css'
 import './layout.scss'
 
 export default ({ children }) => (

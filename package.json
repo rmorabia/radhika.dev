@@ -13,7 +13,7 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
-    "gatsby": "^2.2.9",
+    "gatsby": "^2.4.3",
     "gatsby-image": "^2.0.35",
     "gatsby-plugin-sass": "^2.0.0-rc.2",
     "gatsby-plugin-sharp": "^2.0.31",
@@ -22,7 +22,8 @@
     "gatsby-transformer-remark": "^2.3.8",
     "gatsby-transformer-sharp": "^2.1.17",
     "gsap": "^2.1.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
     "prismjs": "^1.16.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",

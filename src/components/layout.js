@@ -17,7 +17,7 @@ export default ({ children }) => (
       }
     `}
     render={data => (
-      <div>
+      <div class="container">
         <Link to={'/'}>
           <h3>{data.site.siteMetadata.title}</h3>
         </Link>

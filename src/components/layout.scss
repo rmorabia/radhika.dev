@@ -66,6 +66,30 @@ p {
   vertical-align: baseline;
 }
 
+.email {
+  border: 2px solid #111;
+  height: 20px;
+  font-size: 18px;
+}
+
+.submit {
+  height: 26px;
+  border: 2px solid #111;
+  box-shadow: 2px 2px #111;
+  background: #2bbd7e;
+  color: #fffff8;
+  margin-left: 3px;
+}
+
+.submit:hover {
+  background: white;
+  color: #32b643;
+}
+
+.submit:active {
+  box-shadow: 0 0;
+}
+
 .container {
   position: relative;
   padding: 5rem 0rem;

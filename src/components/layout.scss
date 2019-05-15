@@ -116,6 +116,25 @@ a:hover {
   padding-bottom: 1rem;
 }
 
+.header {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header li {
+  display: inline;
+  padding-right: 5px;
+}
+
+#homeLink {
+  padding-right: 10px;
+}
+
+#homeLink a {
+  border: 0;
+  font-weight: 600;
+}
+
 ::selection {
   background: #efc7c7;
 }

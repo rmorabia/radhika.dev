@@ -26,9 +26,9 @@ export default ({ children }) => (
       <div class="container">
         <ul class="header">
           <li><Link to={'/'} className="homeLink">{data.site.siteMetadata.title}</Link></li>
-          <li><Link to={'/projects'} activeStyle={activeStyles}>Projects</Link></li>
-          <li><Link to={'/blog'} activeStyle={activeStyles}>Blog</Link></li>
-          <li><Link to={'/contact'} activeStyle={activeStyles}>Contact</Link></li>
+          <li><Link to={'/projects'} className="headerLink" activeStyle={activeStyles}>Projects</Link></li>
+          <li><Link to={'/blog'} className="headerLink" activeStyle={activeStyles}>Blog</Link></li>
+          <li><Link to={'/contact'} className="headerLink" activeStyle={activeStyles}>Contact</Link></li>
         </ul>
         {children}
       </div>

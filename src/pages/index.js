@@ -1,6 +1,7 @@
-import React, { Component } from "react"
+import React from "react"
 import Layout from "../components/layout"
 import styles from "./index.module.scss"
+import Canvas from "../components/mouseTrail.js"
 import { Link, StaticQuery, graphql } from 'gatsby'
 
 export default () => (

@@ -47,7 +47,7 @@ hr {
   width: 55%;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 1em 0;
+  margin: 1rem 0;
   padding: 0;
 }
 
@@ -66,28 +66,47 @@ p {
   vertical-align: baseline;
 }
 
+a {
+  color: #111;
+  text-decoration-color: #00ff7f;
+  text-decoration: none;
+  border-bottom: 2px solid #00ff7f;
+}
+
+a:hover {
+  background: #00ff7f;
+  background: linear-gradient(to top, #00ff7f 50%, #fffff8 50%);
+  background-size: 200% 200%;
+  background-position: bottom;
+  transition: all .5s ease-out;
+}
+
 .email {
   border: 2px solid #111;
   height: 20px;
   font-size: 18px;
+  vertical-align: top;
 }
 
 .submit {
   height: 26px;
   border: 2px solid #111;
   box-shadow: 2px 2px #111;
-  background: #2bbd7e;
-  color: #fffff8;
+  background: #00ff7f;
+  color: #111;
   margin-left: 3px;
+  font-weight: 600;
 }
 
 .submit:hover {
-  background: white;
-  color: #32b643;
+  background: #111;
+  color: #00ff7f;
+  transition: all 0.5s;
 }
 
 .submit:active {
   box-shadow: 0 0;
+  transition: all 0.5s;
 }
 
 .container {
@@ -105,6 +124,10 @@ p {
 }
 
 @media (max-width: 760px) {
+  body {
+    padding: 1rem;
+  }
+
   p {
     width: 100%;
   }

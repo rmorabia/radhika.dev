@@ -4,7 +4,7 @@ import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import 'normalize.css'
 import './layout.scss'
-
+a
 const activeStyles = {
   background: '#00ff7f',
   padding: '5px',

@@ -1,0 +1,12 @@
+---
+title: 'Not with a bang, but with a whimper'
+date: March 25, 2019
+---
+
+Is Sanjay Leela Bhansali bumming me out or aiding the situation? Honestly, who knows? I think my vision is blurring too much to focus proeprly. It's sad.
+
+```js{numberLines: true}
+function () => {
+  console.log('cool')
+}
+```

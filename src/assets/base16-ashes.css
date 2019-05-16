@@ -1,129 +1,125 @@
 /*
-
-Name:       Base16 Ashes Dark
-Author:     Jannik Siebert (https://github.com/janniks)
-
+Name:       Base16 Chalk Dark
+Author:     Chris Kempson (http://chriskempson.com)
 Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
 Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
- */
+ */ 
 
  code[class*="language-"],
  pre[class*="language-"] {
-   color: #F3F4F5;
+   color: #f5f5f5;
    font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
    font-size: 14px;
    line-height: 1.375;
    direction: ltr;
    text-align: left;
    word-spacing: normal;
-
+ 
    -moz-tab-size: 4;
    -o-tab-size: 4;
    tab-size: 4;
-
+ 
    -webkit-hyphens: none;
    -moz-hyphens: none;
    -ms-hyphens: none;
-   hyphens: none;
-   white-space: pre;
-   white-space: pre-wrap;
+   hyphens: none; 
+   white-space: pre; 
+   white-space: pre-wrap; 
    word-break: break-all;
-   word-wrap: break-word;
-   background: #1C2023;
-   color: #C7CCD1;
+   word-wrap: break-word; 
+   background: #151515; 
+   color: #d0d0d0;
  }
-
+ 
  /* Code blocks */
  pre[class*="language-"] {
    padding: 1em;
    margin: .5em 0;
-   overflow: auto;
+   overflow: auto;	
  }
-
+ 
  /* Inline code */
  :not(pre) > code[class*="language-"] {
    padding: .1em;
    border-radius: .3em;
  }
-
+ 
  .token.comment,
  .token.prolog,
  .token.doctype,
  .token.cdata {
-   color: #747C84;
+   color: #505050;
  }
-
+ 
  .token.punctuation {
-   color: #C7CCD1;
+   color: #d0d0d0;
  }
-
+ 
  .namespace {
    opacity: .7;
  }
-
+ 
  .token.null,
  .token.operator,
  .token.boolean,
  .token.number {
-   color: #C7C795;
+   color: #eda987;
+ } 
+ .token.property { 
+   color: #ddb26f;
  }
- .token.property {
-   color: #AEC795;
- }
- .token.tag {
-   color: #AE95C7;
- }
+ .token.tag { 
+   color: #6fc2ef;
+ } 
  .token.string {
-   color: #95AEC7;
+   color: #12cfc0;
+ } 
+ .token.selector { 
+   color: #e1a3ee;
  }
- .token.selector {
-   color: #C795AE;
- }
- .token.attr-name {
-   color: #C7C795;
- }
+ .token.attr-name { 
+   color: #eda987;
+ } 
  .token.entity,
- .token.url,
+ .token.url, 
  .language-css .token.string,
  .style .token.string {
-   color: #95AEC7;
+   color: #12cfc0;
  }
-
+ 
  .token.attr-value,
  .token.keyword,
  .token.control,
  .token.directive,
  .token.unit {
-   color: #95C7AE;
- }
-
+   color: #acc267;
+ } 
+ 
  .token.statement,
- .token.regex,
- .token.atrule {
-   color: #95AEC7;
+ .token.regex, 
+ .token.atrule { 
+   color: #12cfc0;
  }
-
+ 
  .token.placeholder,
  .token.variable {
-   color: #AE95C7;
- }
-
+   color: #6fc2ef;
+ } 
+ 
  .token.important {
-   color: #C7AE95;
+   color: #fb9fb1;
    font-weight: bold;
- }
-
+ } 
+ 
  .token.entity {
    cursor: help;
- }
-
+ } 
+ 
  pre > code.highlight {
    outline: .4em solid red;
    outline-offset: .4em;
- }
-
-
+ } 
+ 
 /* Adjust the position of the line numbers */
 .gatsby-highlight pre[class*="language-"].line-numbers {
   padding-left: 2.8em;
@@ -134,11 +130,12 @@ Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/b
  */
 
 .gatsby-highlight {
-  background-color: #1C2023;
+  background-color: #151515;
   border-radius: 0.3em;
   margin: 0.5em 0;
   padding: 1em;
   overflow: auto;
+  width: 55%;
 }
 
 .gatsby-highlight pre[class*="language-"].line-numbers {

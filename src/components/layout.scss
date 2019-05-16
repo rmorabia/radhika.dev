@@ -75,7 +75,6 @@ p {
 
 a {
   color: #111;
-  text-decoration-color: #00ff7f;
   text-decoration: none;
   border-bottom: 2px solid #00ff7f;
 }
@@ -145,6 +144,11 @@ a:hover {
 .headerLink {
   padding: 7px;
   padding-bottom: 5px;
+}
+
+.blogPost {
+  display: flex;
+  justify-content: space-between;
 }
 
 ::selection {

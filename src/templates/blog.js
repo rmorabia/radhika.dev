@@ -11,6 +11,7 @@ export default ({ data }) => {
         <p>{post.frontmatter.date}</p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
+      <hr />
       <p>If you liked this post, get updates about new posts by signing up to my infrequent newsletter.</p>
       <form action="https://tinyletter.com/rmorabia" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/rmorabia', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
         <input className="email" text="text" name="email" id="tlemail" placeholder="hi@whatever.com"></input>

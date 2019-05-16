@@ -1,6 +1,14 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import  Layout from '../components/layout'
+import React, { Component } from 'react'
+import { graphql, Link } from 'gatsby'
+import Layout from '../components/layout'
+import styles from './blog.styles.scss'
+
+const linkColor = () => {
+  const hue = () => Math.floor(Math.random() * 156) + 90
+  let linkColor = `2px solid rgb(${hue()}, ${hue()}, ${hue()})`
+  console.log(linkColor)
+  return linkColor
+}
 
 export default ({ data }) => {
   return (
@@ -9,10 +17,12 @@ export default ({ data }) => {
         <h1>Blog</h1>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key="node.id">
-            <h2>{node.frontmatter.title}</h2>
-            <p>{node.frontmatter.date}</p>
-            ...
-            <p>{node.excerpt}</p>
+            <div className="blogPost">
+              <p><Link to={node.fields.slug} style={{
+                borderBottom: linkColor()
+              }}>{node.frontmatter.title}</Link></p>
+              <p>{node.frontmatter.date}</p>
+            </div>
           </div>
         ))}
       </div>
@@ -27,6 +37,9 @@ export const query = graphql`
       totalCount
       edges {
         node {
+          fields {
+            slug
+          }
           id
           frontmatter {
             title

@@ -1,5 +1,5 @@
 ---
-title: 'Study Habits For Programmers Part I: Let's make a study plan.'
+title: "Study Habits For Programmers Part I: Let's make a study plan."
 date: May 12, 2019
 ---
 

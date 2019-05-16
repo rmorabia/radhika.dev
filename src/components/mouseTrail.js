@@ -58,8 +58,8 @@ function Canvas() {
 
           // As time increases decrease r and b, increase g to go from purple to green.
           const red = 0
-          const green = Math.floor(255 - (255 * lifePercent));
-          const blue = Math.floor(127 + (127 * lifePercent));
+          const green = Math.floor(255 - (255 * lifePercent/2));
+          const blue = Math.floor(127 + (127 * lifePercent/2));
           ctx.strokeStyle = `rgb(${red},${green},${blue}`;
 
           ctx.beginPath();

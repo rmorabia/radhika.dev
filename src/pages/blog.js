@@ -3,14 +3,15 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
 import styles from './blog.styles.scss'
 
-const linkColor = () => {
-  const hue = () => Math.floor(Math.random() * 156) + 90
-  let linkColor = `2px solid rgb(${hue()}, ${hue()}, ${hue()})`
-  console.log(linkColor)
-  return linkColor
-}
-
 export default ({ data }) => {
+
+  const linkColor = () => {
+    const hue = () => Math.floor(Math.random() * 156) + 90
+    let linkColor = `2px solid rgb(${hue()}, ${hue()}, ${hue()})`
+    console.log(linkColor)
+    return linkColor
+  }
+
   return (
     <Layout>
       <div>

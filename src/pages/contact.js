@@ -11,11 +11,11 @@ export default () => (
     <form name="contact" method="POST" data-netlify="true" className={styles.contactForm}>
       <input type="hidden" name="form-name" value="contact" />
       <label for="name">Name:</label>
-      <input type="text" name="name" />
+      <input type="text" name="name" required />
       <label for="email">Email:</label>
-      <input type="email" name="email" />
+      <input type="email" name="email" required />
       <label for="message">Message:</label>
-      <textarea name="message" />
+      <textarea name="message" required />
       <input type="submit" className="submit" className={styles.submit} name="Submit" />
     </form>
   </Layout>

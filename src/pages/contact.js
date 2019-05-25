@@ -9,6 +9,7 @@ export default () => (
     <p>If you would like to get in touch, email me at <a href="mailto:hi@rmorabia.com">hi@rmorabia.com</a> or use the contact form below.</p>
     <p>I am also on <a href="http://twitter.com/radhikamorabia">Twitter</a>, <a href="http://github.com/rmorabia">GitHub</a>, and <a href="http://linkedin.com/in/rmorabia">LinkedIn</a>.</p>
     <form name="contact" method="POST" data-netlify="true" className={styles.contactForm}>
+      <input type="hidden" name="form-name" value="contact" />
       <label for="name">Name:</label>
       <input type="text" name="name" />
       <label for="email">Email:</label>

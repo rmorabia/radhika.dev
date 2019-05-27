@@ -103,7 +103,7 @@ function Canvas() {
     }
   }, [])
 
-  return <canvas ref={canvasRef} width={cWidth} height={cHeight} />
+  return <canvas className="mouseTrail" ref={canvasRef} width={cWidth} height={cHeight} />
 }
 
 export default Canvas

@@ -24,7 +24,7 @@ export default ({ children }) => (
       }
     `}
     render={data => (
-      <div class="container">
+      <div className="container">
         <Canvas />
         <ul class="header">
           <li><Link to={'/'} className="homeLink">{data.site.siteMetadata.title}</Link></li>

@@ -4,22 +4,45 @@ import Layout from '../components/layout'
 import '../components/tetris/blockrain.css'
 import $ from 'jquery'
 import blockrain from '../components/tetris/blockrain.jquery'
+import Tetris from 'react-tetris'
+import './404.component.scss'
 
-class Tetris extends Component {
-  componentDidMount () {
+class Lost extends Component {
+  componentDidMount() {
     $('.game').blockrain()
   }
 
-  render () {
+  render() {
     return (
       <Layout>
         <h1>Whoops! This page does not exist.</h1>
         <p>While you're here, why not take a break and play some Tetris?</p>
-        <div className="game" style={{width: "250px", height: "500px"}} />
+        <Tetris>
+          {({
+            HeldPiece,
+            Gameboard,
+            PieceQueue,
+            points,
+            linesCleared
+          }) => {
+            // Render it however you'd like
+            return (
+              <div>
+                <HeldPiece />
+                <div>
+                  <p>Points: {points}</p>
+                  <p>Lines Cleared: {linesCleared}</p>
+                </div>
+                <Gameboard />
+                <PieceQueue />
+              </div>
+            )
+          }}
+        </Tetris>
       </Layout>
     )
   }
 
 }
 
-export default Tetris
+export default Lost

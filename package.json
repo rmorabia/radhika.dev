@@ -26,7 +26,8 @@
     "normalize.css": "^8.0.1",
     "prismjs": "^1.16.0",
     "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "react-dom": "^16.8.3",
+    "react-tetris": "^0.1.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.4.0",

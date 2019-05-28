@@ -1,16 +1,11 @@
 import React, { Component } from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
-import '../components/tetris/blockrain.css'
 import $ from 'jquery'
-import blockrain from '../components/tetris/blockrain.jquery'
 import Tetris from 'react-tetris'
 import './404.component.scss'
 
 class Lost extends Component {
-  componentDidMount() {
-    $('.game').blockrain()
-  }
 
   render() {
     return (

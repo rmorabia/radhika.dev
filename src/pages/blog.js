@@ -8,14 +8,13 @@ export default ({ data }) => {
   const linkColor = () => {
     const hue = () => Math.floor(Math.random() * 156) + 90
     let linkColor = `2px solid rgb(${hue()}, ${hue()}, ${hue()})`
-    console.log(linkColor)
     return linkColor
   }
 
   return (
     <Layout>
       <div>
-        <h1>Blog</h1>
+        <Header headerText="Blog" />
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key="node.id">
             <div className="blogPost">

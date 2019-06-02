@@ -29,3 +29,27 @@
 .piece-preview {
   background-color: #eee;
 }
+
+.parent {
+  display: flex;
+  // flex-wrap: wrap;
+  width: 55%;
+}
+
+.parent > div {
+  min-width: 300px;
+  flex-grow: 1;
+}
+
+.parent > div > p {
+  width: 100%;
+}
+
+.tetris-header {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+#held-piece {
+  margin-top: 0;
+}

@@ -9,7 +9,7 @@ import './404.component.scss'
 class Lost extends Component {
 
   componentDidMount() {
-    axios.get('https://horoscope-api.herokuapp.com/horoscope/today/Cancer', {
+    axios.get('https://horoscope-free-api.herokuapp.com/?time=today&sign=cancer', {
       headers: {
         'Access-Control-Allow-Origin': '*',
       }

@@ -7,55 +7,59 @@ import Header from '../components/header'
 import './404.component.scss'
 
 class Lost extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      horoscope: null
+    }
+  }
 
   componentDidMount() {
-    axios.get('https://dog.ceo/api/breeds/list/all', {
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-      }
-    })
-      .then(res => { console.log(res) } )
+    axios.post('https://aztro.sameerkumar.website/?sign=cancer&day=today')
+      .then(res => { this.setState({ horoscope: res.data.description }) })
   }
 
   render() {
     return (
-
       <Layout>
         <Header headerText="Whoops! This page does not exist." />
         <MediaQuery query="(max-device-width: 1280px)">
-
+          <p>Well, since you're here, here's my horoscope for the day: </p>
+          <p id="horoscope">{this.state.horoscope}</p>
         </MediaQuery>
-        <p>While you're here, why not take a break and play some Tetris?</p>
-        {typeof document !== 'undefined' && Tetris &&
-          <Tetris>
-            {({
-              Gameboard,
-              points,
-              linesCleared,
-              HeldPiece
-            }) => {
-              return (
-                <div className="parent">
-                  <div>
-                    <Gameboard />
+        <MediaQuery query="(min-device-width: 1281px)">
+          <p>While you're here, why not take a break and play some Tetris?</p>
+          {typeof document !== 'undefined' && Tetris &&
+            <Tetris>
+              {({
+                Gameboard,
+                points,
+                linesCleared,
+                HeldPiece
+              }) => {
+                return (
+                  <div className="parent">
+                    <div>
+                      <Gameboard />
+                    </div>
+                    <div>
+                      <p className="tetris-header" id="held-piece">Held Piece</p>
+                      <HeldPiece />
+                      <p className="tetris-header">Instructions</p>
+                      <p>Left &amp; Right to Move</p>
+                      <p>Up to flip tetromino</p>
+                      <p>Down for soft drop</p>
+                      <p>Space for hard drop</p>
+                      <p className="tetris-header">Score</p>
+                      <p>Points: {points}</p>
+                      <p>Lines Cleared: {linesCleared}</p>
+                    </div>
                   </div>
-                  <div>
-                    <p className="tetris-header" id="held-piece">Held Piece</p>
-                    <HeldPiece />
-                    <p className="tetris-header">Instructions</p>
-                    <p>Left &amp; Right to Move</p>
-                    <p>Up to flip tetromino</p>
-                    <p>Down for soft drop</p>
-                    <p>Space for hard drop</p>
-                    <p className="tetris-header">Score</p>
-                    <p>Points: {points}</p>
-                    <p>Lines Cleared: {linesCleared}</p>
-                  </div>
-                </div>
-              )
-            }}
-          </Tetris>
-        }
+                )
+              }}
+            </Tetris>
+          }
+        </MediaQuery>
       </Layout>
     )
   }

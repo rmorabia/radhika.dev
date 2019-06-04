@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet'
 import Canvas from './mouseTrail.js'
 import 'normalize.css'
 import './layout.scss'
+import favicon from '../assets/images/favicon.ico'
 
 const activeStyles = {
   background: '#00ff7f',
@@ -25,11 +26,12 @@ export default ({ children }) => (
       }
     `}
     render={data => (
-      <div className="container">
+      <div className='container'>
         <Helmet>
-          <meta charSet="utf-8" />
+          <meta charSet='utf-8' />
           <title>{data.site.siteMetadata.title}</title>
-          <link rel="canonical" href="https://radhika.dev" />
+          <link rel='canonical' href='https://radhika.dev' />
+          <link rel='icon' type='image/png' href={favicon} />
         </Helmet>
         <Canvas />
         <ul className="header">

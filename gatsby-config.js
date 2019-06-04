@@ -32,5 +32,16 @@ module.exports = {
         }],
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Radhika Morabia',
+        short_name: 'radhika.dev',
+        start_url: 'https://radhika.dev',
+        background_color: '#00ff7f',
+        theme_color: '#00ff7f',
+        display: 'standalone',
+      },
+    }
   ],
 }

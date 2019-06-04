@@ -50,6 +50,7 @@ class Lost extends Component {
                       <p>Up to flip tetromino</p>
                       <p>Down for soft drop</p>
                       <p>Space for hard drop</p>
+                      <p>Shift to hold piece</p>
                       <p className="tetris-header">Score</p>
                       <p>Points: {points}</p>
                       <p>Lines Cleared: {linesCleared}</p>

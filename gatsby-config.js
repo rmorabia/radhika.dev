@@ -1,11 +1,15 @@
 module.exports = {
   siteMetadata: {
     title: 'Radhika Morabia',
+    titleTemplate: '%s · Radhika Morabia',
+    description: 'Full-Stack Software Engineer interested in React, Node, JavaScript, and Python',
+    url: 'http://radhika.dev'
   },
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
       options: {

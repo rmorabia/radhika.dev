@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
 import Layout from '../components/layout'
 import Tetris from 'react-tetris'
+import { Helmet } from 'react-helmet'
 import axios from 'axios'
 import Header from '../components/header'
 import './404.component.scss'
@@ -22,9 +23,13 @@ class Lost extends Component {
   render() {
     return (
       <Layout>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>404 &bull; Radhika Morabia</title>
+        </Helmet>
         <Header headerText="Whoops! This page does not exist." />
         <MediaQuery query="(max-device-width: 1280px)">
-          <p>Well, since you're here, here's my horoscope for the day: </p>
+          <p>Since you're here, why not read my horoscope for today?</p>
           <p id="horoscope">{this.state.horoscope}</p>
         </MediaQuery>
         <MediaQuery query="(min-device-width: 1281px)">

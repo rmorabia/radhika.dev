@@ -1,12 +1,17 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import { graphql } from 'gatsby'
+import Layout from '../components/layout'
 
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-       <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{post.frontmatter.title} &bull; Radhika Morabia</title>
+      </Helmet>
+      <div>
         <h1>{post.frontmatter.title}</h1>
         <p>{post.frontmatter.date}</p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />

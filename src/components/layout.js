@@ -2,6 +2,7 @@ import '../assets/base16-ashes.css'
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css'
 import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
+import { Helmet } from 'react-helmet'
 import Canvas from './mouseTrail.js'
 import 'normalize.css'
 import './layout.scss'
@@ -25,6 +26,11 @@ export default ({ children }) => (
     `}
     render={data => (
       <div className="container">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>{data.site.siteMetadata.title}</title>
+          <link rel="canonical" href="https://radhika.dev" />
+        </Helmet>
         <Canvas />
         <ul className="header">
           <li><Link to={'/'} className="homeLink">{data.site.siteMetadata.title}</Link></li>

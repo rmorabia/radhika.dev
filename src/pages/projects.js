@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import Header from '../components/header'
+import styles from './projects.module.scss'
 
 export default ({ data }) => (
   <Layout>
@@ -20,7 +21,7 @@ export default ({ data }) => (
     </p>
     <hr />
     <h2>radhika.dev</h2>
-    <Img fluid={data.fileName.childImageSharp.fluid} alt='' />
+    <Img fluid={data.radhika.childImageSharp.fluid} alt='' />
     <p>
       Portfolio website featuring canvas animation, static blogging, mobile
       responsiveness, accessibility, and more.
@@ -28,14 +29,74 @@ export default ({ data }) => (
     <p>
       <b>Tools Used:</b> React, Gatsby, SCSS, and JavaScript
     </p>
+    <p>
+      <a
+        className={styles.source}
+        href='https://github.com/rmorabia/radhika.dev'
+      >
+        View Source
+      </a>
+    </p>
+
+    <h2>
+      <a href='https://radgithubsearch.netlify.com'>GitHub Repository Search</a>
+    </h2>
+    <Img fluid={data.github.childImageSharp.fluid} alt='' />
+    <p>
+      GitHub Repository Search app featuring use of query parameters, form
+      validation, mobile responsiveness, REST APIs, and more.
+    </p>
+    <p>
+      <b>Tools Used:</b> Vue, Bootstrap, and JavaScript
+    </p>
+    <p>
+      <a
+        className={styles.source}
+        href='https://github.com/rmorabia/github-repo-search'
+      >
+        View Source
+      </a>
+    </p>
+
+    <h2>
+      <a href='http://radtimeline.herokuapp.com/'>Timeline</a>
+    </h2>
+    <Img fluid={data.timeline.childImageSharp.fluid} alt='' />
+    <p>
+      Timeline app featuring the ability to see events based on category, to see
+      future or past events, and to mark an event as attended or not. Uses
+      self-made event API with request validation on the back-end.
+    </p>
+    <p>
+      <b>Tools Used:</b> React, Node.js, Express, JavaScript, and CSS
+    </p>
+    <p>
+      <a className={styles.source} href='https://github.com/rmorabia/timeline'>
+        View Source
+      </a>
+    </p>
   </Layout>
 )
 
 export const query = graphql`
   query {
-    fileName: file(relativePath: { eq: "assets/images/radhikadev.png" }) {
+    radhika: file(relativePath: { eq: "assets/images/radhikadev.png" }) {
       childImageSharp {
         fluid(maxWidth: 1549, maxHeight: 890) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    github: file(relativePath: { eq: "assets/images/githubreposearch.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1550, maxHeight: 832) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    timeline: file(relativePath: { eq: "assets/images/timeline.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1552, maxHeight: 830) {
           ...GatsbyImageSharpFluid
         }
       }

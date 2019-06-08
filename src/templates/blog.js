@@ -8,7 +8,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta charSet='utf-8' />
         <title>{post.frontmatter.title} &bull; Radhika Morabia</title>
       </Helmet>
       <div>
@@ -17,10 +17,24 @@ export default ({ data }) => {
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
       <hr />
-      <p>If you liked this post, get updates about new posts by signing up to my infrequent newsletter.</p>
-      <form action="https://tinyletter.com/rmorabia" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/rmorabia', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-        <input className="email" text="text" name="email" id="tlemail" placeholder="hi@whatever.com"></input>
-        <input className="submit" type="submit" value="Subscribe"></input>
+      <p>
+        If you liked this post, get updates about new posts by signing up to my
+        infrequent newsletter.
+      </p>
+      <form
+        action='https://tinyletter.com/rmorabia'
+        method='post'
+        target='popupwindow'
+        onsubmit="window.open('https://tinyletter.com/rmorabia', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+      >
+        <input
+          className='email'
+          text='text'
+          name='email'
+          id='tlemail'
+          placeholder='hi@whatever.com'
+        />
+        <input className='submit' type='submit' value='Subscribe' />
       </form>
     </Layout>
   )

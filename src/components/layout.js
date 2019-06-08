@@ -34,11 +34,39 @@ export default ({ children }) => (
           <link rel='icon' type='image/png' href={favicon} />
         </Helmet>
         <Canvas />
-        <ul className="header">
-          <li><Link to={'/'} className="homeLink">{data.site.siteMetadata.title}</Link></li>
-          <li><Link to={'/projects'} className="headerLink" activeStyle={activeStyles}>Projects</Link></li>
-          <li><Link to={'/blog'} className="headerLink" activeStyle={activeStyles}>Blog</Link></li>
-          <li><Link to={'/contact'} className="headerLink" activeStyle={activeStyles}>Contact</Link></li>
+        <ul className='header'>
+          <li>
+            <Link to={'/'} className='homeLink'>
+              {data.site.siteMetadata.title}
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={'/projects'}
+              className='headerLink'
+              activeStyle={activeStyles}
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={'/blog'}
+              className='headerLink'
+              activeStyle={activeStyles}
+            >
+              Blog
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={'/contact'}
+              className='headerLink'
+              activeStyle={activeStyles}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
         {children}
       </div>

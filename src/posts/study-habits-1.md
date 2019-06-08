@@ -1,6 +1,6 @@
 ---
 title: "Study Habits For Programmers Part I: Let's make a study plan."
-date: May 12, 2019
+date: "2019-05-12"
 ---
 
 I think most advice about learning programming is terrible.

@@ -1,6 +1,6 @@
 ---
 title: "Learning Log Week 2: Streaming, AWS, and Gatsby"
-date: June 2, 2019
+date: "2019-06-02"
 ---
 
 It's been another two weeks. I don't know where the time is going. I still feel like I'm trying to get settled in. But, it's been a month now. I should be settled in already. Things change too much.

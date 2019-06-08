@@ -2,7 +2,7 @@
 
 # [radhika.dev](https://radhika.dev)
 
-![radhika.dev](https://radhika.dev/static/b4b58a5d6037cd774e116f61db9779ba/7175a/radhikadev.png)
+![radhika.dev](https://raw.githubusercontent.com/rmorabia/radhika.dev/master/src/assets/images/radhikadev.png)
 
 This is the source code for my developer portfolio.
 

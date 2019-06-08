@@ -1,6 +1,6 @@
 ---
 title: "Learning Log Week 1: SSH, Gatsby, and Py"
-date: May 19, 2019
+date: "2019-05-19"
 ---
 
 This week's post is actually a culmination of two weeks. I just moved to the Bay Area two weeks ago, so I gave myself the first week to settle in and set up my computers for development. This week also involved a lot of work on my learning routine. It's not perfect yet, so I haven't been as productive as I will be further on.

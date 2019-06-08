@@ -55,5 +55,7 @@ Issues are welcome! If you see anything wrong with the site or want to suggest a
 
 Pull Requests are hesitantly accepted, but keep in mind this is my personal site.
 
+Although there is no official Code of Conduct, I'd encourage all possible contributors to follow the [Contributor Covenant CoC](https://www.contributor-covenant.org/version/1/4/code-of-conduct).
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

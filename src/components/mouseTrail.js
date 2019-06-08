@@ -25,13 +25,17 @@ function Canvas() {
       points.push(point)
     }
 
-    document.addEventListener('mousemove', ({ clientX, clientY }) => {
-      addPoint(clientX - canvas.offsetLeft, clientY - canvas.offsetTop)
-    }, false)
+    document.addEventListener(
+      'mousemove',
+      ({ clientX, clientY }) => {
+        addPoint(clientX - canvas.offsetLeft, clientY - canvas.offsetTop)
+      },
+      false
+    )
 
     const animatePoints = () => {
       ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height)
-      const duration = 0.7 * (1 * 1000) / 60 // Last 80% of a frame per point
+      const duration = (0.7 * (1 * 1000)) / 60 // Last 80% of a frame per point
 
       for (let i = 0; i < points.length; ++i) {
         const point = points[i]
@@ -50,7 +54,7 @@ function Canvas() {
           // Otherwise animate it:
 
           // As the lifetime goes on, lifePercent goes from 0 to 1.
-          const lifePercent = (point.lifetime / duration)
+          const lifePercent = point.lifetime / duration
           const spreadRate = 7 * (1 - lifePercent)
 
           ctx.lineJoin = 'round'
@@ -58,8 +62,8 @@ function Canvas() {
 
           // As time increases decrease r and b, increase g to go from purple to green.
           const red = 0
-          const green = Math.floor(255 - (255 * lifePercent/2))
-          const blue = Math.floor(127 + (127 * lifePercent/2))
+          const green = Math.floor(255 - (255 * lifePercent) / 2)
+          const blue = Math.floor(127 + (127 * lifePercent) / 2)
           ctx.strokeStyle = `rgb(${red},${green},${blue}`
 
           ctx.beginPath()
@@ -83,7 +87,7 @@ function Canvas() {
     // Set height and width on load because if set in state body isn't defined yet.
     setSize({
       cHeight: window.innerHeight,
-      cWidth: window.innerWidth,
+      cWidth: window.innerWidth
     })
 
     window.addEventListener(
@@ -91,10 +95,10 @@ function Canvas() {
       () => {
         setSize({
           cHeight: window.innerHeight,
-          cWidth: window.innerWidth,
+          cWidth: window.innerWidth
         })
       },
-      false,
+      false
     )
 
     // If the device supports cursors, start animation.
@@ -103,7 +107,14 @@ function Canvas() {
     }
   }, [])
 
-  return <canvas className="mouseTrail" ref={canvasRef} width={cWidth} height={cHeight} />
+  return (
+    <canvas
+      className='mouseTrail'
+      ref={canvasRef}
+      width={cWidth}
+      height={cHeight}
+    />
+  )
 }
 
 export default Canvas

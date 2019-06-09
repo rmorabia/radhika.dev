@@ -34,7 +34,7 @@ export default () => (
       <label for='email'>Email:</label>
       <input type='email' name='email' required />
       <label for='message'>Message:</label>
-      <textarea name='message' required />
+      <textarea name='message' />
       <input
         type='submit'
         className='submit'

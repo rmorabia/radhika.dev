@@ -28,8 +28,7 @@ export default ({ data }) => {
         onsubmit="window.open('https://tinyletter.com/rmorabia', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
       >
         <input
-          className='email'
-          text='text'
+          type='text'
           name='email'
           id='tlemail'
           placeholder='hi@whatever.com'
@@ -46,7 +45,7 @@ export const query = graphql`
       html
       frontmatter {
         title
-        date
+        date(formatString: "MMMM DD, YYYY")
       }
     }
   }

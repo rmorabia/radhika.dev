@@ -179,6 +179,16 @@ label {
   ul {
     width: 100%;
   }
+
+  .blogPost {
+    display: block;
+    margin-bottom: 1.4rem;
+  }
+
+  .blogPost p {
+    margin-top: .5rem;
+    margin-bottom: 0;
+  }
 }
 
 .gatsby-image-wrapper {

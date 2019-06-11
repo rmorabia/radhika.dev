@@ -1,5 +1,5 @@
 ---
-title: "Learning Log Week 2: Linux, Horoscopes, and Py"
+title: "Learning Log Week 3: Linux, Horoscopes, and Py"
 date: "2019-06-10"
 ---
 

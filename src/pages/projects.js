@@ -20,6 +20,24 @@ export default ({ data }) => (
       <a href='http://github.com/rmorabia'>GitHub</a>.
     </p>
     <hr />
+
+    <h2>Colors & Cookies</h2>
+    <Img fluid={data.colors.childImageSharp.fluid} alt='Colors and Cookies' />
+    <p>
+      Idle Clicker RPG in the vein of Earthbound, joy, and 🌈s.
+    </p>
+    <p>
+      <b>Tools Used:</b> React, Redux, Router, Express/Node.js, Jest, and more to come.
+    </p>
+    <p>
+      <a
+        className={styles.source}
+        href='https://github.com/rmorabia/colorsandcookies'
+      >
+        View Source
+      </a>
+    </p>
+
     <h2>radhika.dev</h2>
     <Img fluid={data.radhika.childImageSharp.fluid} alt='' />
     <p>
@@ -95,6 +113,13 @@ export const query = graphql`
       }
     }
     timeline: file(relativePath: { eq: "assets/images/timeline.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1552, maxHeight: 830) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    colors: file(relativePath: { eq: "assets/images/colorsandcookies.png" }) {
       childImageSharp {
         fluid(maxWidth: 1552, maxHeight: 830) {
           ...GatsbyImageSharpFluid

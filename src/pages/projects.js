@@ -121,7 +121,7 @@ export const query = graphql`
     }
     colors: file(relativePath: { eq: "assets/images/colorsandcookies.png" }) {
       childImageSharp {
-        fluid(maxWidth: 1552, maxHeight: 830) {
+        fluid(maxWidth: 1560, maxHeight: 962) {
           ...GatsbyImageSharpFluid
         }
       }

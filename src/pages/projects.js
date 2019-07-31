@@ -21,7 +21,9 @@ export default ({ data }) => (
     </p>
     <hr />
 
-    <h2>Colors & Cookies</h2>
+    <h2>
+      <a href='https://colorsandcookies.netlify.com/'>Colors & Cookies</a>
+    </h2>
     <Img fluid={data.colors.childImageSharp.fluid} alt='Colors and Cookies' />
     <p>
       Idle Clicker RPG in the vein of Earthbound, joy, and 🌈s.

@@ -7,7 +7,7 @@ I've been stuck on this question for a long time. I didn't really have that many
 
 The answer is not to just build things. The advice to "scratch your own itch" is an extremely different personality type than I have.
 
-I have no motivation to build things from scratch. I didn't get into programming to build the things I never had. When I've tried to fight my instincts and just do this because it was more "imressive", I got extremely frustrated with the amount of pre-work that went into getting the app idea coherent (design, writing, etc.) before I could even get to the software design.
+I have no motivation to build things from scratch. I didn't get into programming to build the things I never had. When I've tried to fight my instincts and just do this because it was more "impressive", I got extremely frustrated with the amount of pre-work that went into getting the app idea coherent (design, writing, etc.) before I could even get to the software design.
 
 I'm not really an "explorer-type" either. I don't like reading about new technologies without any practical usage at the end. I don't like learning technology for the sake of learning a technology.
 
@@ -31,7 +31,7 @@ Figure out if it's a small thing or something totally new.
 
 If it's a new language or framework, start from scratch. Go through a full-on exercise heavy course (Udemy) or book. This will take like 100 hours. Just do it. Build tiny things along the way, as I always do anyway. I'm very good at doing this. I don't think this is the question I'm trying to ask here.
 
-If it's a small addition ton an existing piece of knowledge (eg. functional components in React, a new JavaScript design pattern), do a small video course (Egghead, YouTube) or just read about it. The idea here is to learn enough to be dangerous.
+If it's a small addition to an existing piece of knowledge (eg. functional components in React, a new JavaScript design pattern), do a small video course (Egghead, YouTube) or just read about it. The idea here is to learn enough to be dangerous.
 
 ### Step 3/2: Map out a stupid project.
 

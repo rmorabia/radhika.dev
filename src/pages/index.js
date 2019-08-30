@@ -13,15 +13,14 @@ export default () => (
       .
     </h1>
     <p>
-      I'm a Software Engineer based in Oakland, CA. I'm interested in
+      I'm a Software Engineer at [OpenTable](https://opentable.com). I live in Oakland, CA.  I'm interested in
       full&#x2011;stack web development &amp; data engineering.
     </p>
     <p>
-      Currently, I work with React, Vue, and Node.js. I'm also learning Python.
+      I work with React &amp; Node.js right now. I'm also learning Python.
       Down the line, I'm hoping to gain a good understanding of Java and CS
       fundamentals.{' '}
-      <Link to={'/blog'}>Read about what I'm learning on my blog.</Link> Usually
-      updated weekly.
+      <Link to={'/blog'}>Read about what I'm learning on my blog.</Link> It's updated every time I make a breakthrough worth mentioning.
     </p>
     <p>
       The best way to keep up with what I'm doing is to subscribe to my

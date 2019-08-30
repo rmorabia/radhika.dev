@@ -5,7 +5,7 @@ date: "2019-08-30"
 
 I've been stuck on this question for a long time. I didn't really have that many chances to improve at my last job, and before that, I was a junior developer that had an endless list of technologies to get better at. I still have some technologies that I need to zero in on, but not as many as I used to. Now, I'm just haunted by this vague question of, **"How do I improve and become the best developer I can?**
 
-The answer is not to just build things.
+The answer is not to just build things. The advice to "scratch your own itch" is an extremely different personality type than I have.
 
 I have no motivation to build things from scratch. I didn't get into programming to build the things I never had. When I've tried to fight my instincts and just do this because it was more "imressive", I got extremely frustrated with the amount of pre-work that went into getting the app idea coherent (design, writing, etc.) before I could even get to the software design.
 
@@ -13,7 +13,7 @@ I'm not really an "explorer-type" either. I don't like reading about new technol
 
 My personaliy type is just, a finisher. I like the push. I like the problem solving. I like knowing what needs to be done and doing it. That doesn't mean I don't like refactoring or software design, it means I like to have a clear idea of what's lacking and going after it.
 
-Again, my last job did not give me that. As I move into my next job at a big tech company, I think there will be lots of learning on the job, but I still feel an aching need to be proactive outside of work.
+Again, my last job did not give me that. As I move into my next job at a big tech company, I think there will be lots of learning on the job, but I still feel an aching need to be proactive outside of work. I have a huge fear of getting stagnant.
 
 I talked it over with some folks, and here's my new learning plan. It's not very sexy. But, I think it jives with my personality well.
 

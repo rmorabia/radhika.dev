@@ -61,4 +61,4 @@ The whole concept of this is to push one inch at a time. If I can build an app a
 
 I just need to keep a clear priorities list as I go along.
 
-Thanks to Devin & Kenneth for knowing me well enough to both lead in a very similar solution, where both explanations were coming from totally different angles of insecurity for me.
+Thanks to [Devin](https://www.dev-eloper.com/) & [Kenneth](http://thekennethlove.com) for knowing me well enough to both lead in a very similar solution, where both explanations were coming from totally different angles of insecurity for me.

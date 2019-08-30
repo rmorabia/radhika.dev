@@ -3,7 +3,7 @@ title: "How I Learn"
 date: "2019-08-30"
 ---
 
-I've been stuck on this question for a long time. I didn't really have that many chances to improve at my last job, and before that, I was a junior developer that had an endless list of technologies to get better at. I still have some technologies that I need to zero in on, but not as many as I used to. Now, I'm just haunted by this vague question of, **"How do I improve and become the best developer I can?**
+I've been stuck on this question for a long time. I didn't really have that many chances to improve at my last job, and before that, I was a junior developer that had an endless list of technologies to get better at. I still have some technologies that I need to zero in on, but not as many as I used to. Now, I'm just haunted by this vague question of, **"How do I improve and become the best developer I can?"**
 
 The answer is not to just build things. The advice to "scratch your own itch" is an extremely different personality type than I have.
 

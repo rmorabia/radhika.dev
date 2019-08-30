@@ -7,7 +7,7 @@ I've been stuck on this question for a long time. I didn't really have that many
 
 The answer is not to just build things.
 
-I have no motivation to build things from scratch. I didn't get into programming to build the things I never had. I don't have any intrinsic motivation to build things from scratch, and I get extremely frustrated when I have to do a lot of pre-work to even get the app idea coherent before I even dig into the software design.
+I have no motivation to build things from scratch. I didn't get into programming to build the things I never had. When I've tried to fight my instincts and just do this because it was more "imressive", I got extremely frustrated with the amount of pre-work that went into getting the app idea coherent (design, writing, etc.) before I could even get to the software design.
 
 I'm not really an "explorer-type" either. I don't like reading about new technologies without any practical usage at the end. I don't like learning technology for the sake of learning a technology.
 

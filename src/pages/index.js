@@ -13,7 +13,7 @@ export default () => (
       .
     </h1>
     <p>
-      I'm a Software Engineer at [OpenTable](https://opentable.com). I live in Oakland, CA.  I'm interested in
+      I'm a Software Engineer at <a href="https://opentable.com">OpenTable</a>. I live in Oakland, CA.  I'm interested in
       full&#x2011;stack web development &amp; data engineering.
     </p>
     <p>

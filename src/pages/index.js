@@ -13,19 +13,10 @@ export default () => (
       .
     </h1>
     <p>
-      I'm a Software Engineer at <a href="https://opentable.com">OpenTable</a>. I live in Oakland, CA.  I'm interested in
-      full&#x2011;stack web development &amp; data engineering.
+      I'm a Software Engineer at <a href="https://opentable.com">OpenTable</a>, currently focused on full&#8209;stack web development. I live in Oakland, CA.
     </p>
     <p>
-      I work with React &amp; Node.js right now. I'm also learning Python.
-      Down the line, I'm hoping to gain a good understanding of Java and CS
-      fundamentals.{' '}
-      <Link to={'/blog'}>Read about what I'm learning on my blog.</Link> It's updated every time I make a breakthrough worth mentioning.
-    </p>
-    <p>
-      The best way to keep up with what I'm doing is to subscribe to my
-      newsletter below. I write about my journey in the tech industry and
-      sprinkle in some useful advice.
+      400+ people are subscribed to my newsletter about my journey in tech. I write with raw honesty and aching detail. This is everything I wish someone had told me a year ago. You can sign up below.
     </p>
     <form
       action='https://tinyletter.com/rmorabia'
@@ -42,9 +33,11 @@ export default () => (
       <input className='submit' type='submit' value='Subscribe' />
     </form>
     <p>
-      If you want to keep up with a less polished version of me, I'm pretty
-      active on Twitter at{' '}
-      <a href='http://twitter.com/radhikamorabia'>@radhikamorabia</a>.
+      I'm always thinking out loud on Twitter at {' '}
+      <a href='http://twitter.com/radhikamorabia'>@radhikamorabia</a>. I think out loud, ask lots of questions, and make lots of ace jokes.
+    </p>
+    <p>
+      <Link to={'/blog'}>Read about what I'm learning on my blog.</Link> It's updated every time I make a breakthrough worth mentioning.
     </p>
     <p>
       I'm also on <a href='http://linkedin.com/in/rmorabia'>LinkedIn</a> and{' '}

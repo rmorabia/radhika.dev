@@ -33,11 +33,11 @@ export default () => (
       <input className='submit' type='submit' value='Subscribe' />
     </form>
     <p>
-      I'm always thinking out loud on Twitter at {' '}
-      <a href='http://twitter.com/radhikamorabia'>@radhikamorabia</a>. I think out loud, ask lots of questions, and make lots of ace jokes.
+      <Link to={'/blog'}>Read about what I'm learning on my blog.</Link> It's updated every time I make a breakthrough worth mentioning. I'm currently focused on learning more about Software Engineering &#38; Computer Science fundamentals.
     </p>
     <p>
-      <Link to={'/blog'}>Read about what I'm learning on my blog.</Link> It's updated every time I make a breakthrough worth mentioning.
+      I'm always thinking out loud on Twitter. You can follow me at {' '}
+      <a href='https://twitter.com/radhikamorabia'>@radhikamorabia</a>.
     </p>
     <p>
       I'm also on <a href='http://linkedin.com/in/rmorabia'>LinkedIn</a> and{' '}
@@ -46,7 +46,7 @@ export default () => (
     <p>
       <i>
         (Psst! If you're not here for developer stuff, check out my personal
-        site: <a href='http://rmorabia.com'>rmorabia.com</a>.)
+        site at <a href='https://rmorabia.com'>rmorabia.com</a>.)
       </i>
     </p>
   </Layout>

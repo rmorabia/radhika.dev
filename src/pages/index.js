@@ -16,7 +16,7 @@ export default () => (
       I'm a Software Engineer at <a href="https://opentable.com">OpenTable</a>, currently focused on full&#8209;stack web development. I live in Oakland, CA.
     </p>
     <p>
-      400+ people are subscribed to my newsletter about my journey in tech. I write with raw honesty and aching detail. This is everything I wish someone had told me a year ago. You can sign up below.
+      400+ people are subscribed to my newsletter about my journey in tech. I write with raw honesty and aching detail. This is everything I wish someone had told me a year ago. Sign up below:
     </p>
     <form
       action='https://tinyletter.com/rmorabia'

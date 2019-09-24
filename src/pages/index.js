@@ -33,6 +33,9 @@ export default () => (
       <input className='submit' type='submit' value='Subscribe' />
     </form>
     <p>
+      I teach web developers how Linux tooling is intertwined with developer productivity as an <a href="https://egghead.io/instructors/radhika-morabia">instructor on Egghead.io</a>. My lessons have been viewed for over 20 hours, and I'm always making more.
+    </p>
+    <p>
       <Link to={'/blog'}>Read about what I'm learning on my blog.</Link> It's updated every time I make a breakthrough worth mentioning. I'm currently learning more about Software Engineering &#38; Computer Science fundamentals.
     </p>
     <p>

@@ -3,8 +3,6 @@ title: "The Top-Down Learning Cycle"
 date: "2019-10-16"
 ---
 
-# The Top-Down Learning Cycle
-
 ## Highest-Level Exposure
 
 Twitter, Newsletters, and especially, work & conversations with practitioners. Get mentors to help with this.

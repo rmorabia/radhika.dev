@@ -33,7 +33,7 @@ You know how to use the technology, now it's time to take a step back & figure o
 
 I'm not sure about how to practice this yet. I think just doing normal study techniques of how you learn higher-order concepts (aka don't do flash cards) are in order here.
 
-## Step 3: Low-Level Computer Science
+## Low-Level Computer Science
 
 Take a course, read a textbook, learn a new lower-level language. Either way, this should be a mix of reading about theory and exposing yourself to exercises in that theory. It won't be practical to the day-to-day of work, but it will definitely have exercises.
 

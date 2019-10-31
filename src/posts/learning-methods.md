@@ -29,7 +29,7 @@ I have now unsubscribed from all programming channels on YouTube. I never watch 
 
 ### Code-along articles
 
-I skim on computers. I read on my phone. Good articles read like books -- I can load them up on my phone and follow along. Code examples are meant to be read, not coded along to. Context switching between text and code leads me to a lot of copy-pasting. Line-by-line explanations after the code is already copied over are super hard to follow along with.
+I skim on computers. I read on my phone. Good articles read like books -- I can load them up on my phone and follow along. Context switching between text and code leads me to a lot of copy-pasting. Line-by-line explanations after the code is already copied over are super hard to follow along with.
 
 ### Incremental Exercises
 
@@ -76,6 +76,14 @@ It works... eventually. I don't prefer it. I like knowing the details of the imp
 The quality here varies, but tends to live in its best form on Udemy. It's cheap, instructors are incentivized to take things slowly, and it's a low-risk way to get acquainted with a new instructor who you can then trust. I haven't found any instructors off of Udemy that I like more than Mead.
 
 (I have other recommendations in this category if anyone is curious, just ask me.)
+
+## Conclusion
+
+Okay, so based on the list above, here's the methods that work for the "type" of learning:
+
+1. **Tooling** - Docs & Egghead. Sometimes articles (if no other options exist). This is to keep up with changes or new features in languages and frameworks I'm already fluent in, or to get familiar with libraries on the side.
+2. **Languages/Frameworks** - Udemy-style screencasts. If that's not an option, books.
+3. **Everything else** - Books. That's pretty much it. Long-form deep-dive style articles work, too.
 
 ...
 

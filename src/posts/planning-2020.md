@@ -13,7 +13,7 @@ I want to learn **Node from a back-end perspective, not a full-stack perspective
 
 I want to learn **testing**. I kinda know Jest, I kinda know Mocha, I kind of know Chai, I kinda know Cypress, but knowing the frameworks doesn't mean I know how to _test_.
 
-I want to learn **system design/software architecture**. I want to know enough about this to confidently feel like a mid-level engineer who can make and contribute to decisions by the end of next year.
+I want to learn **system design/software architecture**. I want to know enough about this to confidently feel like a mid-level engineer who can make and contribute to decisions by the end of next year. Start with [Khalil Stemmler's blog post on this](https://khalilstemmler.com/articles/software-design-architecture/full-stack-software-design/).
 
 I want to learn **Freshman-level CS**. If we went off of [OSSU's curriculum for context](https://github.com/ossu/computer-science#core-cs), this would constitute Core Programming, a 101 to systems, and a 101 in databases and networking. Obviously algorithms, too, but that was covered before.
 

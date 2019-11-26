@@ -25,7 +25,7 @@ Let’s go through a few.
 
 ## React Hooks
 
-Okay… This is something very **practical**. This is mostly syntax, but it’s also got some lower-level theory behind it that the React team has published across the docs and [Dan’s blog](overreacted.io).  So, for this, I think the next time that I am using React Hooks — probably at work — I should stop for a minute and read the documentation and maybe watch the talk where the React team announces Hooks.
+Okay… This is something very **practical**. This is mostly syntax, but it’s also got some lower-level theory behind it that the React team has published across the docs and [Dan’s blog](https://overreacted.io).  So, for this, I think the next time that I am using React Hooks — probably at work — I should stop for a minute and read the documentation and maybe watch the talk where the React team announces Hooks.
 
 This definitely falls into just in time learning, so I shouldn’t prioritize focusing on it when I go home. **I should be making time for this at work.**
 
@@ -41,7 +41,7 @@ GraphQL is an interesting mix of theory and practice. I know the basics, but I d
 
 Is this something that would be fixed by digging deeper into it when I have not been exposed to its complexities or is this something that I should build up on the side on my own?
 
-I don’t know. I tried reading a book about it, but that felt wrong. It felt too shallow in either direction. I think there’s lot a lot of theory or deep thinking about GraphQL. It’s just a way to handle APIs. I probably need **more exposure to when we use it**.  That feels very practical, and I should wait until I’m exposed to it further at the job. So, this is just in time learning.
+I don’t know. I tried reading a book about it, but that felt wrong. It felt too shallow in either direction. I think there’s not a lot of theory or deep thinking about GraphQL. It’s just a way to handle APIs. I probably need **more exposure to when we use it**.  That feels very practical, and I should wait until I’m exposed to it further at the job. So, this is just in time learning.
 
 ## Testing
 

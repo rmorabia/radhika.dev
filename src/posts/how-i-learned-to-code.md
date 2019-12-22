@@ -49,7 +49,7 @@ Let’s fast forward a bit. I dropped out of school and started reading blogs & 
 
 I had a $100 desktop, a monitor from 2005, and a very stiff chair that I thought was great when I bought it. Computer time was a significant hurdle,  and probably not worth it.
 
-<img src="https://raw.githubusercontent.com/rmorabia/radhika.dev/master/src/assets/images/desk.jpg" alt="My old desk" style="width: 55%; height: auto;">
+![My old desk](https://i.imgur.com/d9gjK5b.jpg)
 
 I got really into minimalism and self-development. (This is relevant, trust me.) I thought it would fix all my ails with GTD and mindfulness. (Who doesn’t have a phase like this?) This manifested in a specific focus on productivity and learning. [I know a lot about this stuff.](https://www.quora.com/How-do-I-more-effectively-recall-what-I-read-I-can-read-for-an-hour-and-then-I-try-to-recall-information-and-I-cant-remember-anything-What-is-wrong-with-my-studying-How-can-I-improve-my-memory/answer/Radhika-Morabia)
 

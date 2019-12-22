@@ -130,7 +130,7 @@ I knew to break things up into chunks, because if my todo list just said, “Rea
 
 Of course, I struggled with it like everyone else. But, I never doubted that I couldn’t learn something in particular. I would chastise myself for moving too slowly, or struggling with a specific problem in a project. But, it was never something fundamental that I couldn’t overcome in a few days.
 
-In fact, the extremely step-by-step nature of coding was one of the easiest things I’ve ever learned. There’s abundant information about foundational skills you need before learning something in particular, there’s constant feedback loops, and it’s extremely explicit. Compare that with learning copywriting, which doesn’t give you glaring error messages when you are failing completely. There are no logs in writing.
+In fact, the extremely step-by-step nature of coding was one of the easiest things I’ve ever learned. There’s abundant information about foundational skills you need before learning something in particular, there’s constant feedback loops, and it’s extremely explicit. Compare that with learning copywriting, which doesn’t give you glaring error messages when you are failing completely. There are no logs in writing.
 
 Remember, I had lost a lot of cognitive ability over the past few years. I could still barely read books without my eyes wandering. But, I could read code. I could watch videos about coding. **Learning to code just needed discipline, not raw intelligence.**
 

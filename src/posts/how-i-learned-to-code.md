@@ -148,7 +148,15 @@ I focused a lot on my portfolio as well. Here’s the evolution over time:
 
 [Here is a link to every single blog post I wrote.](https://github.com/rmorabia/rmorabia.github.io/tree/7af140f56d4241f3412fffd8c7f5ac0a744d0c16/_posts)
 
-**If you’re looking for the exact resources I used to learn to code, dive through my blog posts. They don’t hide anything.**
+**If you’re looking for the exact resources I used to learn to code, I published monthly recaps reflecting on my progress, monthly goals, and the resources I was going through that month:**
+
+* [December 2017](https://github.com/rmorabia/rmorabia.github.io/blob/7af140f56d4241f3412fffd8c7f5ac0a744d0c16/_posts/2017-12-31-review.md)
+* [January 2018](https://github.com/rmorabia/rmorabia.github.io/blob/7af140f56d4241f3412fffd8c7f5ac0a744d0c16/_posts/2018-01-31-review.md)
+* [February 2018](https://github.com/rmorabia/rmorabia.github.io/blob/7af140f56d4241f3412fffd8c7f5ac0a744d0c16/_posts/2018-02-28-review.md)
+* [March 2018](https://github.com/rmorabia/rmorabia.github.io/blob/7af140f56d4241f3412fffd8c7f5ac0a744d0c16/_posts/2018-03-31-review.md)
+* [April 2018](https://github.com/rmorabia/rmorabia.github.io/blob/7af140f56d4241f3412fffd8c7f5ac0a744d0c16/_posts/2018-05-09-review.md)
+
+By May and June, I had a lot of _life_ going on, and I didn't want to talk about how much time my interviewing was taking up publicly, so the blog posts get more sparse.
 
 If that’s too long for you, I made a [small repo listing resources I used to learn things](https://github.com/rmorabia/what-i-learned). This really misses a lot of context, though.
 

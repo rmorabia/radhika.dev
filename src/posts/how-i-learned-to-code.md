@@ -152,6 +152,8 @@ I focused a lot on my portfolio as well. Here’s the evolution over time:
 
 If that’s too long for you, I made a [small repo listing resources I used to learn things](https://github.com/rmorabia/what-i-learned). This really misses a lot of context, though.
 
+[These are the first projects I ever did.](http://rmorabia.com/tinyjs/) They were hard at the time, and I wouldn't be where I am today without them. I think folks are too ambitious with their first code — just because they build a todo list in a course, they think they can go that far on their own. I focused on getting a lot of small wins, slowly building my way up to full apps.
+
 One of the best things I did was learn vanilla JavaScript very well before learning React. I think I’ve forgotten most of it by now since I’ve used frameworks professionally for so long, but it was useful because my first dev job actually ended up being in Vue. Learning vanilla JavaScript first made the transition to Vue easier.
 
 I don’t know if I recommend that path to everyone, since again, I feel I’ve forgotten it all by now. It worked out for me, though.
@@ -197,7 +199,7 @@ This was the exact process:
 * Take-home exercise ([Here’s that repo](https://github.com/rmorabia/coolpics))
 * Final longer-form interviews with a few engineers and a few non-technical folks and the CEO
 
-I got to the finals, although I don’t think they were too impressed with my take-home. I don’t think I was supposed to use the amount of libraries I did. But, I wouldn’t have known how to implement what they were asking for without libraries at the time. Even now, it’d be a hacky solution. But, I didn’t well enough to get through, so whatever.
+I got to the finals, although I don’t think they were too impressed with my take-home. I don’t think I was supposed to use the amount of libraries I did. But, I wouldn’t have known how to implement what they were asking for without libraries at the time. Even now, it’d be a hacky solution. But, I did well enough to get through, so whatever.
 
 I lost out to someone with more back-end experience than me. Today, I looked up who actually got the role, and it was someone who had previously had software engineering internships, so of course I wasn’t going to get this job.
 

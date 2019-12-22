@@ -1,6 +1,7 @@
 ---
 title: 'How I Learned to Code'
 date: '2019-12-22'
+---
 
 In order to properly talk about how I learned to code, we need to start a lot earlier than the year before I got my job. As tends to happen, the story is never as clear cut as it seems.
 
@@ -47,6 +48,8 @@ Sometime during middle school, I also had a weeklong phase where I joined a prog
 Let’s fast forward a bit. I dropped out of school and started reading blogs & journalism like hell. It was no longer “make money online” blogs and I no longer had a gaming addiction. I had a Kindle, was in bedrest for 24 hours a day, and we didn’t really have any laptops or tablets for browsing around on the internet?
 
 I had a $100 desktop, a monitor from 2005, and a very stiff chair that I thought was great when I bought it. Computer time was a significant hurdle,  and probably not worth it.
+
+<img src="https://raw.githubusercontent.com/rmorabia/radhika.dev/master/src/assets/images/desk.jpg" alt="My old desk" style="width: 100%; height: auto;">
 
 I got really into minimalism and self-development. (This is relevant, trust me.) I thought it would fix all my ails with GTD and mindfulness. (Who doesn’t have a phase like this?) This manifested in a specific focus on productivity and learning. [I know a lot about this stuff.](https://www.quora.com/How-do-I-more-effectively-recall-what-I-read-I-can-read-for-an-hour-and-then-I-try-to-recall-information-and-I-cant-remember-anything-What-is-wrong-with-my-studying-How-can-I-improve-my-memory/answer/Radhika-Morabia)
 

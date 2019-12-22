@@ -16,7 +16,7 @@ So, let’s make some realities about my life very clear before we start:
 However, those facts don’t stop me from having certain privileges that made learning to code and getting my first job trivially easy compared to some folks. **How did I get my first dev job within 7 months of learning to code?**
 
 ## The Beginning
-I was born in 1997. This meant I was using a computer by the time I was 3, in 2000. We had computer literacy courses as early as my preschool. This mostly meant playing games, but still. I grew up around computers, and we had dial-up internet basically as long as we had internet. Yes, I used the Netscape browser.
+I was born in 1997. This meant I was using a computer by the time I was 3, in 2000. We had computer literacy courses as early as my preschool. This mostly meant playing games, but still. I grew up around computers, and we had dial-up internet basically as long as we had a computer. Yes, I used the Netscape browser.
 
 Like a lot of kids, my sister and I played a lot of [Neopets](http://www.neopets.com/userlookup.phtml?user=radhika13101). I learned to touch type by the time I was 7. This isn’t that unusual for kids of my generation.
 

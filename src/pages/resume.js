@@ -20,11 +20,12 @@ export default () => (
       <a href='https://github.com/rmorabia'>GitHub</a> &bull;{' '}
       <a href='https://twitter.com/radhikamorabia'>Twitter</a>
     </p>
-    <p>Oakland, CA 94607</p>
+    <p>
+      <b>Based in:</b> Oakland, CA
+    </p>
     <p>
       <b>Current:</b> Software Engineer at{' '}
-      <a href='https://opentable.com'>OpenTable</a>, focused on the Booking
-      experience.
+      <a href='https://opentable.com'>OpenTable</a>
     </p>
     <p>
       <i>I am not looking for new opportunities at this time.</i>
@@ -33,6 +34,9 @@ export default () => (
     <h3>
       Software Engineer at <a href='https://opentable.com'>OpenTable</a>
     </h3>
+    <p>
+      <i>September 2019 - Present</i>
+    </p>
     <p>
       Full-Stack engineer on the Booking team, building the core booking
       experience and maintaining related systems.
@@ -47,6 +51,9 @@ export default () => (
       Web Developer at <a href='https://l-tron.com'>L-Tron Corporation</a>
     </h3>
     <p>
+      <i>June 2018 - June 2019</i>
+    </p>
+    <p>
       Front-End developer focused on building a 360&deg; camera app on desktop
       and mobile.
     </p>
@@ -59,19 +66,61 @@ export default () => (
         <li>
           Introduced best practices such as linting which decreased bugs by 30%
         </li>
-        <li>Modernized codebase performance & standards using Vue + Vuex</li>
-        <li>
-          Streamlined development ecosystem by integrating tools such as Webpack
-          and CI
-        </li>
         <li>
           Increased developer productivity by over 50% by leading a major
           refactoring project
         </li>
         <li>
           Componentized major code blocks into bloat-free & efficient files
+          using Vue + Vuex
         </li>
       </ul>
+    </p>
+    <h2>Projects</h2>
+    <h3>
+      Instructor on{' '}
+      <a href='https://egghead.io/instructors/radhika-morabia'>Egghead.io</a>
+    </h3>
+    <p>
+      Egghead is a leading instructional site in the web developer community. My
+      lessons there have been viewed for over 60 hours, and tend to be focused
+      on how Linux tooling integrates with web development.
+    </p>
+    <h3>
+      Admin &amp; Mentor on <a href='https://codebuddies.org'>CodeBuddies</a>
+    </h3>
+    <p>
+      CodeBuddies is a global community dedicated to helping folks get better at
+      software development. I have been involved in the community for over 2
+      years now.
+    </p>
+    <h3>
+      Speaker at{' '}
+      <a href='https://queerjs.com/san-francisco'>QueerJS San Francisco</a>
+    </h3>
+    <p>
+      I spoke about How To Be a Good Mentee to a live and streaming audience in
+      SF and NYC. The slides can be seen{' '}
+      <a href='https://radhika.dev/how-to-be-a-good-mentee/'>here</a>.
+    </p>
+    <h3>
+      {' '}
+      Blogger and Writer at <a href='https://radhika.dev'>radhika.dev</a>
+    </h3>
+    <p>
+      I write a lot, both on my <a href='https://radhika.dev/blog'>blog</a>, but
+      also to{' '}
+      <a href='https://tinyletter.com/rmorabia'>
+        a newsletter audience of 500+
+      </a>
+      . I mostly write about career development and learning strategies in tech.
+    </p>
+    <h3>
+      Project Creator at <a href='https://github.com/rmorabia'>GitHub</a>
+    </h3>
+    <p>
+      For all other work, please check GitHub. I publish everything (including
+      this website!) there.
     </p>
   </Layout>
 )

@@ -42,11 +42,11 @@ export default ({ children }) => (
           </li>
           <li>
             <Link
-              to={'/projects'}
+              to={'/resume'}
               className='headerLink'
               activeStyle={activeStyles}
             >
-              Projects
+              resume
             </Link>
           </li>
           <li>

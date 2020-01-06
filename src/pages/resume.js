@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet'
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import Header from '../components/header'
-import styles from './resume.module.scss'
 
 export default () => (
   <Layout>
@@ -60,15 +59,15 @@ export default () => (
     <p>
       <ul>
         <li>
-          Built a 360&deg; camera app across desktop & mobile platforms using
-          Cordova and Electron
-        </li>
-        <li>
           Introduced best practices such as linting which decreased bugs by 30%
         </li>
         <li>
           Increased developer productivity by over 50% by leading a major
           refactoring project
+        </li>
+        <li>
+          Streamlined development ecosystem by integrating tools such as Webpack
+          and CI
         </li>
         <li>
           Componentized major code blocks into bloat-free & efficient files

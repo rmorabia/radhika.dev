@@ -102,7 +102,7 @@ export default () => (
     </p>
     <h3>
       {' '}
-      Blogger and Writer at <a href='https://radhika.dev'>radhika.dev</a>
+      Blogger &amp; Writer at <a href='https://radhika.dev'>radhika.dev</a>
     </h3>
     <p>
       I write a lot, both on my <a href='https://radhika.dev/blog'>blog</a>, but

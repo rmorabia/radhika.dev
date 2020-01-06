@@ -56,25 +56,23 @@ export default () => (
       Front-End developer focused on building a 360&deg; camera app on desktop
       and mobile.
     </p>
-    <p>
-      <ul>
-        <li>
-          Introduced best practices such as linting which decreased bugs by 30%
-        </li>
-        <li>
-          Increased developer productivity by over 50% by leading a major
-          refactoring project
-        </li>
-        <li>
-          Streamlined development ecosystem by integrating tools such as Webpack
-          and CI
-        </li>
-        <li>
-          Componentized major code blocks into bloat-free & efficient files
-          using Vue + Vuex
-        </li>
-      </ul>
-    </p>
+    <ul>
+      <li>
+        Introduced best practices such as linting which decreased bugs by 30%
+      </li>
+      <li>
+        Increased developer productivity by over 50% by leading a major
+        refactoring project
+      </li>
+      <li>
+        Streamlined development ecosystem by integrating tools such as Webpack
+        and CI
+      </li>
+      <li>
+        Componentized major code blocks into bloat-free & efficient files using
+        Vue + Vuex
+      </li>
+    </ul>
     <h2>Projects</h2>
     <h3>
       Instructor on{' '}

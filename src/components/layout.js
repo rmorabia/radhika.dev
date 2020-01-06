@@ -46,7 +46,7 @@ export default ({ children }) => (
               className='headerLink'
               activeStyle={activeStyles}
             >
-              resume
+              Resume
             </Link>
           </li>
           <li>

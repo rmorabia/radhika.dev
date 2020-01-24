@@ -44,7 +44,7 @@ I need to figure out a better way to learn this stuff.
 
 This is how I know I'm getting to the level where Udemy isn't as appealing and faster-paced resources like [Egghead](https://egghead.io) & [PluralSight](https://pluralsight.com) are. Give me an overview of the concepts, structure, and vocabulary in less than 5 hours, so I can work on something myself. That might even be direct work tickets.
 
-## But how do we know get that list of essential concepts to learn?
+## But how do we get that list of essential concepts to learn?
 
 Especially if we're skipping large, comprehensive courses like Udemy's from now on.
 

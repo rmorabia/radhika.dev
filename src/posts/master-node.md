@@ -64,6 +64,8 @@ So, here's what I'm using for resources for Node, now that I have a good list of
 - [Test Node Backends](https://egghead.io/courses/test-node-js-backends) on Egghead
 - YouTubeing and reading wherever my gaps are
 
+I'm also going to be attending [NodeSchool](https://nodeschool.io) tomorrow. Hopefully talking to folks who write more Node can help me separate my knowledge gaps from being a front-end developer who writes Node to thinking about it in a back-end first way.
+
 ## Projects
 
 The most important way to make progress with this is to make projects that slowly but surely allow me to practice all of these concepts at least 3x. This was covered before in [How I Learn](https://radhika.dev/how-i-learn/).

@@ -5,7 +5,7 @@ date: '2020-01-24'
 
 Node is weird.
 
-If you've built any significant app with JavaScript, you've used Node. You've used `npm` or `yarn`, used `import` syntax and are familiar with `require` syntax.
+If you've built any significant app with JavaScript, you've used Node. You've used npm or yarn, used `import` syntax and are familiar with `require` syntax.
 
 But... does that really mean you know Node? 
 

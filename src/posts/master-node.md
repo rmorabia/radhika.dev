@@ -58,10 +58,11 @@ Otherwise, I'd say if Twitter didn't exist, I'd just find the top 10 books on th
 
 So, here's what I'm using for resources for Node, now that I have a good list of things I need to learn from Twitter and reading around.
 
-- **[nodejs.dev](https://egghead.io/courses/introduction-to-node-the-fundamentals) is a great overview of most essential Node topics without getting into Express or testing.**
+- **[nodejs.dev](https://nodejs.dev) is a great overview of most essential Node topics without getting into Express or testing.**
 - [Andrew Mead's Node Course](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/) includes a 125-page PDF that covers the essential lesson of each video.
 - [Introduction to Node: The Fundamentals](https://egghead.io/courses/introduction-to-node-the-fundamentals) on Egghead
 - [Test Node Backends](https://egghead.io/courses/test-node-js-backends) on Egghead
+- [Anthony Alicea's Node Course](https://www.udemy.com/course/understand-nodejs/) on Udemy
 - YouTubeing and reading wherever my gaps are
 
 I'm also going to be attending [NodeSchool](https://nodeschool.io) tomorrow. Hopefully talking to folks who write more Node can help me separate my knowledge gaps from being a front-end developer who writes Node to thinking about it in a back-end first way.

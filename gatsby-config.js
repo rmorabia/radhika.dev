@@ -3,7 +3,8 @@ module.exports = {
     title: 'Radhika Morabia',
     titleTemplate: '%s · Radhika Morabia',
     description: 'Full-Stack Software Engineer interested in React, Node, JavaScript, and Python',
-    url: 'http://radhika.dev'
+    url: 'https://radhika.dev',
+    siteUrl: 'https://radhika.dev'
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -11,7 +12,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-twitter',
-		'gatsby-plugin-feed',
+    'gatsby-plugin-feed',
     {
       resolve: 'gatsby-source-filesystem',
       options: {

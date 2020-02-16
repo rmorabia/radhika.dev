@@ -37,6 +37,11 @@ export default ({ data }) => {
             </div>
           </div>
         ))}
+        <p>
+          <i>
+            <Link to='/rss.xml'>RSS</Link>
+          </i>
+        </p>
       </div>
     </Layout>
   )

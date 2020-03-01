@@ -58,21 +58,21 @@ Otherwise, I'd say if Twitter didn't exist, I'd just find the top 10 books on th
 
 So, here's what I'm using for resources for Node, now that I have a good list of things I need to learn from Twitter and reading around.
 
-- **[nodejs.dev](https://nodejs.dev) is a great overview of most essential Node topics without getting into Express or testing.**
+- [nodejs.dev](https://nodejs.dev) is a great overview of most essential Node topics without getting into Express or testing.
 - [Andrew Mead's Node Course](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/) includes a 125-page PDF that covers the essential lesson of each video.
 - [Introduction to Node: The Fundamentals](https://egghead.io/courses/introduction-to-node-the-fundamentals) on Egghead
 - [Test Node Backends](https://egghead.io/courses/test-node-js-backends) on Egghead
 - [Anthony Alicea's Node Course](https://www.udemy.com/course/understand-nodejs/) on Udemy
 - YouTubeing and reading wherever my gaps are
 
-I'm also going to be attending [NodeSchool](https://nodeschool.io) tomorrow. Hopefully talking to folks who write more Node can help me separate my knowledge gaps from being a front-end developer who writes Node to thinking about it in a back-end first way.
+**The most important resource on this list has been Anthony Alicea's Node course.** It's the best course to understand Node deeply.
 
 ## Projects
 
 The most important way to make progress with this is to make projects that slowly but surely allow me to practice all of these concepts at least 3x. This was covered before in [How I Learn](https://radhika.dev/how-i-learn/).
 
-[Shelley](https://twitter.com/codebytere) suggested I build an NPM CLI app. That's going to be project #1 -- I don't know how many of these topics it will touch, but it's a good start. I already published it on npm [here](https://www.npmjs.com/package/rashee), I'm going to actually code it soon.
+I built two capstone projects that cover most of the topics that I felt I was lacking.
 
-From then on, I'll continue talking to people and building apps that touch other aspects of Node. Hopefully this helps me fill in this awkward gap I feel with Node.
+Firstly is [rashee](https://npmjs.com/package/rashee), a CLI app that grabs your horoscope for the day. This uses CLI arguments, HTTP, npm, etc..
 
-I also think this is a good demo for how I want to learn Java. It's hard to imagine I'll be satisfied with an introduction for someone who has never programmed before, but I also hate 1-hour overviews that ignore all the Java-first concepts. Finding that balance between wanting to learn something deeply, but still feeling like I am learning something is really hard for me.
+Secondly is [radhikaisms](https://radhikaisms.herokuapp.com), a tiny end-to-end Node app. This only uses one library (to import the Postgres database), and otherwise builds an API that connects to a database + a front-end to add new stuff to do the database using only Node (and HTML/JS for the front-end).

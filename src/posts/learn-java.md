@@ -25,19 +25,33 @@ Java is a broad language that is a great gateway to a lot of different languages
 It’s just a good general-purpose language that has a lot of paradigms that are harder to learn in JavaScript.
 
 ## Stage 0: Tooling
-[Devin](https://www.dev-eloper.com/) said use IntelliJ. There’s more I have to do. He told me before. I’ll bother him again. Something something JDKs.
+
+[Devin](https://www.dev-eloper.com/) said use [IntelliJ](https://www.jetbrains.com/idea/). IntelliJ is a LOT. It's extremely comprehensive and very good at being an IDE. In the course I ended up doing, we're required to use [NetBeans](https://netbeans.org/), and honestly, the simplicity of it is a little bit more appealing right now. I highly recommend using an IDE for Java because you can compile and see your output by clicking one button, but that doesn't mean you should use all the features that autofill an immense amount of code for you. Write every line yourself.
+
+You also need to install a JDK (Java Development Kit). Luckily, this has gotten easier with [OpenJDK](https://adoptopenjdk.net/index.html). Download the latest LTS version, and default for whatever other settings are there.
+
+That's all you need to start writing Java.
 
 ## Stage 1: Syntax
-Based on [my post about which learning methods work for me](https://radhika.dev/learning-methods/), the best way to start learning Java is through a code-along video course. This has to be slow enough to code along to, and more practically focused at first.
 
-There’s a lot of Java resources out there, but I decided that [Derek Banas’ Java course on YouTube](https://www.youtube.com/watch?v=TBWX97e1E9g&list=PLE7E8B7F4856C9B19) would be good enough for now. I’ve gone through a few of the videos and his pace was simultaneously slow enough and fast enough for me. The quality isn’t anywhere near an [Andrew Mead](https://mead.io) level, and it’s from 2011, but it’s good enough for now.
+It's very difficult to find Java courses that are up to date. I originally started going through a course that covered Java 7, but Devin said there have been substantial changes between Java 7 and Java 8. The minimum Java version to start with today is Java 8. This generally means that you need to look for courses that were made past 2014-2015.
 
-I’ll need to figure out what changed between Java SE 7 and Java SE 11. It can’t be _that_ much.
+I couldn't find any I liked, so I turned to [reddit](https://reddit.com/r/learnjava). People were raving about this course from the University of Helsinki. I wasn't going to try it because it's not a video course, but I'm very glad I did.
 
-I’ll be practicing by going through the [Java track on Exercism.io](https://exercism.io/my/tracks/java) as I go.
+The link for that is [here](https://java-programming.mooc.fi/). I highly recommend it. It's thorough, yet practical.
 
-## Stage 2: Academia
-I don’t know about this yet. It depends on which direction I want to go in. I know I want to focus in on OOP and algorithms.
+If you need to use video courses, there's [this highly recommend course on Udemy](https://www.udemy.com/course/java-the-complete-java-developer-course/).
 
-## Stage 3: Capstone Project
-This is completely unknown for now.
+## Stage 3: Practice
+
+I’ll be practicing by going through the [Java track on Exercism.io](https://exercism.io/my/tracks/java).
+
+I will also be making a bunch of practice projects afterwards. I'll probably start with [Robert Heaton's Programming Projects for Advanced Beginners](https://robertheaton.com/2018/12/08/programming-projects-for-advanced-beginners/).
+
+## Stage 3: Academia
+
+The possibilities of MOOCs and formal, academic online education really open up when you know Java. I really want to go further into OOP and also learn about algorithms and data structures.
+
+## Stage 4: Capstone Project
+
+This is still a complete unknown for me.

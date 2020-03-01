@@ -29,7 +29,7 @@ These can run the gambit from big to very tiny meta-skills. Just no soft skills.
 
 Figure out if it's a small thing or something totally new. 
 
-If it's a new language or framework, start from scratch. Go through a full-on exercise heavy course (Udemy) or book. This will take like 100 hours. Just do it. Build tiny things along the way, as I always do anyway. I'm very good at doing this. I don't think this is the question I'm trying to ask here.
+If it's a new language or framework, start from scratch. Go through a full-on exercise heavy course or book. This will take like 100 hours. Just do it. Build tiny things along the way, as I always do anyway. I'm very good at doing this. I don't think this is the question I'm trying to ask here.
 
 If it's a small addition to an existing piece of knowledge (eg. functional components in React, a new JavaScript design pattern), do a small video course (Egghead, YouTube) or just read about it. The idea here is to learn enough to be dangerous.
 

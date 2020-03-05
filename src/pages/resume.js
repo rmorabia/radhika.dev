@@ -17,7 +17,6 @@ export default () => (
       <a href='mailto:hi@rmorabia.com'>hi@rmorabia.com</a> &bull;{' '}
       <a href='https://www.linkedin.com/in/rmorabia/'>LinkedIn</a> &bull;{' '}
       <a href='https://github.com/rmorabia'>GitHub</a> &bull;{' '}
-      <a href='https://twitter.com/radhikamorabia'>Twitter</a>
     </p>
     <p>
       <b>Based in:</b> Oakland, CA

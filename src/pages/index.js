@@ -39,10 +39,6 @@ export default () => (
       <Link to={'/blog'}>Read about what I'm learning on my blog.</Link> It's updated every time I make a breakthrough worth mentioning. I'm currently learning more about Software Engineering &#38; Computer Science fundamentals.
     </p>
     <p>
-      I'm always thinking out loud on Twitter. You can follow me at {' '}
-      <a href='https://twitter.com/radhikamorabia'>@radhikamorabia</a>.
-    </p>
-    <p>
       I'm also on <a href='http://linkedin.com/in/rmorabia'>LinkedIn</a> and{' '}
       <a href='http://github.com/rmorabia'>GitHub</a>.
     </p>

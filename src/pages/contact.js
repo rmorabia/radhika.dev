@@ -18,8 +18,7 @@ export default () => (
       form below.
     </p>
     <p>
-      I am also on <a href='http://twitter.com/radhikamorabia'>Twitter</a>,{' '}
-      <a href='http://github.com/rmorabia'>GitHub</a>, and{' '}
+      I am also on <a href='http://github.com/rmorabia'>GitHub</a> and{' '}
       <a href='http://linkedin.com/in/rmorabia'>LinkedIn</a>.
     </p>
     <form

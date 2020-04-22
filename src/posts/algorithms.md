@@ -5,7 +5,7 @@ date: "2020-04-21"
 
 2020 has been a ride.
 
-I no longer think it’s satisfactory to go through my ([2020 learning plan](https://radhika.dev/planning-2020/).  A lot of those priorities were with the expectation that I wouldn’t be worried about keeping my job this year. That is no longer the case.
+I no longer think it’s satisfactory to go through my [2020 learning plan](https://radhika.dev/planning-2020/).  A lot of those priorities were with the expectation that I wouldn’t be worried about keeping my job this year. That is no longer the case.
 
 The only priority for the near future is learning stuff for interviews. In my life of work, that involves 3 areas of study: Algorithms, System Design, and practical React/Node projects.
 

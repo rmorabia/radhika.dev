@@ -38,7 +38,7 @@ I’d say InterviewCake handles the Reading -> Question. It partially handles th
 
 Alongside InterviewCake, there are a few things I’ll be doing: 
 
- **Reading:**  [Easy to Advanced Data Structures by William Fiset](https://www.youtube.com/watch?v=Qmt0QwzEmh0&list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu). This was recommended to me by [Chris’s excellent blog post about his algorithm studying](https://chrisdoescoding.com/posts/5/). It’s nice to have readings on InterviewCake and video explanations on YouTube to look for.
+ **Reading:**  [Easy to Advanced Data Structures by William Fiset](https://www.youtube.com/watch?v=Qmt0QwzEmh0&list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu). This was recommended to me by [Chris’ excellent blog post about his algorithm studying](https://chrisdoescoding.com/posts/5/). It’s nice to have readings on InterviewCake and video explanations on YouTube to look for.
 
 **Questions:** [LeetCode](https://leetcode.com). What else is there to say? I’m not doing anything special with this yet, just practicing alongside what I’ve already covered on InterviewCake.
 

@@ -43,14 +43,23 @@ export default () => (
       <i>September 2019 - Present</i>
     </p>
     <p>
-      Full-Stack engineer on the Booking team, building the core booking
-      experience and maintaining related systems.
+      Full-stack engineer on the consumer-facing booking flow, working on a the
+      booking/checkout process on the desktop and mobile web experience..
     </p>
-    <p>Technology used:</p>
     <ul>
-      <li>JavaScript (React, Redux, Hooks)</li>
-      <li>Node.js (Express)</li>
-      <li>Unit Testing (Jest, Mocha, Chai), End-to-End Testing (Cypress)</li>
+      <li>Corrected long-standing legacy bugs that cost us $2m/yr+</li>
+      <li>
+        Developed restaurant-facing marketing features that were used by over
+        20% of our userbase
+      </li>
+      <li>
+        Successfully migrated our most important page to a new React monolith
+        while maintaining sustainable system design choices
+      </li>
+      <li>
+        Evangelized developer best practices such as thorough PR descriptions
+        and an attention to detail on the front-end
+      </li>
     </ul>
     <h3>
       Web Developer at <a href='https://l-tron.com'>L-Tron Corporation</a>

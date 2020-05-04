@@ -48,7 +48,7 @@ To run a live development server, use:
 gatsby develop
 ```
 
-All other scripts are in [package.json](https://github.com/rmorabia/radhika.dev/blob/master/package.json)
+All other scripts are in [package.json](https://github.com/rmorabia/radhika.dev/blob/master/package.json).
 
 ## Contributing
 Issues are welcome! If you see anything wrong with the site or want to suggest a new feature, please feel free to open a new issue.

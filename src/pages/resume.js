@@ -13,6 +13,7 @@ export default () => (
       <link rel='canonical' href='https://radhika.dev/projects' />
     </Helmet>
     <Header headerText='Resume' />
+    <p><b><i><a href="https://radhika.dev/resume.pdf">View or download a PDF version of my resume here.</a></i></b></p>
     <p>
       <a href='mailto:hi@rmorabia.com'>hi@rmorabia.com</a> &bull;{' '}
       <a href='https://www.linkedin.com/in/rmorabia/'>LinkedIn</a> &bull;{' '}

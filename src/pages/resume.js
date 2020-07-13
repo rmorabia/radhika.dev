@@ -35,6 +35,14 @@ export default () => (
     <p>
       <i>I am not looking for new opportunities at this time.</i>
     </p>
+    <h2>Summary</h2>
+    <ul>
+      <li>Software Engineer with 2+ years of experience in making fast, usable, and clean web applications for 30m+ users</li>
+      <li>Co-owned a project to overhaul our backend user logic that led to $400k+ in revenue</li>
+      <li>Migrated a legacy web application to a new, React codebase while retaining 99% uptime</li>
+      <li>Quickly delivered a new user flow that was featured in national press outlets like WSJ, USA Today, and The Verge</li>
+      <li>Mentor in the coding community by making lessons on Egghead.io and volunteering for The Collab Lab</li>
+    </ul>
     <h2>Experience</h2>
     <h3>
       Software Engineer at <a href='https://opentable.com'>OpenTable</a>

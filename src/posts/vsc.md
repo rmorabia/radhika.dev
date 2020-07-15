@@ -13,7 +13,7 @@ Firstly, I checked Activity Monitor. I saw that something called `Code Helper (R
 
 My initial assumption was to stop using Code's built-in terminal and switch over to iTerm. That didn't fix it.
 
-I looked at [a lot of GitHub Issues about this issue](https://github.com/microsoft/vscode/issues/87509) and saw repeated comments from the Code team that `Code Helper (Renderer)` is an extension. Disable all extensions and it will work.
+I looked at [a lot of GitHub Issues about this issue](https://github.com/microsoft/vscode/issues/87509) and saw repeated comments from the Code team that `Code Helper (Renderer)` is a process that comes from an extension. Disable all extensions and it will work.
 
 So... I did. It did not work. I didn't even have any themes installed.
 

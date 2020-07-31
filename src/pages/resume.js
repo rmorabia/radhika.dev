@@ -52,7 +52,7 @@ export default () => (
     </p>
     <p>
       Full-stack engineer on the consumer-facing booking flow, working on a the
-      booking/checkout process on the desktop and mobile web experience..
+      booking/checkout process on the desktop and mobile web experience.
     </p>
     <ul>
       <li>Corrected long-standing legacy bugs that cost us $2m/yr+</li>

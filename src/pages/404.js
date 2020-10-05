@@ -31,11 +31,11 @@ class Lost extends Component {
           <title>404 &bull; Radhika Morabia</title>
         </Helmet>
         <Header headerText='Whoops! This page does not exist.' />
-        <MediaQuery query='(max-device-width: 1280px)'>
+        <MediaQuery query='(max-device-width: 991px)'>
           <p>Since you're here, why not read my horoscope for today?</p>
           <p id='horoscope'>{this.state.horoscope}</p>
         </MediaQuery>
-        <MediaQuery query='(min-device-width: 1281px)'>
+        <MediaQuery query='(min-device-width: 992px)'>
           <p>While you're here, why not take a break and play some Tetris?</p>
           {typeof document !== 'undefined' && Tetris && (
             <Tetris>

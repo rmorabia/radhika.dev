@@ -14,10 +14,16 @@ export default () => (
     </Helmet>
     <Header headerText='Resume' />
     <p>
+      <b>
+        <a href='https://radhika.dev/resume.pdf'>
+          View or download a PDF version of my resume here.
+        </a>
+      </b>
+    </p>
+    <p>
       <a href='mailto:hi@rmorabia.com'>hi@rmorabia.com</a> &bull;{' '}
       <a href='https://www.linkedin.com/in/rmorabia/'>LinkedIn</a> &bull;{' '}
-      <a href='https://github.com/rmorabia'>GitHub</a> &bull;{' '}
-      <a href='https://twitter.com/radhikamorabia'>Twitter</a>
+      <a href='https://github.com/rmorabia'>GitHub</a>
     </p>
     <p>
       <b>Based in:</b> Oakland, CA
@@ -29,6 +35,14 @@ export default () => (
     <p>
       <i>I am not looking for new opportunities at this time.</i>
     </p>
+    <h2>Summary</h2>
+    <ul>
+      <li>Software Engineer with 2+ years of experience in making fast, usable, and clean web applications for 30m+ users</li>
+      <li>Co-owned a project to overhaul our backend user logic that led to $400k+ in revenue</li>
+      <li>Migrated a legacy web application to a new, React codebase while retaining 99% uptime</li>
+      <li>Quickly delivered a new user flow that was featured in national press outlets like WSJ, USA Today, and The Verge</li>
+      <li>Mentor in the coding community by making lessons on Egghead.io and volunteering for The Collab Lab</li>
+    </ul>
     <h2>Experience</h2>
     <h3>
       Software Engineer at <a href='https://opentable.com'>OpenTable</a>
@@ -37,14 +51,23 @@ export default () => (
       <i>September 2019 - Present</i>
     </p>
     <p>
-      Full-Stack engineer on the Booking team, building the core booking
-      experience and maintaining related systems.
+      Full-stack engineer on the consumer-facing booking flow, working on a the
+      booking/checkout process on the desktop and mobile web experience.
     </p>
-    <p>Technology used:</p>
     <ul>
-      <li>JavaScript (React, Redux, Hooks)</li>
-      <li>Node.js (Express)</li>
-      <li>Unit Testing (Jest, Mocha, Chai), End-to-End Testing (Cypress)</li>
+      <li>Corrected long-standing legacy bugs that cost us $2m/yr+</li>
+      <li>
+        Developed restaurant-facing marketing features that were used by over
+        20% of our userbase
+      </li>
+      <li>
+        Successfully migrated our most important page to a new React monolith
+        while maintaining sustainable system design choices
+      </li>
+      <li>
+        Evangelized developer best practices such as thorough PR descriptions
+        and an attention to detail on the front-end
+      </li>
     </ul>
     <h3>
       Web Developer at <a href='https://l-tron.com'>L-Tron Corporation</a>

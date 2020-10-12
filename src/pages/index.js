@@ -16,7 +16,7 @@ export default () => (
       I'm a Software Engineer at <a href="https://opentable.com">OpenTable</a>, currently focused on full&#8209;stack web development. I live in Oakland, CA.
     </p>
     <p>
-      500+ people are subscribed to my newsletter about my journey in tech. I write about the best lessons I've learned in my career so far. This is everything I wish someone had told me a year ago. Sign up below:
+      900+ people are subscribed to my newsletter about my journey in tech. I write about the best lessons I've learned in my career so far. This is everything I wish someone had told me a year ago. Sign up below:
     </p>
     <form
       action='https://tinyletter.com/rmorabia'
@@ -33,14 +33,10 @@ export default () => (
       <input className='submit' type='submit' value='Subscribe' />
     </form>
     <p>
-      I teach web developers how Linux tooling is intertwined with developer productivity as an <a href="https://egghead.io/instructors/radhika-morabia">instructor at Egghead.io</a>. My lessons have been viewed for over 60 hours, and I'm always making more.
+      I teach web developers how Linux tooling is intertwined with developer productivity as an <a href="https://egghead.io/instructors/radhika-morabia">instructor at Egghead.io</a>. My lessons have been viewed for over 60 hours.
     </p>
     <p>
       <Link to={'/blog'}>Read about what I'm learning on my blog.</Link> It's updated every time I make a breakthrough worth mentioning. I'm currently learning more about Software Engineering &#38; Computer Science fundamentals.
-    </p>
-    <p>
-      I'm always thinking out loud on Twitter. You can follow me at {' '}
-      <a href='https://twitter.com/radhikamorabia'>@radhikamorabia</a>.
     </p>
     <p>
       I'm also on <a href='http://linkedin.com/in/rmorabia'>LinkedIn</a> and{' '}

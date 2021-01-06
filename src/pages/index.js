@@ -42,11 +42,5 @@ export default () => (
       I'm also on <a href='http://linkedin.com/in/rmorabia'>LinkedIn</a> and{' '}
       <a href='http://github.com/rmorabia'>GitHub</a>.
     </p>
-    <p>
-      <i>
-        (Psst! If you're not here for developer stuff, check out my personal
-        site at <a href='https://rmorabia.com'>rmorabia.com</a>.)
-      </i>
-    </p>
   </Layout>
 )

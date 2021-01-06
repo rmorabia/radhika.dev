@@ -25,9 +25,11 @@ export default () => (
       name='contact'
       method='POST'
       data-netlify='true'
+      netlify-honeypot="honeypot"
       className={styles.contactForm}
     >
       <input type='hidden' name='form-name' value='contact' />
+      <input type='hidden' name='honeypot' />
       <label for='name'>Name:</label>
       <input type='text' name='name' required />
       <label for='email'>Email:</label>

@@ -45,6 +45,7 @@ module.exports = {
         theme_color: '#00ff7f',
         display: 'standalone',
         icon: 'src/assets/images/favicon.ico',
+        crossOrigin: 'use-credentials',
       },
     }
   ],

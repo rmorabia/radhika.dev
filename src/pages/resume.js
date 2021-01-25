@@ -51,7 +51,7 @@ export default () => (
       <i>September 2019 - Present</i>
     </p>
     <p>
-      Full-stack engineer on the consumer-facing booking flow, working on a the
+      Full-stack engineer on the consumer-facing booking flow, working on the
       booking/checkout process on the desktop and mobile web experience.
     </p>
     <ul>

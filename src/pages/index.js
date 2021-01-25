@@ -18,30 +18,14 @@ export default () => (
       diners a month.
     </p>
     <p>
-      I occasionally{' '}
-      <a href='https://tinyletter.com/rmorabia'>write a newsletter</a>,{' '}
-      <Link to={'/blog'}>write blog posts</Link>,{' '}
-      <a href='https://radhika.dev/how-to-be-a-good-mentee/'>give talks</a>,{' '}
-      <a href='https://egghead.io/instructors/radhika-morabia'>
-        record lessons
-      </a>
-      , <a href='https://twitch.tv/rmorabia'>stream code challenges</a>, and{' '}
-      <a href='https://github.com/rmorabia'>write open-source code</a>.
+      I occasionally, write blog posts, give talks, record lessons , stream code
+      challenges, write open-source code, and{' '}
+      <a href='https://tinyletter.com/rmorabia'>write a newsletter</a>.
     </p>
     <p>
-      I spend most of my time making{' '}
-      <a href='https://open.spotify.com/user/rmorabia'>
-        absurdly large Spotify playlists
-      </a>
-      , skateboarding,{' '}
-      <a href='https://www.goodreads.com/user/show/60300309-radhika-morabia'>
-        reading books
-      </a>
-      , <a href='https://letterboxd.com/rmorabia/'>watching films</a>, and{' '}
-      <a href='https://egghead.io/instructors/radhika-morabia'>
-        writing about how media intersects with our lives
-      </a>
-      .
+      I spend most of my time making absurdly large Spotify playlists ,
+      skateboarding, reading books ,watching films, and writing about how media
+      intersects with our lives .
     </p>
     <p>
       I'm also on <a href='http://linkedin.com/in/rmorabia'>LinkedIn</a> and{' '}

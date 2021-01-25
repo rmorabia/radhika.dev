@@ -13,30 +13,35 @@ export default () => (
       .
     </h1>
     <p>
-      I'm a Software Engineer at <a href="https://opentable.com">OpenTable</a>, currently focused on full&#8209;stack web development. I live in Oakland, CA.
+      I'm a Software Engineer at <a href='https://opentable.com'>OpenTable</a>,
+      currently working on building the booking & user experience for 100m+
+      diners a month.
     </p>
     <p>
-      900+ people are subscribed to my occasional newsletter about tech & careers. Sign up below:
-    </p>
-    <form
-      action='https://tinyletter.com/rmorabia'
-      method='post'
-      target='popupwindow'
-      onsubmit="window.open('https://tinyletter.com/rmorabia', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
-    >
-      <input
-        type='email'
-        name='email'
-        id='tlemail'
-        placeholder='hi@whatever.com'
-      />
-      <input className='submit' type='submit' value='Subscribe' />
-    </form>
-    <p>
-      I teach web developers how Linux tooling is intertwined with developer productivity as an <a href="https://egghead.io/instructors/radhika-morabia">instructor at Egghead.io</a>.
+      I occasionally{' '}
+      <a href='https://tinyletter.com/rmorabia'>write a newsletter</a>,{' '}
+      <Link to={'/blog'}>write blog posts</Link>,{' '}
+      <a href='https://radhika.dev/how-to-be-a-good-mentee/'>give talks</a>,{' '}
+      <a href='https://egghead.io/instructors/radhika-morabia'>
+        record lessons
+      </a>
+      , <a href='https://twitch.tv/rmorabia'>stream code challenges</a>, and{' '}
+      <a href='https://github.com/rmorabia'>write open-source code</a>.
     </p>
     <p>
-      <Link to={'/blog'}>Read about what I'm learning on my blog.</Link> It's updated every time I make a breakthrough worth mentioning.
+      I spend most of my time making{' '}
+      <a href='https://open.spotify.com/user/rmorabia'>
+        absurdly large Spotify playlists
+      </a>
+      , skateboarding,{' '}
+      <a href='https://www.goodreads.com/user/show/60300309-radhika-morabia'>
+        reading books
+      </a>
+      , <a href='https://letterboxd.com/rmorabia/'>watching films</a>, and{' '}
+      <a href='https://egghead.io/instructors/radhika-morabia'>
+        writing about how media intersects with our lives
+      </a>
+      .
     </p>
     <p>
       I'm also on <a href='http://linkedin.com/in/rmorabia'>LinkedIn</a> and{' '}

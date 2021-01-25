@@ -18,14 +18,14 @@ export default () => (
       diners a month.
     </p>
     <p>
-      I occasionally, write blog posts, give talks, record lessons , stream code
+      I occasionally, write blog posts, give talks, record lessons, stream code
       challenges, write open-source code, and{' '}
       <a href='https://tinyletter.com/rmorabia'>write a newsletter</a>.
     </p>
     <p>
-      I spend most of my time making absurdly large Spotify playlists ,
-      skateboarding, reading books ,watching films, and writing about how media
-      intersects with our lives .
+      I spend most of my time making absurdly large Spotify playlists,
+      skateboarding, reading books, watching films, and writing about how media
+      intersects with our lives.
     </p>
     <p>
       I'm also on <a href='http://linkedin.com/in/rmorabia'>LinkedIn</a> and{' '}

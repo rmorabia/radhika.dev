@@ -18,7 +18,7 @@ export default () => (
       diners a month.
     </p>
     <p>
-      I occasionally, write blog posts, give talks, record lessons, stream code
+      I occasionally write blog posts, give talks, record lessons, stream code
       challenges, write open-source code, and{' '}
       <a href='https://tinyletter.com/rmorabia'>write a newsletter</a>.
     </p>

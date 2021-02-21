@@ -39,7 +39,7 @@ export default ({ data }) => {
         src='https://utteranc.es/client.js'
         repo='rmorabia/radhika.dev'
         issue-term='pathname'
-        label='blog post'
+        label='blog'
         theme='github-light'
         crossorigin='anonymous'
         async

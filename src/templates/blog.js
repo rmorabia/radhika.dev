@@ -1,10 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
 export default ({ data }) => {
   const post = data.markdownRemark
+
+  useEffect(() => {
+    const script = document.createElement('script')
+    script.src = 'https://utteranc.es/client.js'
+    script.async = true
+    script.setAttribute('repo', 'rmorabia/radhika.dev')
+    script.setAttribute('issue-term', 'pathname')
+    script.setAttribute('label', 'blog post')
+    script.setAttribute('theme', 'github-light')
+    script.setAttribute('crossorigin', 'anonymous')
+
+    const scriptParentNode = document.getElementById('comments')
+    scriptParentNode.appendChild(script)
+
+    return () => {
+      // cleanup - remove the older script with previous theme
+      scriptParentNode.removeChild(scriptParentNode.firstChild)
+    }
+  }, [data])
+
   return (
     <Layout>
       <Helmet>

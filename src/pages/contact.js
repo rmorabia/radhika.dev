@@ -9,7 +9,6 @@ export default () => (
     <Helmet>
       <meta charSet='utf-8' />
       <title>Contact &bull; Radhika Morabia</title>
-      <link rel='canonical' href='https://radhika.dev/contact' />
     </Helmet>
     <Header headerText='Contact' />
     <p>

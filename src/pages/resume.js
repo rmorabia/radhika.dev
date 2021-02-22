@@ -10,7 +10,6 @@ export default () => (
     <Helmet>
       <meta charSet='utf-8' />
       <title>Resume &bull; Radhika Morabia</title>
-      <link rel='canonical' href='https://radhika.dev/projects' />
     </Helmet>
     <Header headerText='Resume' />
     <p>

@@ -50,12 +50,6 @@ module.exports = {
         icon: 'src/assets/images/icon.png',
         crossOrigin: 'use-credentials'
       }
-    },
-    {
-      resolve: 'gatsby-plugin-canonical-urls',
-      options: {
-        siteUrl: 'https://radhika.dev'
-      }
     }
   ]
 }

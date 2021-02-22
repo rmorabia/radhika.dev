@@ -17,7 +17,6 @@ export default ({ data }) => {
         <Helmet>
           <meta charSet='utf-8' />
           <title>Blog &bull; Radhika Morabia</title>
-          <link rel='canonical' href='https://radhika.dev/blog' />
         </Helmet>
         <Header headerText='Blog' />
         {data.allMarkdownRemark.edges.map(({ node }) => (

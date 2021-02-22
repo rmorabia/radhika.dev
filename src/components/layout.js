@@ -30,7 +30,6 @@ export default ({ children }) => (
         <Helmet>
           <meta charSet='utf-8' />
           <title>{data.site.siteMetadata.title}</title>
-          <link rel='canonical' href='https://radhika.dev' />
           <link rel='icon' type='image/png' href={favicon} />
         </Helmet>
         <Canvas />

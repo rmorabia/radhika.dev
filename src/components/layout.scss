@@ -191,8 +191,11 @@ label {
   }
 }
 
-.gatsby-image-wrapper,
-.utterances {
+.gatsby-image-wrapper {
   width: 55%;
   height: auto;
+}
+
+.utterances {
+  margin-left: 0;
 }

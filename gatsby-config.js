@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'Radhika Morabia',
     titleTemplate: '%s · Radhika Morabia',
-    description: 'Full-Stack Software Engineer interested in React, Node, JavaScript, and Python',
+    description:
+      'Full-Stack Software Engineer interested in React, Node, JavaScript, and Python',
     url: 'https://radhika.dev',
     siteUrl: 'https://radhika.dev'
   },
@@ -17,23 +18,25 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',
-        path: `${__dirname}/src/`,
-      },
+        path: `${__dirname}/src/`
+      }
     },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: [{
-          resolve: 'gatsby-remark-prismjs',
-          options: {
-            classPrefix: 'language-',
-            inlineCodeMarker: null,
-            aliases: {},
-            showLineNumbers: false,
-            noInlineHighlight: false,
-          },
-        }],
-      },
+        plugins: [
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: 'language-',
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false
+            }
+          }
+        ]
+      }
     },
     {
       resolve: 'gatsby-plugin-manifest',
@@ -45,8 +48,14 @@ module.exports = {
         theme_color: '#00ff7f',
         display: 'standalone',
         icon: 'src/assets/images/icon.png',
-        crossOrigin: 'use-credentials',
-      },
+        crossOrigin: 'use-credentials'
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-canonical-urls',
+      options: {
+        siteUrl: 'https://radhika.dev'
+      }
     }
-  ],
+  ]
 }

@@ -55,15 +55,7 @@ export default ({ data }) => {
         />
         <input className='submit' type='submit' value='Subscribe' />
       </form>
-      <script
-        src='https://utteranc.es/client.js'
-        repo='rmorabia/radhika.dev'
-        issue-term='pathname'
-        label='blog'
-        theme='github-light'
-        crossorigin='anonymous'
-        async
-      ></script>
+      <div id='comments' />;
     </Layout>
   )
 }

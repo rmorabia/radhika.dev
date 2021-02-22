@@ -36,14 +36,16 @@ export default ({ data }) => {
         />
         <input className='submit' type='submit' value='Subscribe' />
       </form>
-      <Utterances
-        repo='rmorabia/radhika.dev'
-        issueTerm='pathname'
-        label='blog post'
-        theme='github-light'
-        crossorigin='anonymous'
-        async={false}
-      />
+      <div className='utterances'>
+        <Utterances
+          repo='rmorabia/radhika.dev'
+          issueTerm='pathname'
+          label='blog post'
+          theme='github-light'
+          crossorigin='anonymous'
+          async={false}
+        />
+      </div>
     </Layout>
   )
 }

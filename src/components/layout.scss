@@ -1,7 +1,7 @@
-@import url("https://indestructibletype.com/fonts/Jost.css");
+@import url('https://indestructibletype.com/fonts/Jost.css');
 
 html {
-  font-family: "Jost", "Futura", Helvetica, Arial, sans-serif;
+  font-family: 'Jost', 'Futura', Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -84,11 +84,11 @@ a:hover {
   background: linear-gradient(to top, #00ff7f 50%, #fffff8 50%);
   background-size: 200% 200%;
   background-position: bottom;
-  transition: all .5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
-input[type=text],
-input[type=email],
+input[type='text'],
+input[type='email'],
 textarea {
   border: 2px solid #111;
   height: 26px;
@@ -186,12 +186,13 @@ label {
   }
 
   .blogPost p {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     margin-bottom: 0;
   }
 }
 
-.gatsby-image-wrapper {
+.gatsby-image-wrapper,
+.utterances {
   width: 55%;
   height: auto;
 }

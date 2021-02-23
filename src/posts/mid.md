@@ -95,4 +95,4 @@ Optimize for visibility. It is the most important marker for success.
 
 ...
 
-That's it. There's loads of advice on this out there, so I tried to focus on the points that I don't see parroted around. If you think I missed anything or just want to tell me this helped you, leave a comment. If you have something more personal/private, you can still always [email me](https://radhika.dev/contact)
+That's it. There's loads of advice on this out there, so I tried to focus on the points that I don't see parroted around. If you think I missed anything or just want to tell me this helped you, leave a comment. If you have something more personal/private, you can still always [email me](https://radhika.dev/contact).

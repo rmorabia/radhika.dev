@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import styles from './index.module.scss'
-import { Link } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 export default ({ data }) => {
   const linkColor = () => {
@@ -66,3 +66,24 @@ export default ({ data }) => {
     </Layout>
   )
 }
+
+export const query = graphql`
+  query {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      totalCount
+      edges {
+        node {
+          fields {
+            slug
+          }
+          id
+          frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+          }
+          excerpt
+        }
+      }
+    }
+  }
+`

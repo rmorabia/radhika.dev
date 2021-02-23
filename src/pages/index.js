@@ -1,4 +1,5 @@
 import React from 'react'
+import Iframe from 'react-iframe'
 import Layout from '../components/layout'
 import styles from './index.module.scss'
 import { graphql, Link } from 'gatsby'
@@ -30,14 +31,14 @@ export default ({ data }) => {
       </p>
       <p>You can sign up to be notified about new posts below:</p>
       <p>
-        <iframe
-          src='https://rmorabia.substack.com/embed'
-          width='480'
-          height='320'
+        <Iframe
+          url='https://rmorabia.substack.com/embed'
+          width='480px'
+          height='320px'
           style={{ border: '1px solid #EEE', background: 'white' }}
           frameborder='0'
           scrolling='no'
-        ></iframe>
+        />
       </p>
       <div>
         {data.allMarkdownRemark.edges.map(({ node }) => (

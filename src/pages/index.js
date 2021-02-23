@@ -36,7 +36,6 @@ export default ({ data }) => {
           width='300px'
           height='100px'
           styles={{ border: 0, background: 'white' }}
-          className={styles.substack}
           frameBorder='0'
           scrolling='no'
         />

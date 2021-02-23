@@ -1,4 +1,5 @@
 import React from 'react'
+import Iframe from 'react-iframe'
 import Utterances from 'utterances-react'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'

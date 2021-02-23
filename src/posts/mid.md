@@ -1,6 +1,6 @@
 ---
 title: 'Six Things I Wish Someone Told Me About Getting a Promotion'
-date: '2020-02-23'
+date: '2021-02-23'
 ---
 
 I was just newly promoted to Software Engineer II / Mid-Level Engineer at my company. This is a huge deal for me because I planned my whole life around the notion that internal promotions are impossible. I thought that the only way to get a promotion was to get a new title along with a new job.

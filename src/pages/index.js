@@ -33,9 +33,9 @@ export default ({ data }) => {
       <p>
         <Iframe
           url='https://rmorabia.substack.com/embed'
-          width='480px'
-          height='320px'
-          style={{ border: '1px solid #EEE', background: 'white' }}
+          width='300px'
+          height='100px'
+          style={{ border: '0', background: 'white' }}
           frameborder='0'
           scrolling='no'
         />

@@ -25,7 +25,7 @@ export default ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <div className='container'>
         <Helmet>
           <meta charSet='utf-8' />
@@ -46,15 +46,6 @@ export default ({ children }) => (
               activeStyle={activeStyles}
             >
               Resume
-            </Link>
-          </li>
-          <li>
-            <Link
-              to={'/blog'}
-              className='headerLink'
-              activeStyle={activeStyles}
-            >
-              Blog
             </Link>
           </li>
           <li>

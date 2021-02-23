@@ -36,11 +36,13 @@ export default ({ data }) => {
           width='300px'
           height='100px'
           styles={{ border: 0, background: 'white' }}
-          frameborder='0'
+          className={styles.substack}
+          frameBorder='0'
           scrolling='no'
         />
       </p>
       <div>
+        <h2>Latest Posts</h2>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key='node.id'>
             <div className='blogPost'>

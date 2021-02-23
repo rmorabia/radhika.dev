@@ -35,7 +35,7 @@ export default ({ data }) => {
           url='https://rmorabia.substack.com/embed'
           width='300px'
           height='100px'
-          style={{ border: 0, background: 'white' }}
+          styles={{ border: 0, background: 'white' }}
           frameborder='0'
           scrolling='no'
         />

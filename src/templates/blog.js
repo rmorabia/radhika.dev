@@ -1,4 +1,5 @@
 import React from 'react'
+import Iframe from 'react-iframe'
 import Utterances from 'utterances-react'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
@@ -22,20 +23,14 @@ export default ({ data }) => {
         If you liked this post, get updates about new posts by signing up to my
         infrequent newsletter.
       </p>
-      <form
-        action='https://tinyletter.com/rmorabia'
-        method='post'
-        target='popupwindow'
-        onsubmit="window.open('https://tinyletter.com/rmorabia', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
-      >
-        <input
-          type='text'
-          name='email'
-          id='tlemail'
-          placeholder='hi@whatever.com'
-        />
-        <input className='submit' type='submit' value='Subscribe' />
-      </form>
+      <Iframe
+        url='https://rmorabia.substack.com/embed'
+        width='300px'
+        height='100px'
+        styles={{ border: 0, background: 'white' }}
+        frameBorder='0'
+        scrolling='no'
+      />
       <Utterances
         repo='rmorabia/radhika.dev'
         issueTerm='pathname'

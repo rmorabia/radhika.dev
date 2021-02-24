@@ -41,7 +41,7 @@ export default ({ data }) => {
         />
       </p>
       <div>
-        <h2>Latest Posts</h2>
+        <h2>All Posts</h2>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key='node.id'>
             <div className='blogPost'>

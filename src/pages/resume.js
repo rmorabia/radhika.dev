@@ -31,9 +31,6 @@ export default () => (
       <b>Current:</b> Software Engineer at{' '}
       <a href='https://opentable.com'>OpenTable</a>
     </p>
-    <p>
-      <i>I am not looking for new opportunities at this time.</i>
-    </p>
     <h2>Summary</h2>
     <ul>
       <li>Software Engineer with 2+ years of experience in making fast, usable, and clean web applications for 30m+ users</li>

@@ -19,10 +19,7 @@ export default ({ data }) => {
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
       <hr />
-      <p>
-        If you liked this post, get updates about new posts by signing up to my
-        infrequent newsletter.
-      </p>
+      <p>Join 1000+ people who are already being notified of new posts:</p>
       <Iframe
         url='https://rmorabia.substack.com/embed'
         width='300px'

@@ -29,7 +29,7 @@ export default ({ data }) => {
         This is my blog, where I write about career advice, learning strategies,
         productivity, and more.
       </p>
-      <p>You can sign up to be notified about new posts below:</p>
+      <p>Join 1000+ people who are already being notified of new posts:</p>
       <p>
         <Iframe
           url='https://rmorabia.substack.com/embed'

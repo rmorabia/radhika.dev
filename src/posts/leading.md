@@ -40,7 +40,7 @@ I kept two main adages while leading this project:
 
 I successfully completed #1. This was a major priority for me because I think it's one of the easiest traps to fall into as any kind of leader. You have the most context, so you can do it faster if you do it yourself. But, that's not your job. Your job is to unblock the rest of your team to do their best work and make their lives easier.
 
-#2 I had more mixed results with. I tried my hardest, and although I didn't ask anyone how long they worked, I believed I estimated well enough that there were no late days. I personally never worked more than 8, maybe once or twice 9 hours a day. But, I still ended up having to DM my team members, "Hey, when will this be done?" and "Hey, the UK team needs this in the morning, do you think you could get this out today?"
+I had more mixed results with #2. I tried my hardest, and although I didn't ask anyone how long they worked, I believed I estimated well enough that there were no late days. I personally never worked more than 8, maybe once or twice 9 hours a day. But, I still ended up having to DM my team members, "Hey, when will this be done?" and "Hey, the UK team needs this in the morning, do you think you could get this out today?"
 
 I hated to do it, and maybe I'll learn a way around it in the future. It just seemed inevitable sometimes, despite the fact that I believed in my team and trusted they would deliver on time. I wasn't trying to micromanage, but we had some hard deadlines on tickets. I often felt like I overexplained ticket priorities when the team asked for assignments.
 

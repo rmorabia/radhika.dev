@@ -13,7 +13,7 @@ By doing all three of these, I quickly became an expert on the team and this led
 
 I still walk through this process all the time whenever there's a hard or complicated ticket. Planning and thinking things through before writing down a single line of code is the easiest way to solve a ticket very thoughtfully and increase the quality of your pull requests.
 
-First I'd like to say that this post assumes your company uses a Scrum/Kanban/JIRA style of tickets with numbers, titles, descriptions, and some kind of sizing. If it doesn't, I've never worked in an environment like that, so I can't speak to that experience.
+First, I'd like to say that this post assumes your company uses a Scrum/Kanban/JIRA style of tickets with numbers, titles, descriptions, and some kind of sizing. If it doesn't, I've never worked in an environment like that, so I can't speak to that experience.
 
 Second, **keep a notebook and a nice pen on your desk at all times.**
 
@@ -37,7 +37,7 @@ Fresh sheet of paper, of course.
 
 ...
 
-This is all before I start to write down any code. I can read code during this process, but I shouldn't even have my git branch made at this point. 
+This is all before you start to write down any code. You can read code during this process, but you shouldn't even have my git branch made at this point. 
 
 In theory, by the end of this, you will either have a clear idea of what you need to do (and can estimate better within your own schedule) or you have an idea of exactly where your gaps are and you can go ask someone to help you reason through those. Then, you can come back and clearly write down the work involved.
 
@@ -45,7 +45,7 @@ Of course, things can change from here forward. Continue writing down notes as y
 
 ## An example from my own work
 
-I want to use a real ticket that I have on my board right now, but I have to use a simple one in case something else is too revealing. Normally, this is a little simpler than I would use this process for, but hopefully it works for illustration purposes.
+I want to use a real ticket that I have on my board right now, but I have to use a simple one in case something else is too revealing. Hopefully it works for illustration purposes, but keep in mind you don't need to write in full sentences or anything like I do here. Do what is readable to you.
 
 The title of the ticket is "[CFE & R3] Add GA Metrics for waitlist flows"
 

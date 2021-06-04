@@ -1,5 +1,5 @@
 ---
-title: "How to Parse Tickets You Don't Understand"
+title: "How to Think Through Tickets You Don't Understand"
 date: '2021-06-04'
 ---
 

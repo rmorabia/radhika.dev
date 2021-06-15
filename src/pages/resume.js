@@ -125,7 +125,7 @@ export default () => (
       Blogger &amp; Writer at <a href='https://radhika.dev'>radhika.dev</a>
     </h3>
     <p>
-      I write a lot, both on my <a href='https://radhika.dev/blog'>blog</a>, but
+      I write a lot, both on my <a href='https://radhika.dev'>blog</a>, but
       also to{' '}
       <a href='https://tinyletter.com/rmorabia'>
         a newsletter audience of 500+

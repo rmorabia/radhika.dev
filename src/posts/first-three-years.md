@@ -3,7 +3,7 @@ title: "Tech: The First Three Years"
 date: "2021-06-24"
 ---
 
-It’s my birthday today! (Yes, I am a Cancer baby.) My birthday happens to correlate really well with my tech anniversary. I actually started my first tech job the day after my birthday.
+It’s my birthday today! (Yes, I am a Cancer baby.) My birthday happens to correlate really well with my tech anniversary. I actually started my first tech job the day after my birthday three years ago.
 
 So, I think it’s a good time to write a retrospective. There’s so much I would say to myself earlier on, and since I can’t go back in time, I can only hope I’ll reach someone who’s a little bit behind me here.
 

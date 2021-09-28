@@ -48,7 +48,7 @@ Unless you’re coming from IBM, I see no reason why a junior wouldn’t have th
 
 Basically, what this all adds up to is that I’m searching for growth potential. Higher levels are independent and don’t necessarily need to be very ambitious, but a junior with no growth plans is beyond useless to a company.
 
-## 3. Hiring panels should be filled with people who you want clones of. 
+## 3. Hiring panels should be filled with people you want clones of. 
 We have a large engineering team, and only 2-3 of us on the team are involved in hiring. Who do you choose? The most senior people?
 
 I don’t think so. I think I showed a lot of good use as a more junior person — I viewed seniors through the lens of “How would I feel about this person’s communication style mentoring me?” and as I mentioned above, I was rightfully harsher on junior candidates. 

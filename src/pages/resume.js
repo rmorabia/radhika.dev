@@ -33,7 +33,7 @@ export default () => (
     </p>
     <h2>Summary</h2>
     <ul>
-      <li>Software Engineer with 2+ years of experience in making fast, usable, and clean web applications for 30m+ users</li>
+      <li>Software Engineer with 3+ years of experience in making fast, usable, and clean web applications for 30m+ users</li>
       <li>Co-owned a project to overhaul our backend user logic that led to $400k+ in revenue</li>
       <li>Migrated a legacy web application to a new, React codebase while retaining 99% uptime</li>
       <li>Quickly delivered a new user flow that was featured in national press outlets like WSJ, USA Today, and The Verge</li>

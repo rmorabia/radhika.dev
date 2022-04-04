@@ -59,4 +59,4 @@ The cycle goes on.
 
 ...
 
-This is a higher-level thinking post I scribbled on a train. It's supposed to complement the [How I Learn](https://radhika.dev/how-i-learn/) post, which focuses mostly on the high-level practical learning.
+This is a higher-level thinking post I scribbled on a train.

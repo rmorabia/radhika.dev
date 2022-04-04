@@ -102,8 +102,6 @@ If you zero in on one or two focused and specific things to learn per year, you 
 
 **TL;DR: Figure out what you want, and exactly what gaps you have between where you are now and where you want to be. Only focus on those gaps.**
 
-By the way, [this is my rough learning plan for 2020](https://radhika.dev/planning-2020/). It’s pretty ambitious, so I don’t think I’ll be able to do it all in 2020. But, I’ve zeroed in on my weaknesses and documented them into very clear skills I need to work on.
-
 ## How should I study?
 
 If you’ve zeroed in on what exactly it is you want to study and how it’ll help you, you’re 80% of the way there. You probably won’t be wasting a lot of time and your relentless focus will pay off.
@@ -116,7 +114,7 @@ Think about your best experiences with learning. What were the commonalities bet
 
 To me, my best experiences coding were when I went through a course or book, no matter how long it took, and never/rarely felt like I had to rewatch or revisit a video or chapter. It was so deep, so through, and had such good exercises, that it was ingrained in my brain forever. This leads to an absolute adoration of [30-hour video courses on Udemy](https://mead.io) that would make some people want to quit programming forever.
 
-I've had inklings about how I felt about certain ways of learning, but I always tried to convince myself I could do a medium that doesn't work for me. One day, I finally just [wrote](https://radhika.dev/learning-methods) how I felt about each medium so that I couldn't lie to myself any longer.
+I've had inklings about how I felt about certain ways of learning, but I always tried to convince myself I could do a medium that doesn't work for me. One day, I finally just wrote how I felt about each medium so that I couldn't lie to myself any longer.
 
 I hate talks, broad syntax-focused overviews, code-along articles, podcasts, and read-along-to-exercises. I can sometimes tolerate fast-paced screencasts, books, college-style lectures, and docs. I know that I love code-along videos.
 

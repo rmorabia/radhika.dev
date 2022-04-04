@@ -45,7 +45,7 @@ I don’t know. I tried reading a book about it, but that felt wrong. It felt to
 
 ## Testing
 
-This is… one I’ve been avoiding. There’s two parts to testing, the theory and differentiation between unit testing, integration testing, and end-to-end testing, and then testing frameworks themselves. Testing is an **even split of theory and practice**.
+There’s two parts to testing, the theory and differentiation between unit testing, integration testing, and end-to-end testing, and then testing frameworks themselves. Testing is an **even split of theory and practice**.
 
 But which comes first? I believe that it’s useless to know what to test if you’ve never even tested the wrong things first. I probably need to do this at the right time, right place (now), but a very practically-focused course. Further in, getting very good at testing definitely requires you to think more critically, and is probably more of a skilling up situation.
 

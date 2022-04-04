@@ -74,6 +74,6 @@ How would I reason this out using my template?
 
 ...
 
-This is something I'm revisiting a lot more lately. Because I am now a mid-level, I am expected to not just get a ticket done, but to get it done with a higher caliber of quality. I'm past the skill level where just writing more code would lead to a higher quality here. I need to spend more time _not_ writing code and actually planning things out so that my solutions are clearer and involve less code, actually.
+This is something I'm revisiting a lot more lately. I am expected to not just get a ticket done, but to get it done with a higher caliber of quality. I'm past the skill level where just writing more code would lead to a higher quality here. I need to spend more time _not_ writing code and actually planning things out so that my solutions are clearer and involve less code, actually.
 
 Hopefully this was helpful to someone else in a similar situation. As always, happy to hear about your methods for trying to ensure the quality of your work is high.

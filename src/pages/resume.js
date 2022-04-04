@@ -33,7 +33,7 @@ export default () => (
     </p>
     <h2>Summary</h2>
     <ul>
-      <li>Software Engineer with 3+ years of experience in making fast, usable, and clean web applications for 30m+ users</li>
+      <li>Software Engineer with 4+ years of experience in making fast, usable, and clean web applications for 30m+ users</li>
       <li>Co-owned a project to overhaul our backend user logic that led to $400k+ in revenue</li>
       <li>Migrated a legacy web application to a new, React codebase while retaining 99% uptime</li>
       <li>Quickly delivered a new user flow that was featured in national press outlets like WSJ, USA Today, and The Verge</li>
@@ -125,12 +125,7 @@ export default () => (
       Blogger &amp; Writer at <a href='https://radhika.dev'>radhika.dev</a>
     </h3>
     <p>
-      I write a lot, both on my <a href='https://radhika.dev'>blog</a>, but
-      also to{' '}
-      <a href='https://tinyletter.com/rmorabia'>
-        a newsletter audience of 500+
-      </a>
-      . I mostly write about career development and learning strategies in tech.
+      I occasionally write on <a href='https://radhika.dev'>blog</a>. I mostly write about career development and learning strategies in tech.
     </p>
     <h3>
       Project Creator at <a href='https://github.com/rmorabia'>GitHub</a>

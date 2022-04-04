@@ -1,5 +1,5 @@
 ---
-title: "Reflections on leading my first major project"
+title: "Reflections on leading a major project"
 date: "2021-03-28"
 ---
 
@@ -52,7 +52,7 @@ I'm still tired. It's been about 2 weeks since we officially launched. I took so
 
 However, the more senior an engineer gets, the more these kinds of responsibilities become inevitable. People from other teams will see you as a trusted point of contact and message you first, your own team members know you have a lot of context on this so they ask you to pair, and you start to get more involved in project planning.
 
-I'm not sure if it ever gets less exhausting. I'm not in any rush to take on all of this responsibility too fast. I am thoroughly enjoying being a mid-level and slowly ramping up my workload with this sort of work.
+I'm not sure if it ever gets less exhausting. I'm not in any rush to take on all of this responsibility too fast. I am thoroughly enjoying being at my current level and slowly ramping up my workload with this sort of work.
 
 One of my growth priorities for this year is to be a more supportive team member to project leads. During this project, I had a ton of great help from my team members who asked for a lot of context on things I didn't think about. Their probing is a huge reason why the project was a success. I would’ve missed a ton more edge cases and tickets without their questions.
 

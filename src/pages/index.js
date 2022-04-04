@@ -26,8 +26,7 @@ export default ({ data }) => {
         diners a month.
       </p>
       <p>
-        This is my blog, where I write about career advice, learning strategies,
-        productivity, and more.
+        This is my blog, where I mostly write about career advice, productivity, and JavaScript.
       </p>
       <p>Join 1000+ people who are already being notified of new posts:</p>
       <p>

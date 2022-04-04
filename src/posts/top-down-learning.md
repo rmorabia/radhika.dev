@@ -45,7 +45,7 @@ Cycle between the three as needed. It's not linear, but you can't skip steps eit
 
 ### Example
 
-**Exposure:** I'm learning Redux at work.
+**Exposure:** I'm using Redux at work.
 
 **Practical:** I learned to use Redux through [Dan's Egghead course](https://egghead.io/courses/getting-started-with-redux) & [Andrew's Udemy course](https://www.udemy.com/course/react-2nd-edition/).
 

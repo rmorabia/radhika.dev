@@ -43,7 +43,7 @@ Let's answer that for a couple of example goals.
 
 ### Master Node
 
-1) My success point is finishing the [Andrew Mead course on Node](https://www.udemy.com/the-complete-nodejs-developer-course-2/) and building my side project, [favorite.actor](http://favorite.actor).
+1) My success point is finishing the [Andrew Mead course on Node](https://www.udemy.com/the-complete-nodejs-developer-course-2/) and building my side project, Favorite Actor.
 2) I plan to be 100% done with the course and have at least an MVP version of the side project built in 2 months.
 3) My process is to work on the course first, then work on the project, for a timeblock of 3-4 hours a day, 6 days a week.
 4) The tools are part of the goal.

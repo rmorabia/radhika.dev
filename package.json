@@ -27,7 +27,6 @@
     "gatsby-source-filesystem": "^2.3.34",
     "gatsby-transformer-remark": "^2.8.38",
     "gatsby-transformer-sharp": "^2.5.17",
-    "node-sass": "^7.0.0",
     "normalize.css": "^8.0.1",
     "prismjs": "^1.27.0",
     "react": "^16.13.1",
@@ -44,7 +43,8 @@
     "babel-preset-gatsby": "^0.5.13",
     "eslint": "^7.11.0",
     "eslint-plugin-react": "^7.21.4",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "sass": "^1.49.11"
   },
   "repository": {
     "type": "git",

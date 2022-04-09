@@ -125,7 +125,7 @@ export default () => (
       Blogger &amp; Writer at <a href='https://radhika.dev'>radhika.dev</a>
     </h3>
     <p>
-      I occasionally write on <a href='https://radhika.dev'>blog</a>. I mostly write about career development and learning strategies in tech.
+      I occasionally write on my <a href='https://radhika.dev'>blog</a>. I mostly write about career development and learning strategies in tech.
     </p>
     <h3>
       Project Creator at <a href='https://github.com/rmorabia'>GitHub</a>
